@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cypressmark</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets\img\logo11.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/shapes.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets\css\fontawesome.css">
+  <link href="assets/css/below.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+<script>
+
+function loadShapesContent() {
+    fetch('shapes.html') 
+        .then(response => response.text())
+        .then(data => {
+            const shapesContainer = document.getElementById('shapes-container');
+            shapesContainer.innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error loading shapes content:', error);
+        });
+}
+
+loadShapesContent();
+</script>
+
+
+</head>
+
+<body>
+  <div id="shapes-container">
+ 
+  </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <!-- Logo before scrolling -->
+        <div style="width: 180px; margin-top: 15px" id="headerLogoBeforeScroll" class="logo">
+            <img src="assets\img\logob.png" alt="Calimark Logo Before Scroll">
+        </div>
+        <!-- Logo after scrolling -->
+        <div style="width: 180px; margin-top: -2px" id="headerLogoAfterScroll" class="logo" style="display: none;">
+            <img src="assets\img\logo1.png" alt="Calimark Logo After Scroll">
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the user has scrolled before
+            if (localStorage.getItem("hasScrolled")) {
+                var scrollPosition = window.scrollY;
+                var switchThreshold = 100;
+                var logoBeforeScroll = document.getElementById("headerLogoBeforeScroll");
+                var logoAfterScroll = document.getElementById("headerLogoAfterScroll");
+
+                if (scrollPosition > switchThreshold) {
+                    logoBeforeScroll.style.display = "none";
+                    logoAfterScroll.style.display = "block";
+                } else {
+                    logoBeforeScroll.style.display = "block";
+                    logoAfterScroll.style.display = "none";
+                }
+            } else {
+                // Set local storage to indicate that the user has scrolled
+                localStorage.setItem("hasScrolled", "true");
+            }
+
+            window.addEventListener("scroll", function() {
+                var scrollPosition = window.scrollY;
+                var switchThreshold = 100;
+                var logoBeforeScroll = document.getElementById("headerLogoBeforeScroll");
+                var logoAfterScroll = document.getElementById("headerLogoAfterScroll");
+
+                if (scrollPosition > switchThreshold) {
+                    logoBeforeScroll.style.display = "none";
+                    logoAfterScroll.style.display = "block";
+                } else {
+                    logoBeforeScroll.style.display = "block";
+                    logoAfterScroll.style.display = "none";
+                }
+            });
+        });
+    </script>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="#">Column 1 link 1</a>
+                <a href="#">Column 1 link 2</a>
+                <a href="#">Column 1 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 2 link 1</a>
+                <a href="#">Column 2 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 3 link 1</a>
+                <a href="#">Column 3 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 4 link 1</a>
+                <a href="#">Column 4 link 2</a>
+                <a href="#">Column 4 link 3</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+<section class="professional-banner">
+  <div class="swiper-slide">
+    <div class="slide-inner" style="background-color:#f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="header-text">
+              <h2 style="font-size: 25px;font-family: Ubuntu;">Domain + Website + Hosting = 0nline store<br><em>with</em> Calimark <em>Services</em></h2>
+              <div class="div-dec"></div>
+              <p>Over 1,500 Businesses and Organizations in Kenya trust our Online Solutions to power their Communications and Marketing</p>
+              <div class="buttons">
+                <div class="green-button">
+                  <a href="#">Discover More</a>
+                </div>
+                <div class="orange-button">
+                  <a href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img style="margin-top: 100px;width:400px;margin-left:-50px; " src="assets\img\2.png" alt="Your Image Description">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="margin-top: 270px;">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>We stand out as a reliable ally </h2>
+              <p>
+                The dynamic and cutting-edge marketing company CypressMark collaborates with companies to develop successful marketing plans and initiatives. We provide a wide range of services, such as site design, content creation, branding, and digital marketing solutions, thanks to our committed team of professionals. 
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/banner.jpeg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!--================================================= services========================================= -->
+<div id="services" style="padding-top: -2rem; background-color:white">
+
+  <div class="container" style="padding: em 0">
+  <h1 class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -90px;">
+  Our Services
+</h1>
+<!-- <hr style="width: 100%; border: 1px solid #007700; margin-top: -10px;"> -->
+
+
+<div class="flex-box" style="margin-top: 50px; display: flex; flex-wrap: wrap;">
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="150" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img alt="Best graphic designer kenya" src="assets\img\graphic-design.png">
+
+          </div>
+
+          <div class="media-body animated fadeInDown" data-aos="fade-in" data-aos-duration="4000">
+
+            <h3 class="media-heading teal">Graphic Design</h3>
+
+            <p style="color: #445;">Discover the art of simplicity and elegance with Calimark's expertly crafted designs. Each pixel is carefully placed to create a powerful and memorable impression.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img alt="Web developer in nairobi" src="assets\img\web.jpg">
+
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">Web Development</h3>
+
+            <p style="color: #445;">We empower you to convert internet users into valuable customers through our meticulously crafted,elegant websites that emanate from the heart of our creativity.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="400" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img alt="cheap domain names" src="assets\img\printing.png" height="170px">
+            
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">Digital Printing</h3>
+            <p style="color: #445;">Let quality speak for your brand.Experience pristine printouts of business cards,and publications at our state-of-the-art printing press.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+        <a href="" style="cursor: pointer;">
+
+          <div class="media" data-aos="fade-up" data-aos-delay="600">
+
+            <div class="media-top">
+
+              <img alt="affordable web hosting in kenya" src=" assets\img\digital.png" width="230px" height="170px">
+             
+            </div>
+            
+            <div class="media-body">
+
+              <h3 class="media-heading teal">Digital Marketing</h3>
+
+              <p style="color: #445;">Harnessing the web's potential,we boost awareness and sales by converting internet users into prospective ensuring your business thrives in the online.</p>
+
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="800" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img  src="assets\img\dev.jpg" height="170px">
+
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">App Development</h3>
+
+            <p style="color: #445;">Our skilled team transforms your vision into reality, providing development,and monetization support to nurture and evolve your brilliant idea.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="1000" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img src="assets\img\slider-dec.png" height="170px">
+
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">Branding</h3>
+
+            <p style="color: #445;">Aesthetics shape brand perception. Our creative team elevates your brand by designing captivating shop, uniform, and advertising media.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="1000" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img src="assets\img\images.jpg" height="170px">
+
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">Web & Email Hosting</h3>
+
+            <p style="color: #445;">Unlock seamless communication and captivating presentations through our budget-friendly web and email hosting services</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-sm-3">
+
+
+
+        <div class="media" data-aos="fade-up" data-aos-delay="1000" style="cursor: pointer;">
+
+          <div class="media-top">
+
+            <img src="assets\img\hero.png" height="170px">
+
+          </div>
+
+          <div class="media-body">
+
+            <h3 class="media-heading teal">Domains Name</h3>
+
+            <p style="color: #445;">Achieve online success with premium domain. We offer affordable and hassle-free domain registration, ensuring your business gets the perfect online address.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+<div class="text-center" style="padding-top: 2em; color: green;">
+    <a href="#" class="btn btn-teal btn-padded hvr-float-shadow" style="background-color: green; color: white; display: inline-block; padding: 10px 10px;">
+        Get a Free Quote &nbsp; <i class="fas fa-arrow-right" style="vertical-align: middle;"></i>
+    </a>
+</div>
+
+</div>
+
+
+  </div>
+
+</div>
+<!--================================================= banner========================================= -->
+<style>#services {
+  padding-top: 5em;
+}
+
+#services .flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Increase the gap between service boxes */
+}
+
+#services .col-sm-3 {
+  flex: 0 0 calc(25% - 20px); /* 25% width for each box with 20px gap */
+  max-width: calc(25% - 20px);
+  margin-bottom: 1em;
+}
+
+#services .media {
+  position: relative;
+  padding: 1em 1em;
+  background-color: #fff;
+  border: 2px solid #eee;
+  border-radius: 7px;
+  box-shadow: 0px 0px 16px #7c8e9b17;
+  cursor: pointer;
+  overflow: visible;
+  transition: all .3s ease;
+  transform: scale(1);
+}
+
+#services .media:hover {
+  box-shadow: 0px 0px 16px #7c8e9b38;
+  transform: scale(1.05);
+}
+
+#services .media .media-top img {
+  height: 150px !important;
+}
+
+#services .media .media-body p {
+  line-height: 23px;
+  margin: 0;
+}
+
+#services .media-body h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+</style>
+    
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo1.png" alt="">
+              <span>Cypressmark</span>
+            </a>
+            <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused on customers methodology, data-driven insights, and creative prowess.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+             Fedha <br>
+              Nairobi, NY 535022<br>
+              Kenya <br><br>
+              <strong>Phone:</strong> +1254 111 893 789<br>
+              <strong>Email:</strong> info@cypressmark.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
