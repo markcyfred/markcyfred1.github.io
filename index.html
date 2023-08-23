@@ -6,12 +6,10 @@
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
       <title>Cypressmark</title>
-      <meta content="" name="description">
-      <meta content="" name="keywords">
-
+    
       <!-- Favicons -->
       <link href="assets/img/logo11.jpg" rel="icon">
-      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -30,25 +28,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       
-      <script>
-
-        function loadShapesContent() {
-            fetch('shapes.html') 
-                .then(response => response.text())
-                .then(data => {
-                    const shapesContainer = document.getElementById('shapes-container');
-                    shapesContainer.innerHTML = data;
-                })
-                .catch(error => {
-                    console.error('Error loading shapes content:', error);
-                });
-        }
-
-        loadShapesContent();
-      </script>
-
-
-  </head>
+      
+    </head>
 
   <body>
       
@@ -66,8 +47,9 @@
         </div>
                 <nav id="navbar" class="navbar">
             <ul>
-              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.php">About Us</a></li>
+
               <li><a class="nav-link scrollto" href="#services">Services</a></li>
               <li><a class="nav-link scrollto" href="#portfolio">Products</a></li>
               <li><a class="nav-link scrollto" href="#team">Domain </a></li>
@@ -502,17 +484,17 @@
               </a>
               <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused on customers methodology, data-driven insights, and creative prowess.</p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                
+                <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
+               
+                <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="col-lg-2 col-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -554,6 +536,21 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     
     <script src="assets/js/main.js"></script>
+    <script>
+    function loadShapesContent()
+     {
+      fetch('shapes.html') 
+          .then(response => response.text())
+          .then(data => {
+              const shapesContainer = document.getElementById('shapes-container');
+              shapesContainer.innerHTML = data;
+          })
+          .catch(error => {
+              console.error('Error loading shapes content:', error);
+          });
+  }
+
+  loadShapesContent();</script>
     
   </body>
 
