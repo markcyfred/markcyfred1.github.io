@@ -69,4 +69,5 @@
       .hero-image img {
           width: 100%; /* Make the image take full column width */
           height: auto;
+          margin-top: -20px;
       }

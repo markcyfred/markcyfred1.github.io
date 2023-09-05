@@ -1,6 +1,6 @@
 const dynamicText = document.getElementById("dynamic-text");
 const image = document.getElementById("image");
-const images = ["assets/img/hero-img.png", "assets/img/details-2.png"]; // Add the paths to your images
+
 
 const textVariations = ["Elevating Brands",  "Growing Businesses"];
 let textIndex = 0;
@@ -27,15 +27,6 @@ function typeText() {
     } else {
         setTimeout(typeText, isDeleting ? 100 : 150);
     }
-}
-
-// Change the image every 5 seconds (5000 milliseconds)
-setInterval(changeImage, 6000);
-let currentIndex = 0;
-
-function changeImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    image.src = images[currentIndex];
 }
 
 // Start the typing animation
