@@ -24,7 +24,8 @@
   <link href="assets/css/belo.css" rel="stylesheet">
 
 </head>
-<a href="Contact Us.html" class="contact-button"></a>
+<!-- <a href="Contact Us.html" class="contact-button"></a> -->
+<section href="Contact Us.html" id="Contact Us.html" class="contact-button" style="display: none;"></section>
  
 </button>
 <style>
@@ -49,9 +50,47 @@
       
     }
 
+    #loader {
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Centering trick */
+  z-index: 999;
+}
+
 </style>
 <body>
+  <div  id="loader">
+    <img class="loader-img" src="assets/img/Ripple-1s-200px.svg" alt="Loader Image">
+</div>
+<div id="web-content" style="display: none;">
+  <script>
+    // Function to hide the loader and show the web content, FAQ, and footer
+    function hideLoaderAndShowContent() {
+      var loader = document.getElementById('loader');
+      var webContent = document.getElementById('web-content');
+      var faqSection = document.getElementById('faq');
+      var footer = document.getElementById('footer');
 
+      // Hide the loader
+      loader.style.display = 'none';
+
+      // Show the web content
+      webContent.style.display = 'block';
+
+      // Show the FAQ section
+      faqSection.style.display = 'block';
+
+      // Show the footer
+      footer.style.display = 'block';
+    }
+
+    // Add an event listener to the window's load event to ensure all assets are loaded
+    window.addEventListener('load', function () {
+      // Hide the loader after a delay (adjust the delay as needed, e.g., 5000ms for 5 seconds)
+      setTimeout(hideLoaderAndShowContent, 5000);
+    });
+  </script>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
@@ -250,6 +289,7 @@
     </div>
   </div>
   </div>
+  <section id="faq" class="faq" style="display: none;">
   <!-- ======= F.A.Q Section ======= -->
   <section id="faq" class="faq">
     <div class="container" data-aos="fade-up">
@@ -354,9 +394,10 @@
         </div>
       </div>
   </section>
+</section>
   </main>
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer" style="display: none;">
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
@@ -411,7 +452,7 @@
   <div class="back-to-top" id="backToTop">
     <i class="fa fa-arrow-up"></i>
   </div>
-
+</div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -457,6 +498,28 @@
         return false;
       });
     });
+    // Function to hide the loader and show the web content, FAQ, and footer
+function hideLoaderAndShowContent() {
+  var loader = document.getElementById('loader');
+  var webContent = document.getElementById('web-content');
+  var contactButton = document.getElementById('contact-button');
+  var faqSection = document.getElementById('faq');
+  var footer = document.getElementById('footer');
+  
+
+  // Hide the loader
+  loader.style.display = 'none';
+
+  // Show the web content
+  webContent.style.display = 'block';
+
+  // Show the FAQ section
+  faqSection.style.display = 'block';
+
+  // Show the footer
+  footer.style.display = 'block';
+}
+
   </script>
 
 </body>
