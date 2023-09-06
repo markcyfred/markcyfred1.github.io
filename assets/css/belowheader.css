@@ -71,3 +71,24 @@
           height: auto;
           margin-top: -20px;
       }
+      .contact-button {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        top: 350px;
+        z-index: 999;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        background-image: url('assets/img/call.png'); 
+        background-size: 100%; /* Adjust the size of the background image */
+        background-repeat: no-repeat;
+        transition: background-image 0.3s ease, background-color 0.3s ease;
+        background-color: #ddd;
+        border-radius: 50%;
+      }
+      .contact-button:hover {
+        background-color: #007700;
+        
+      }
+  
