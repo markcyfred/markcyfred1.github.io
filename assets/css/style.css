@@ -866,3 +866,312 @@ section {
   font-size: 13px;
   color: #012970;
 }
+/*shapes----------------css/shape.css*/
+.bounce-in {
+  animation: bounceIn 1.5s ease-in-out forwards;
+}
+
+
+
+/* Style the hero section */
+.content-below-header {
+  padding: 60px 50px; /* Adjust the padding as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Style the hero content */
+.hero-text {
+  text-align: left;
+  margin-top: 50px;
+}
+
+/* Style the heading */
+.hero-text h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Style the paragraph text */
+.hero-text p {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.5;
+}
+
+/* Style the "Learn More" button */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #007bff; /* Set your button color */
+  color: #fff; /* Set your button text color */
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Adjust the font size as needed */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #12aa1f; /* Change color on hover */
+}
+
+/* Style the downward arrow icon */
+.btn i {
+  margin-left: 10px;
+}
+
+/* Style the hero image */
+.hero-image img {
+  width: 100%; /* Make the image take full column width */
+  height: auto;
+  margin-top: -20px;
+}
+.contact-button {
+position: fixed;
+bottom: 20px;
+left: 20px;
+top: 350px;
+z-index: 999;
+width: 60px;
+height: 60px;
+cursor: pointer;
+background-image: url('assets/img/call.png'); 
+background-size: 100%; /* Adjust the size of the background image */
+background-repeat: no-repeat;
+transition: background-image 0.3s ease, background-color 0.3s ease;
+background-color: #ddd;
+border-radius: 50%;
+}
+.contact-button:hover {
+background-color: #007700;
+
+}
+.dropdown-menu li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0; 
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none; 
+}
+.megamenu-content li {
+  border-right: 1px solid #ccc; /* Add a vertical line (border) on the right side of each <li> */
+  padding: 10px; /* Add some padding for spacing */
+  display: inline-block; /* Display the <li> elements horizontally */
+  vertical-align: top; /* Align the <li> elements at the top */
+}
+
+.megamenu-content li:last-child {
+  border-right: none; /* Remove the border from the last <li> */
+}
+#services {
+  padding-top: 5em;
+}
+
+#services .flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* Increase the gap between service boxes */
+}
+
+#services .col-sm-3 {
+  flex: 0 0 calc(25% - 20px);
+  /* 25% width for each box with 20px gap */
+  max-width: calc(25% - 20px);
+  margin-bottom: 1em;
+}
+
+#services .media {
+  position: relative;
+  padding: 1em 1em;
+  background-color: #fff;
+  border: 2px solid #eee;
+  border-radius: 7px;
+  box-shadow: 0px 0px 16px #7c8e9b17;
+  cursor: pointer;
+  overflow: visible;
+  transition: all .3s ease;
+  transform: scale(1);
+}
+
+#services .media:hover {
+  box-shadow: 0px 0px 16px #7c8e9b38;
+  transform: scale(1.05);
+}
+
+#services .media .media-top img {
+  height: 150px !important;
+}
+
+#services .media .media-body p {
+  line-height: 23px;
+  margin: 0;
+}
+
+#services .media-body h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+/* Style the About Us section */
+#about-us {
+  background-color: white;
+  padding: 150px 0;
+}
+
+.about-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+#about-us p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* Style the image on the right */
+#about-us img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0px;
+}
+
+/*our-story*/
+#our-story {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  margin-top: -150px;
+}
+
+#our-story h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 50px;
+}
+
+#our-story p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+#our-story img {
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+}
+
+/*our-mission*/
+/* CSS for the mission icons */
+#our-mission ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#our-mission ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+/* CSS for the mission icons */
+#our-mission ul li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/* CSS for the right column with the image */
+#our-mission .col-lg-6.order-lg-2 {
+  text-align: center;
+}
+
+/* CSS for the image */
+#our-mission img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -30px;
+}
+
+/* CSS for the left column with text content */
+#our-mission .col-lg-6.order-lg-1 {
+  padding-right: 40px;
+}
+
+/* CSS for the heading and text content */
+#our-mission .about-heading {
+  font-size: 24px;
+  color: #333;
+  margin-top: 50px;
+}
+
+#our-mission p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* CSS for the unordered list */
+#our-mission ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#our-mission li {
+  margin-bottom: 10px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  #about-us {
+            padding: 40px 0;
+  }
+
+  .about-heading {
+            font-size: 24px;
+            margin-bottom: 10px;
+  }
+
+  #about-us p {
+            font-size: 14px;
+  }
+
+  #about-us img {
+            margin-top: 10px;
+  }
+}
+
+/* Add this to your existing CSS file or create a new one for animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
