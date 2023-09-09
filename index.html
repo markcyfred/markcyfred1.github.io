@@ -98,6 +98,81 @@
         </div>
       </div>
     </section>
+    <section class="our-work">
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">Web Design</h2>
+        <div class="content">
+          <img src="assets/img/hero-img.svg" alt="Web Design Image">
+          <p>Your Partner In Web Design</p>
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">Graphic Design</h2>
+        <div class="content">
+          <img src="assets/img/features-2.png" alt="Graphic Design Image">
+          <p>Elevate Your Brand </p>
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">SEO</h2>
+        <div class="content">
+          <img src="assets/img/slider-dec.png" alt="SEO Image">
+          <p>Boost Your Online Presence </p>
+        </div>
+      </div>
+    </section>
+        <style>.our-work {
+          display: flex;
+          justify-content: space-between;
+          background-color: #12aa1f;
+          padding: 20px;
+          margin-top: -50px;
+          margin-bottom: 20px;
+        }
+
+        .box {
+          flex-basis: 30%;
+          text-align: center;
+          background-color: #12aa1f;
+          padding: 20px;
+          color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          transition: 0.5s;
+        }
+
+        .box:hover {
+          transform: scale(1.1);
+        }
+
+        .box img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          border: 5px solid #fff;
+          margin-bottom: 10px;
+        }
+
+        @media (max-width: 700px) {
+          .our-work {
+            flex-direction: column;
+          }
+
+          .box {
+            margin-bottom: 20px;
+          }
+        }
+
+        @media (max-width: 500px) {
+          .box {
+            flex-basis: 100%;
+          }
+        }
+
+
+        </style>    
+          
+    </section>
     <div id="services" style="padding-top: -2rem; background-color:white">
       <div class="container" style="padding: em 0">
         <h1 class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -90px;">
@@ -107,7 +182,7 @@
           <div class="col-sm-3">
             <div class="media" data-aos="fade-up" data-aos-delay="150" style="cursor: pointer;">
               <div class="media-top">
-                <img alt="Best graphic designer kenya" src="assets/img/graphic-design.png">
+                <img alt="Best graphic designer kenya" style="width: 300px;margin-left: -100px;" src="assets/img/graphic-design.png">
               </div>
               <div class="media-body animated fadeInDown" data-aos="fade-in" data-aos-duration="4000">
                 <h3 class="media-heading teal">Graphic Design</h3>
@@ -134,9 +209,8 @@
                 <img alt="cheap domain names" src="assets/img/printing.png" height="170px">
               </div>
               <div class="media-body">
-                <h3 class="media-heading teal">Digital Printing</h3>
-                <p style="color: #445;">Let quality speak for your brand.Experience pristine printouts of business
-                  cards,and publications at our state-of-the-art printing press.</p>
+                <h3 class="media-heading teal">UI/UX Design</h3>
+                <p style="color: #445;">Elevate your website's appeal and user-friendliness with our UI/UX design. Captivate visitors and deliver exceptional browsing experiences</p>
               </div>
             </div>
           </div>
@@ -144,12 +218,11 @@
             <a style="cursor: pointer;">
               <div class="media" data-aos="fade-up" data-aos-delay="600">
                 <div class="media-top">
-                  <img alt="affordable web hosting in kenya" src=" assets/img/digital.png" width="230px" height="170px">
+                  <img alt="affordable web hosting in kenya" src="assets/img/CMS.png" width="300px" height="170px">
                 </div>
                 <div class="media-body">
-                  <h3 class="media-heading teal">Digital Marketing</h3>
-                  <p style="color: #445;">Harnessing the web's potential,we boost awareness and sales by converting
-                    internet users into prospective ensuring your business thrives in the online.</p>
+                  <h3 class="media-heading teal">C M S</h3>
+                  <p style="color: #445;">Simplify website management with our CMS integration. Easily update and maintain your content.Bringing to your success in online presence</p>
                 </div>
               </div>
             </a>
@@ -157,7 +230,7 @@
           <div class="col-sm-3">
             <div class="media" data-aos="fade-up" data-aos-delay="800" style="cursor: pointer;">
               <div class="media-top">
-                <img src="assets/img/dev.jpg" height="170px">
+                <img src="assets/img/dev.jpg" style="width: 200px; ">
               </div>
               <div class="media-body">
                 <h3 class="media-heading teal">App Development</h3>
@@ -172,9 +245,8 @@
                 <img src="assets/img/slider-dec.png" height="170px">
               </div>
               <div class="media-body">
-                <h3 class="media-heading teal">Branding</h3>
-                <p style="color: #445;">Aesthetics shape brand perception. Our creative team elevates your brand by
-                  designing captivating shop, uniform, and advertising media.</p>
+                <h3 class="media-heading teal">SEO</h3>
+                <p style="color: #445;">Let our expert SEO team boost your online presence and rankings. Trust us today to optimize your website for unprecedented online success.</p>
               </div>
             </div>
           </div>
@@ -184,21 +256,21 @@
                 <img src="assets/img/images.jpg" height="170px">
               </div>
               <div class="media-body">
-                <h3 class="media-heading teal">Web & Email Hosting</h3>
-                <p style="color: #445;">Unlock seamless communication and captivating presentations through our
-                  budget-friendly web and email hosting services</p>
+                <h3 class="media-heading teal">Website Maintenance</h3>
+                <p style="color: #445;">we us monitor your online presence and Keeping your website up-to-date is crucial to ensuring it's working at full capacity, engaging and retaining site visitors.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="media" data-aos="fade-up" data-aos-delay="1000" style="cursor: pointer;">
               <div class="media-top">
-                <img src="assets/img/hero.png" height="170px">
+                <img src="assets/img/digital.png" style="width: 200px;">
               </div>
               <div class="media-body">
-                <h3 class="media-heading teal">Domains Name</h3>
-                <p style="color: #445;">Achieve online success with premium domain. We offer affordable and hassle-free
-                  domain registration, ensuring your business gets the perfect online address.</p>
+                <h3 class="media-heading teal">Digital Marketing</h3>
+                <p style="color: #445;">Harnessing the web's potential,we boost awareness and sales by converting
+                  internet users into prospective ensuring your business thrives in the online.</p>
               </div>
             </div>
           </div>

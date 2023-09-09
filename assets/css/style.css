@@ -497,7 +497,7 @@ section {
 /* Style the hero content */
 .hero-text {
   text-align: left;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* Style the heading */
@@ -536,7 +536,7 @@ section {
 
 /* Style the hero image */
 .hero-image img {
-  width: 100%; /* Make the image take full column width */
+  width: 70%; /* Make the image take full column width */
   height: auto;
   margin-top: -20px;
 }
