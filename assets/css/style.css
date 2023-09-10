@@ -786,3 +786,35 @@ h2 {
   opacity: 1;
   transform: translateY(0);
 }
+/* Hide all header content except logo and toggle on mobile devices */
+@media (max-width: 768px) {
+  .header .container-xl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .navbar {
+    display: none; /* Hide the navigation links */
+  }
+
+  /* Show the logo */
+  .header .logo {
+    text-align: left;
+    flex: 1;
+  }
+
+  .header .logo img {
+    margin: 0;
+  }
+
+  .header .logo span {
+    display: block;
+  }
+
+  /* Show the mobile nav toggle */
+  .header .mobile-nav-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
