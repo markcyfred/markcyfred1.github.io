@@ -19,23 +19,21 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/shapes1.css" rel="stylesheet">
-  
+
 </head>
 
 <body>
-  
   <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.jpg" alt="">
-          <span style="display: block;">MywebMark</span>
-        </a>
-      </div>
-
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.jpg" alt="">
+        <span style="display: block;">MywebMark</span>
+      </a>
       <nav id="navbar" class="navbar">
+        <!-- Your desktop navigation menu items go here -->
         <ul>
+          <!-- Add your desktop menu items here -->
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
           <li class="dropdown">
@@ -72,9 +70,125 @@
         </ul>
       </nav>
     </div>
-    <i class="bi bi-list mobile-nav-toggle"></i>
+
+    <div class="mobile-header">
+
+      <input type="checkbox" id="mobile-menu-toggle">
+      <label for="mobile-menu-toggle" class="mobile-nav-toggle">
+        <!-- You can customize the box appearance here -->
+        <div class="mobile-menu-box">
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+        </div>
+      </label>
+      <nav class="mobile-menu">
+        <!-- Your mobile navigation menu items go here -->
+        <ul>
+          <!-- Add your mobile menu items here -->
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
+          <!-- ... your previous code ... -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
+              <li><a href="#"><strong style="color: white;">Graphic design + Content Creation</strong></a></li>
+              <li><a href="#">Web Design + SEO</a></li>
+              <li><a href="#">Content + Design</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
+              <li>
+                <a href="#" class="menu-heading"><strong>Blogs and News</strong></a>
+                <ul class="submenu">
+                  <li><a href="#">Web Development Trends</a></li>
+                  <li><a href="#">Graphic Design Trends</a></li>
+                </ul>
+                <li>
+                  <a href="#" class="menu-heading"><strong>Learning Resources</strong></a>
+                  <ul class="submenu">
+                    <li><a href="#">Online Certifications</a></li>
+                    <li><a href="#">Skill Enhancement</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="menu-heading"><strong>Company</strong></a>
+                  <ul class="submenu">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Design Press Kit</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+        <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      var mobileMenu = document.querySelector('.mobile-menu');
+
+      mobileMenuToggle.addEventListener('change', function () {
+        if (this.checked) {
+          mobileMenu.style.display = 'block';
+        } else {
+          mobileMenu.style.display = 'none';
+        }
+      });
+    });
+  </script>
+  <style>
+    /* CSS to initially hide the submenus */
+    .mobile-menu .services-menu,
+    .mobile-menu .resources-menu {
+      display: none;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      var mobileMenu = document.querySelector('.mobile-menu');
+
+      mobileMenuToggle.addEventListener('change', function () {
+        if (this.checked) {
+          mobileMenu.style.display = 'block';
+        } else {
+          mobileMenu.style.display = 'none';
+        }
+      });
+
+      // Add this code to handle dropdown toggling
+      var dropdownToggles = document.querySelectorAll('.mobile-menu .dropdown-toggle');
+      dropdownToggles.forEach(function (toggle) {
+        toggle.addEventListener('click', function (e) {
+          e.preventDefault(); // Prevent the link from navigating
+
+          var submenu = this.nextElementSibling;
+
+          if (submenu.style.display === 'block') {
+            submenu.style.display = 'none'; // Close the submenu
+          } else {
+            submenu.style.display = 'block'; // Open the submenu
+          }
+        });
+
+        // Close all submenus initially
+        var submenu = toggle.nextElementSibling;
+        submenu.style.display = 'none';
+      });
+    });
+  </script>
+
+
+
+
+  </header>
+
   <section class="content-below-header">
     <div class="container">
       <div class="row">
@@ -91,15 +205,15 @@
             <div style="height: 50px; overflow: hidden;">
               <h1 style="font-size: 24px;">Within & Across The World</h1>
             </div>
-            
+
             <style>
-            @media screen and (max-width: 768px) {
-              div[style="height: 50px; overflow: hidden;"] h1 {
-                font-size: 16px; 
+              @media screen and (max-width: 768px) {
+                div[style="height: 50px; overflow: hidden;"] h1 {
+                  font-size: 16px;
+                }
               }
-            }
             </style>
-            
+
             <p class="bounce-in" id="dynamic-paragraph" style="min-height: 100px;text-align: justify; ">As a skilled web
               developer and team
               of graphic designers, we offer a comprehensive solution for your branding and software development needs.
@@ -193,25 +307,27 @@
       </h1>
       <div class="row">
         <!-- Service 1 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="150" style="cursor: pointer;">
             <div class="media-top">
-              <img alt="Best graphic designer kenya" style="margin-left: -70px; width: 300px;" class="mobile-image" src="assets/img/graphic-design.png">
+              <img alt="Best graphic designer kenya" style="margin-left: -70px; width: 300px;" class="mobile-image"
+                src="assets/img/graphic-design.png">
 
             </div>
             <div class="media-body animated fadeInDown" data-aos="fade-in" data-aos-duration="4000">
               <h3 class="media-heading teal">Graphic Design</h3>
-              <p style="color: #445;">Discover the art of simplicity and elegance with mywebmark Technologies expertly crafted
+              <p style="color: #445;">Discover the art of simplicity and elegance with mywebmark Technologies expertly
+                crafted
                 designs. Each pixel is carefully placed to create a powerful and memorable impression.</p>
             </div>
           </div>
         </div>
 
         <!-- Service 2 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;">
             <div class="media-top">
-              <img alt="Web developer in nairobi" class="mobile-image"  src="assets/img/web.jpg">
+              <img alt="Web developer in nairobi" class="mobile-image" src="assets/img/web.jpg">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">Web Development</h3>
@@ -222,10 +338,10 @@
         </div>
 
         <!-- Service 3 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="400" style="cursor: pointer;">
             <div class="media-top">
-              <img alt="cheap domain names"  class="mobile-image" src="assets/img/printing.png" height="170px">
+              <img alt="cheap domain names" class="mobile-image" src="assets/img/printing.png" height="170px">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">UI/UX Design</h3>
@@ -236,25 +352,27 @@
         </div>
 
         <!-- Service 4 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <a style="cursor: pointer;">
             <div class="media" data-aos="fade-up" data-aos-delay="600">
               <div class="media-top">
-                <img alt="affordable web hosting in kenya" class="mobile-image"  src="assets/img/CMS.png" width="300px" height="170px">
+                <img alt="affordable web hosting in kenya" class="mobile-image" src="assets/img/CMS.png" width="300px"
+                  height="170px">
               </div>
               <div class="media-body">
                 <h3 class="media-heading teal">CMS</h3>
-                <p style="color: #445;">Simplify website management with our CMS integration. Easily update mana and maintain
+                <p style="color: #445;">Simplify website management with our CMS integration. Easily update mana and
+                  maintain
                   your content. Bringing to your success in online presence</p>
               </div>
             </div>
           </a>
         </div>
         <!-- Service 5 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="800" style="cursor: pointer;">
             <div class="media-top">
-              <img src="assets/img/dev.jpg" class="mobile"  style="width: 200px;">
+              <img src="assets/img/dev.jpg" class="mobile" style="width: 200px;">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">App Development</h3>
@@ -263,12 +381,12 @@
             </div>
           </div>
         </div>
-             
+
         <!-- Service 6 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="1000" style="cursor: pointer;">
             <div class="media-top">
-              <img src="assets/img/slider-dec.png" class="mobile-image"  height="170px">
+              <img src="assets/img/slider-dec.png" class="mobile-image" height="170px">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">SEO</h3>
@@ -279,10 +397,10 @@
         </div>
 
         <!-- Service 7 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="1200" style="cursor: pointer;">
             <div class="media-top">
-              <img src="assets/img/images.jpg" class="mobile-image"  height="170px">
+              <img src="assets/img/images.jpg" class="mobile-image" height="170px">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">Website Maintenance</h3>
@@ -293,10 +411,10 @@
         </div>
 
         <!-- Service 8 -->
-        <div class="col-lg-3 col-md-3 col-sm-6"style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
           <div class="media" data-aos="fade-up" data-aos-delay="1400" style="cursor: pointer;">
             <div class="media-top">
-              <img src="assets/img/digital.png" class="mobile-image1"  style="width: 200px;">
+              <img src="assets/img/digital.png" class="mobile-image1" style="width: 200px;">
             </div>
             <div class="media-body">
               <h3 class="media-heading teal">Digital Marketing</h3>
