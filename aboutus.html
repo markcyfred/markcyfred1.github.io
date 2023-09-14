@@ -32,6 +32,21 @@
 
   gtag('config', 'G-840S68R7K2');
 </script>
+<script>
+  // Define the maximum allowed URL path depth
+  const maxPathDepth = 2; // Change this to your desired limit
+
+  // Function to count the number of slashes in the URL path
+  function countPathSegments() {
+      return window.location.pathname.split('/').filter(segment => segment !== "").length;
+  }
+
+  // Check the URL path depth
+  if (countPathSegments() > maxPathDepth) {
+      // Redirect to the 404 page
+      window.location.href = "/404.html";
+  }
+</script>
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
