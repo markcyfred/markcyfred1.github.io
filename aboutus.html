@@ -34,14 +34,14 @@
     </script>
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.jpg" alt="">
-          <span style="display: block;">MywebMark</span>
-        </a>
-      </div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.jpg" alt="">
+        <span style="display: block;">MywebMark</span>
+      </a>
       <nav id="navbar" class="navbar">
+        <!-- Your desktop navigation menu items go here -->
         <ul>
+          <!-- Add your desktop menu items here -->
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
           <li class="dropdown">
@@ -76,7 +76,62 @@
           </li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+
+    <div class="mobile-header">
+
+      <input type="checkbox" id="mobile-menu-toggle">
+      <label for="mobile-menu-toggle" class="mobile-nav-toggle">
+        <!-- You can customize the box appearance here -->
+        <div class="mobile-menu-box">
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+        </div>
+      </label>
+      <nav class="mobile-menu">
+        <!-- Your mobile navigation menu items go here -->
+        <ul>
+          <!-- Add your mobile menu items here -->
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
+          <!-- ... your previous code ... -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
+              <li><a href="#"><strong style="color: white;">Graphic design + Content Creation</strong></a></li>
+              <li><a href="#">Web Design + SEO</a></li>
+              <li><a href="#">Content + Design</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
+              <li>
+                <a href="#" class="menu-heading"><strong>Blogs and News</strong></a>
+                <ul class="submenu">
+                  <li><a href="#">Web Development Trends</a></li>
+                  <li><a href="#">Graphic Design Trends</a></li>
+                </ul>
+              <li>
+                <a href="#" class="menu-heading"><strong>Learning Resources</strong></a>
+                <ul class="submenu">
+                  <li><a href="#">Online Certifications</a></li>
+                  <li><a href="#">Skill Enhancement</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="menu-heading"><strong>Company</strong></a>
+                <ul class="submenu">
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Design Press Kit</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
       </nav>
     </div>
   </header>
