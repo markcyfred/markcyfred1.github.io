@@ -759,7 +759,7 @@ h2 {
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
   #about-us {
-            padding: 40px 0;
+            padding: 80px 0;
   }
 
   .about-heading {
