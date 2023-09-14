@@ -6,16 +6,16 @@ module.exports = (req, res) => {
   // Split the pathname into segments
   const segments = pathname.split('/').filter(Boolean);
 
-  // Define the initial 404 page and the second 404 page
-  const initial404Page = '/404'; // Change this to your initial 404 page path
-  const second404Page = '/second-404'; // Change this to your second 404 page path
+  // Define the paths for the first and second 404 pages
+  const first404Page = '/404.html';
+  const second404Page = '/second-404.html';
 
   // Check the number of segments
   if (segments.length === 1) {
-    // If there is only one segment, show the initial 404 page
-    redirectTo404(initial404Page, res);
+    // If there is only one segment, show the first 404 page
+    redirectTo404(first404Page, res);
   } else {
-    // If there are more than one segment, show the second 404 page
+    // If there are more than one segments, show the second 404 page
     redirectTo404(second404Page, res);
   }
 };
