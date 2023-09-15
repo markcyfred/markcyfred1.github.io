@@ -247,41 +247,24 @@
           <!-- Vendor JS Files -->
           <script src="assets/vendor/aos/aos.js"></script>
           <script src="assets/js/main.js"></script>
-          <script src="assets/js/belowheader.js"></script>
           <script src="assets/js/below.js"></script>
 
           <!-- Online JS -->
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
           <script>
-            function toggleMobileMenu() {
-          const mobileMenu = document.querySelector('.mobile-menu');
-          mobileMenu.classList.toggle('active');
-          }
-      
-          function closeMobileMenu() {
-          const mobileMenu = document.querySelector('.mobile-menu');
-          mobileMenu.classList.remove('active');
-          }
-          function isDesktopView() {
-          return window.innerWidth >= 992; 
-          }
-          window.addEventListener('resize', function () {
-          if (isDesktopView()) {
-          closeMobileMenu();
-          }
-          });
-          document.addEventListener('click', function (event) {
-          const mobileMenu = document.querySelector('.mobile-menu');
-          const mobileNavToggle = document.getElementById('mobile-menu-toggle');
-      
-          if (!mobileMenu.contains(event.target) && !mobileNavToggle.contains(event.target)) {
-          closeMobileMenu();
-          }
-          });
-          const mobileNavLinks = document.querySelectorAll('.mobile-menu a');
-          mobileNavLinks.forEach(link => {
-          link.addEventListener('click', closeMobileMenu);
-          }); 
+          function loadShapesContent() {
+      fetch('shapes.html')
+        .then(response => response.text())
+        .then(data => {
+          const shapesContainer = document.getElementById('shapes-container');
+          shapesContainer.innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error loading shapes content:', error);
+        });
+    }
+
+    loadShapesContent()
           </script>     
 </body>
 
