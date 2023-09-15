@@ -1,307 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>MywebMark Technologies</title>
+      <!-- logo -->
+      <link href="assets/img/logo.jpg" rel="icon">
+      <!-- Online CSS -->
+      <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>MywebMark Technologies</title>
-  <!-- logo -->
-  <link href="assets/img/logo.jpg" rel="icon">
-  <!-- Online CSS -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- Template main CSS File -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/css/main.css" rel="stylesheet">
+      <link href="assets/css/shapes1.css" rel="stylesheet">
+    </head>
 
-  <!-- Template main CSS File -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/shapes1.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <header id="header" class="header fixed-top">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-840S68R7K2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-840S68R7K2');
-</script>
-    <div id="shapes-container"></div>
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.jpg" alt="">
-        <span style="display: block;">MywebMark</span>
-      </a>
-      <nav id="navbar" class="navbar">
-        <!-- Your desktop navigation menu items go here -->
-        <ul>
-          <!-- Add your desktop menu items here -->
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#"><strong style="color: #007700;">Graphic design + Content Creation</strong></a></li>
-              <li><a href="#">Web Design + SEO</a></li>
-              <li><a href="#">Content + Design</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#pricing">Web Design</a></li>
-          <li><a class="nav-link" href="#graphic design">Graphic Design</a></li>
-          <li class="dropdown megamenu">
-            <a href="#" class="dropdown-toggle"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="megamenu-content">
-              <li>
-                <a href="#"><strong style="color: #007700;">Blogs and News</strong></a>
-                <a href="#">Web Development Trends</a>
-                <a href="#">Graphic Design Trends</a>
-              </li>
-              <li>
-                <a href="#"><strong style="color: #007700;">Learning Resources</strong></a>
-                <a href="#">Online Certifications</a>
-                <a href="#">Skill Enhancement</a>
-              </li>
-              <li>
-                <a href="#"><strong style="color: #007700;">Company</strong></a>
-                <a href="#">Careers</a>
-                <a href="#">Design Press Kit</a>
-              </li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="mobile-header">
-
-      <input type="checkbox" id="mobile-menu-toggle">
-      <label for="mobile-menu-toggle" class="mobile-nav-toggle">
-        <!-- You can customize the box appearance here -->
-        <div class="mobile-menu-box">
-          <div class="mobile-menu-bar"></div>
-          <div class="mobile-menu-bar"></div>
-          <div class="mobile-menu-bar"></div>
-        </div>
-      </label>
-      <nav class="mobile-menu">
-        <!-- Your mobile navigation menu items go here -->
-        <ul>
-          <!-- Add your mobile menu items here -->
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
-          <!-- ... your previous code ... -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
-              <li><a href="#"><strong style="color: white;">Graphic design + Content Creation</strong></a></li>
-              <li><a href="#">Web Design + SEO</a></li>
-              <li><a href="#">Content + Design</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu services-menu"> <!-- Added 'services-menu' class here -->
-              <li>
-                <a href="#" class="menu-heading"><strong>Blogs and News</strong></a>
-                <ul class="submenu">
-                  <li><a href="#">Web Development Trends</a></li>
-                  <li><a href="#">Graphic Design Trends</a></li>
-                </ul>
-              <li>
-                <a href="#" class="menu-heading"><strong>Learning Resources</strong></a>
-                <ul class="submenu">
-                  <li><a href="#">Online Certifications</a></li>
-                  <li><a href="#">Skill Enhancement</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="menu-heading"><strong>Company</strong></a>
-                <ul class="submenu">
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Design Press Kit</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section id="about-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="about-heading">About MywebMark Technologies</h2>
-            <p>At MywebMark Technologies, we are passionate about web development and graphic design. While we are
-              currently a small team of dedicated individuals, we believe that value is at the core of our work. Our
-              mission is to provide our clients with exceptional services that not only enhance their online presence
-              but also leave a lasting impact on their businesses.</p>
-            <p>Our commitment to excellence drives us every day. We are guided by a set of values, aspirations, and
-              goals that go beyond individual pursuits. Instead, we are inspired by a collective purpose that fuels our
-              efforts. This is the essence of the MywebMark Experience, where we bring endless possibilities to life</p>
-            <div class="text-center"> <!-- Center-align the button -->
-              <a href="aboutus.html" class="btn btn-primary">Explore Company Portfolio</a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="assets/img/features.png" alt="MywebMark Image" class="img-fluid">
-          </div>
-        </div>
+  <body>
+    <style>
+      .header .navbar ul li a.active {
+        color: #12aa1f; 
+      }
+    </style>
+    <header id="header" class="header fixed-top">
+      <div id="shapes-container"></div>
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.jpg" alt="">
+          <span style="display: block;">MywebMark</span>
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+            <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+            <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
-    <section id="our-story">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/3rd.png" alt="Our Story Image" class="img-fluid">
+    
+      <div class="mobile-header">
+        <input type="checkbox" id="mobile-menu-toggle">
+        <label for="mobile-menu-toggle" class="mobile-nav-toggle">
+          <div class="mobile-menu-box">
+            <div class="mobile-menu-bar"></div>
+            <div class="mobile-menu-bar"></div>
+            <div class="mobile-menu-bar"></div>
           </div>
-          <div class="col-lg-6">
-            <h2 class="about-heading">Our Story</h2>
-            <p>At MyWebMark Technologies, our journey began with a vision to make a difference in the digital world.
-              Founded by a group of passionate individuals, our story is one of dedication, creativity, and growth.</p>
-            <p>From our humble beginnings, we've evolved into a team of professionals who are committed to delivering
-              exceptional web development and graphic design services. Our clients' success remains at the heart of our
-              mission, and our journey continues to be guided by values and aspirations that inspire us every day.</p>
-            <p>We are excited about the future and the endless possibilities that lie ahead. Join us on this exciting
-              journey as we strive to bring your digital dreams to life.</p>
-          </div>
-        </div>
+        </label>
+        <nav class="mobile-menu">
+          <ul>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+            <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+            <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
-    <section id="our-mission">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 order-lg-2">
-            <img src="assets/img/features-2.png" alt="About Us Image">
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <h2 class="about-heading">Our Mission</h2>
-            <ul>
-              <li>
-                <img src="assets/img/accept.png" alt="Icon 1">
-                Empower businesses with innovative web solutions
-              </li>
-              <li>
-                <img src="assets/img/accept.png" alt="Icon 2">
-                Deliver captivating graphic design that stands out
-              </li>
-              <li>
-                <img src="assets/img/accept.png" alt="Icon 3">
-                Provide exceptional service that exceeds client expectations
-              </li>
-              <li>
-                <img src="assets/img/accept.png" alt="Icon 4">
-                Continuously learn and adapt to the ever-evolving digital landscape
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.jpg" alt="">
-              <span style="display: block;">MywebMark</span>
-            </a>
-            <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
-              on customers methodology, data-driven insights, and creative prowess.</p>
-            <div class="social-links mt-3">
-              <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
-                  class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
-              Fedha <br>
-              Nairobi,<br>
-              Kenya <br>
-              <strong>Phone:</strong> +254 111 893 789<br>
-              <strong>Email:</strong> info@MyWebMark.tech<br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </footer>
-  <div class="back-to-top" id="backToTop">
-    <i class="fa fa-arrow-up"></i>
-  </div>
-  <!-- Vendor JS Files -->
-
-  <script src="assets/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-  <script>
-    function loadShapesContent() {
-      fetch('shapes.html')
-        .then(response => response.text())
-        .then(data => {
-          const shapesContainer = document.getElementById('shapes-container');
-          shapesContainer.innerHTML = data;
-        })
-        .catch(error => {
-          console.error('Error loading shapes content:', error);
-        });
-    }
-    loadShapesContent();
-
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-          $('#backToTop').addClass('active');
-        } else {
-          $('#backToTop').removeClass('active');
+    </header>
+    <script>
+      const currentLocation = window.location.href;
+      const navLinks = document.querySelectorAll('.header .navbar ul li a');
+      navLinks.forEach(link => {
+        if (link.href === currentLocation) {
+          link.classList.add('active');
         }
       });
-      $('#backToTop').click(function () {
-        $('html, body').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    });
-  </script>
+    </script>
+    </header>
+    <main>
+      <section id="about-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="about-heading">About MywebMark Technologies</h2>
+              <p>At MywebMark Technologies, we are passionate about web development and graphic design. While we are
+                currently a small team of dedicated individuals, we believe that value is at the core of our work. Our
+                mission is to provide our clients with exceptional services that not only enhance their online presence
+                but also leave a lasting impact on their businesses.</p>
+              <p>Our commitment to excellence drives us every day. We are guided by a set of values, aspirations, and
+                goals that go beyond individual pursuits. Instead, we are inspired by a collective purpose that fuels our
+                efforts. This is the essence of the MywebMark Experience, where we bring endless possibilities to life</p>
+              <div class="text-center">
+                <a href="aboutus.html" class="btn btn-primary">Explore Company Portfolio</a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/features.png" alt="MywebMark Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="our-story">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="assets/img/3rd.png" alt="Our Story Image" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="about-heading">Our Story</h2>
+              <p>At MyWebMark Technologies, our journey began with a vision to make a difference in the digital world.
+                Founded by a group of passionate individuals, our story is one of dedication, creativity, and growth.</p>
+              <p>From our humble beginnings, we've evolved into a team of professionals who are committed to delivering
+                exceptional web development and graphic design services. Our clients' success remains at the heart of our
+                mission, and our journey continues to be guided by values and aspirations that inspire us every day.</p>
+              <p>We are excited about the future and the endless possibilities that lie ahead. Join us on this exciting
+                journey as we strive to bring your digital dreams to life.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="our-mission">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 order-lg-2">
+              <img src="assets/img/features-2.png" alt="About Us Image">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <h2 class="about-heading">Our Mission</h2>
+              <ul>
+                <li>
+                  <img src="assets/img/accept.png" alt="Icon 1">
+                  Empower businesses with innovative web solutions
+                </li>
+                <li>
+                  <img src="assets/img/accept.png" alt="Icon 2">
+                  Deliver captivating graphic design that stands out
+                </li>
+                <li>
+                  <img src="assets/img/accept.png" alt="Icon 3">
+                  Provide exceptional service that exceeds client expectations
+                </li>
+                <li>
+                  <img src="assets/img/accept.png" alt="Icon 4">
+                  Continuously learn and adapt to the ever-evolving digital landscape
+                </li>
+              </ul>
 
-</body>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.jpg" alt="">
+                <span style="display: block;">MywebMark</span>
+              </a>
+              <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
+                on customers methodology, data-driven insights, and creative prowess.</p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
+                    class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>
+                Fedha <br>
+                Nairobi,<br>
+                Kenya <br>
+                <strong>Phone:</strong> +254 111 893 789<br>
+                <strong>Email:</strong> info@MyWebMark.tech<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <div class="back-to-top" id="backToTop">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+    <!-- Vendor JS Files -->
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+      function loadShapesContent() {
+        fetch('shapes.html')
+          .then(response => response.text())
+          .then(data => {
+            const shapesContainer = document.getElementById('shapes-container');
+            shapesContainer.innerHTML = data;
+          })
+          .catch(error => {
+            console.error('Error loading shapes content:', error);
+          });
+      }
+      loadShapesContent();
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#backToTop').addClass('active');
+          } else {
+            $('#backToTop').removeClass('active');
+          }
+        });
+        $('#backToTop').click(function () {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 800);
+          return false;
+        });
+      });
+    </script>
+
+  </body>
 
 </html>
