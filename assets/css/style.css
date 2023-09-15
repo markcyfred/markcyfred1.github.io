@@ -798,126 +798,32 @@ h2 {
   }
   
 }
-
-/* Add this to your existing CSS file or create a new one for animations */
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
-@media screen and (max-width: 768px) {
-  /* Hide the desktop navigation */
-  .navbar ul {
-    display: none;
-  }
-
-  /* Show the mobile navigation */
-  .mobile-nav {
-    display: block;
-  }
-
-  /* Style the mobile navigation menu items */
-  .mobile-menu li {
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  /* Style the mobile navigation toggle button */
-  .mobile-nav-toggle {
-    display: block;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1001;
-  }
-
-  /* Ensure the header stays on top of the toggle button */
-  .header {
-    z-index: 1000;
-  }
-
-  /* Style the header when the mobile navigation is active */
-  .header.mobile-header .navbar.active {
-    top: 50px; /* Adjust the top value as needed */
-  }
-}
-/* Style the mobile navigation toggle button */
-.mobile-nav-toggle {
-  display: block;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 1001;
-}
-
-/* Style the image inside the toggle button */
-.mobile-nav-toggle img {
-  width: 30px; /* Adjust the width as needed */
-  height: auto; /* This ensures the aspect ratio is maintained */
-  cursor: pointer;
-}
-/* CSS for large screens (screens wider than 768px, adjust as needed) */
-@media (min-width: 769px) {
-  .mobile-nav {
-    display: none; /* Hide the mobile navigation menu */
-  }
-}
-/* CSS for the mobile navigation toggle effect */
-.mobile-nav-toggle {
-
-  cursor: pointer;
-  
-  
-  border-radius: 5px;
-}
-
-.mobile-menu {
-  display: none; /* Hide the mobile menu by default */
-}
-
-/* Style the mobile menu toggle label when the checkbox is checked */
-#mobile-menu-toggle:checked + .mobile-nav-toggle {
-  background-color: #e6e609; /* Change background color when checked */
-}
-
-#mobile-menu-toggle:checked + .mobile-nav-toggle + .mobile-menu {
-  display: block; /* Show the mobile menu when checkbox is checked */
-}
-
-/*===========================================*/
-/* Style for large screens (desktop) */
-@media (min-width: 992px) {
-  .mobile-header {
-    display: none; /* Hide the mobile header on large screens */
-  }
-}
-
-/* Style for small screens (mobile) */
+/* CSS for mobile devices (less than 992px) */
 @media (max-width: 991px) {
   .navbar {
-    display: none; /* Hide the desktop navigation menu on small screens */
+    display: none; /* Hide the desktop navigation on small screens */
   }
 
   .mobile-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #fff; /* Add a background color for the header */
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgba(19, 32, 13, 0.1);
   }
 
   /* Style the mobile menu toggle button on the right */
   .mobile-nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
+    
   }
 
   /* Style the mobile menu icon bars */
@@ -925,14 +831,14 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 30px;
+    height: 30px;
   }
 
   .mobile-menu-bar {
-    height: 4px; /* Adjust the height of each bar */
-    background-color: #000; /* Adjust the color of the bars */
-    border-radius: 2px; /* Round the corners of the bars */
+    height: 4px;
+    background-color: #12aa1f;
+    border-radius: 2px;
     transition: all 0.3s ease;
   }
 
@@ -956,110 +862,54 @@ h2 {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #fff; /* Adjust the background color */
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgba(8, 152, 17, 0.1);
   }
 
   /* Show the mobile menu when the toggle is checked (menu open) */
   #mobile-menu-toggle:checked + .mobile-nav-toggle + .mobile-menu {
     display: block;
   }
+
+  .mobile-menu ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .mobile-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .mobile-menu li:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    color: #12aa1f;
+  }
+
+  .mobile-menu a:hover {
+    background-color: #eee;
+  }
+}
+.mobile-menu {
+  display: none;
 }
 
-/* Style the checkbox input */
-#mobile-menu-toggle {
-  /* Customize the appearance of the checkbox here */
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* Adjust the height as needed */
-  background-color: #fff; /* Background color of the checkbox */
-  border: 2px solid #007700; /* Border style and color */
-  border-radius: 4px; /* Round the corners of the checkbox */
-  cursor: pointer; /* Change cursor on hover */
-  
-}
-
-/* Style the checkbox when checked (menu open) */
-#mobile-menu-toggle:checked {
-  background-color: #007700; /* Change background color when checked */
-  border-color: #fff; /* Change border color when checked */
-}
-
-
-
-
-
-
-
-/* Style the mobile menu items as buttons */
-.mobile-menu ul li a {
+.mobile-menu.active {
   display: block;
-
-  margin: 5px 0; /* Adjust margin as needed */
-  background-color: #007700; /* Button background color */
-  color: #fff; /* Button text color */
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px; /* Round button corners */
-  transition: background-color 0.3s ease;
 }
-
-/* Hover effect for mobile menu buttons */
-.mobile-menu ul li a:hover {
-  background-color: #005500; /* Change background color on hover */
+/* CSS for large screens (desktop) */
+@media (min-width: 992px) {
+.mobile-nav-toggle {
+display: none; /* Hide the toggle button on larger screens */
 }
-
-/* Style the dropdown menu items */
-.mobile-menu ul li ul.dropdown-menu li a {
-  padding: 10px 20px; /* Adjust padding as needed */
-  margin: 5px 0; /* Adjust margin as needed */
-  background-color: #e6e609; /* Button background color */
-  color: #fff; /* Button text color */
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px; /* Round button corners */
-  transition: background-color 0.3s ease;
 }
-
-/* Hover effect for dropdown menu buttons */
-.mobile-menu ul li ul.dropdown-menu li a:hover {
-  background-color: #12aa1f; /* Change background color on hover */
+.header .navbar ul li a.active {
+  color: #12aa1f;
 }
-/* Remove the list-style (dots) from mobile menu items */
-.mobile-menu ul li {
-  list-style: none;
+html {
+  scroll-behavior: smooth;
 }
-
-
-
-
-
-
-/* Style for the dropdown menu */
-.mobile-menu .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color:white; /* Background color */
-  border: 1px solid #777; /* Border color */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow */
-  z-index: 1000;
-  margin-right: 20px;
-}
-
-
-
-
-
-
-
-
-/* Style for the submenu items */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff; /* Change background color as needed */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a shadow */
-  max-height: 200px; /* Set a maximum height for the submenu */
-  overflow-y: auto; /* Enable vertical scrolling when content exceeds the maximum height */
-}
-

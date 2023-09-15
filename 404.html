@@ -48,15 +48,13 @@
                               margin-top: 2rem;
                               font-size: 1rem;
                               text-decoration: none;
-                              color: #3498db;
                               display: inline-block;
                               padding: 10px 20px;
                               background-color: #007700;
-                              color: #fff;
-                              border-radius: 5px;
-                              transition: all 0.3s ease-in-out;
+                              color: #f8f8f8;
+                               transition: all 0.3s ease-in-out;
                               margin-left: 550px;
-
+                          
 
                     }
 
@@ -75,7 +73,6 @@
                                         margin-top: 2rem;
                                         font-size: 1rem;
                                         text-decoration: none;
-                                        color: #3498db;
                                         display: inline-block;
                                         padding: 10px 20px;
                                         background-color: #007700;
@@ -102,70 +99,50 @@
       color: #12aa1f; /* Change to your desired active link color */
     }
   </style>
-  <header id="header" class="header fixed-top">
-    <!-- Your existing HTML code ... -->
+   <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.jpg" alt="">
-        <span style="display: block;">MywebMark</span>
-      </a>
-      <nav id="navbar" class="navbar">
-        <!-- Your desktop navigation menu items go here -->
-        <ul>
-          <!-- Add your desktop menu items here -->
-          <li><a  class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-          <li><a class="nav-link" href="services.html">Services</a></li>
-          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-          <li><a class="nav-link" href="pricing.html">Pricing</a></li>
-          <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-      </nav>
+        <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.jpg" alt="">
+            <span style="display: block;">MywebMark</span>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
+          <div class="mobile-menu-box">
+              <div class="mobile-menu-bar"></div>
+              <div class="mobile-menu-bar"></div>
+              <div class="mobile-menu-bar"></div>
+          </div>
+      </button>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+                <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+                <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+                <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+                <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+                <li><a class="getstarted scrollto nav-link" href="#about">Get Started</a></li>
+            </ul>
+        </nav>
     </div>
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
   
-    <div class="mobile-header">
-      <input type="checkbox" id="mobile-menu-toggle">
-      <label for="mobile-menu-toggle" class="mobile-nav-toggle">
-        <!-- You can customize the box appearance here -->
-        <div class="mobile-menu-box">
-          <div class="mobile-menu-bar"></div>
-          <div class="mobile-menu-bar"></div>
-          <div class="mobile-menu-bar"></div>
-        </div>
-      </label>
-      <nav class="mobile-menu">
-        <!-- Your mobile navigation menu items go here -->
-        <ul>
-          <!-- Add your mobile menu items here -->
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-          <li><a class="nav-link" href="services.html">Services</a></li>
-          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-          <li><a class="nav-link" href="pricing.html">Pricing</a></li>
-          <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-      </nav>
+        
+        <nav class="mobile-menu">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+                <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+                <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+                <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+                <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            </ul>
+        </nav>
     </div>
-  </header>
-  
-  <script>
-    // JavaScript to handle the active link
-    const currentLocation = window.location.href;
-  
-    const navLinks = document.querySelectorAll('.header .navbar ul li a');
-  
-    navLinks.forEach(link => {
-      if (link.href === currentLocation) {
-        link.classList.add('active');
-      }
-    });
-  </script>
-  </header>
+</header>
           <div style="display: flex; justify-content: center; align-items: center;margin-top: 100px;">
                     <img style="width: 100%; max-width: 300px;@media screen {
                                                                                                                    
@@ -265,47 +242,49 @@
                     </div>
                     
           </footer>
-
+          
 
           <!-- Vendor JS Files -->
           <script src="assets/vendor/aos/aos.js"></script>
           <script src="assets/js/main.js"></script>
           <script src="assets/js/belowheader.js"></script>
+          <script src="assets/js/below.js"></script>
 
           <!-- Online JS -->
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
           <script>
-                    function loadShapesContent() {
-                              fetch('shapes.html')
-                                        .then(response => response.text())
-                                        .then(data => {
-                                                  const shapesContainer = document.getElementById('shapes-container');
-                                                  shapesContainer.innerHTML = data;
-                                        })
-                                        .catch(error => {
-                                                  console.error('Error loading shapes content:', error);
-                                        });
-                    }
-
-                    loadShapesContent()
-
-                    $(document).ready(function () {
-                              $(window).scroll(function () {
-                                        if ($(this).scrollTop() > 200) {
-                                                  $('#backToTop').addClass('active');
-                                        } else {
-                                                  $('#backToTop').removeClass('active');
-                                        }
-                              });
-                              $('#backToTop').click(function () {
-                                        $('html, body').animate({
-                                                  scrollTop: 0
-                                        }, 800);
-                                        return false;
-                              });
-                    });
+            function toggleMobileMenu() {
+          const mobileMenu = document.querySelector('.mobile-menu');
+          mobileMenu.classList.toggle('active');
+          }
+      
+          function closeMobileMenu() {
+          const mobileMenu = document.querySelector('.mobile-menu');
+          mobileMenu.classList.remove('active');
+          }
+          function isDesktopView() {
+          return window.innerWidth >= 992; 
+          }
+          window.addEventListener('resize', function () {
+          if (isDesktopView()) {
+          closeMobileMenu();
+          }
+          });
+          document.addEventListener('click', function (event) {
+          const mobileMenu = document.querySelector('.mobile-menu');
+          const mobileNavToggle = document.getElementById('mobile-menu-toggle');
+      
+          if (!mobileMenu.contains(event.target) && !mobileNavToggle.contains(event.target)) {
+          closeMobileMenu();
+          }
+          });
+          const mobileNavLinks = document.querySelectorAll('.mobile-menu a');
+          mobileNavLinks.forEach(link => {
+          link.addEventListener('click', closeMobileMenu);
+          }); 
           </script>
+
+        
 </body>
 
 </html>
