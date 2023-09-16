@@ -1,65 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Web Development Services</title>
-</head>
-<body>
-  <header>
-    <h1>Welcome to [Your Company Name]</h1>
-    <p>We bring your digital ideas to life through cutting-edge web development solutions.</p>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MywebMark Technologies</title>
+    <link href="assets/img/logo.jpg" rel="icon">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/shapes1.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header" class="header fixed-top">
+      <div id="shapes-container"></div>
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.jpg" alt="">
+              <span style="display: block;">MywebMark</span>
+          </a>
+          <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
+            <div class="mobile-menu-box">
+                <div class="mobile-menu-bar"></div>
+                <div class="mobile-menu-bar"></div>
+                <div class="mobile-menu-bar"></div>
+            </div>
+        </button>
+          <nav id="navbar" class="navbar">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+                  <li><a  class="active nav-link" class="nav-link" href="services.html">Services</a></li>
+                  <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+                  <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+                  <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+                  <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+                  <li><a class="getstarted scrollto nav-link" href="#about">Get Started</a></li>
+              </ul>
+          </nav>
+      </div>
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+          
+          <nav class="mobile-menu">
+              <ul>
+                  <li><a class="nav-link" href="index.html">Home</a></li>
+                  <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+                  <li><a class="nav-link" href="services.html">Web Design</a></li>
+                  <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+                  <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+                  <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+                  <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+                  <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+              </ul>
+          </nav>
+      </div>
   </header>
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-content-section">
+              <div class="section-image">
+                <img src="assets/img/CMS.png" alt="Image Description">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-content-section">
+              <div class="section-content">
+                <h2>Section Title</h2>
+                <p>Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit metus vitae purus
+                  tincidunt tristique. Cras et metus eu massa viverra dictum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<style>/* Add padding to the section */
+  section {
+    padding: 20px;
+  }
+  
+  /* Center the image and content */
+  .image-content-section {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Align to the full height */
+  }
+  
+  /* Style for the image */
+  .section-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the content */
+  .section-content {
+    padding: 0 20px; /* Add some padding for spacing */
+  }
+  </style>  
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>
-        <h3>Website Design and Development</h3>
-        <p>Craft stunning and functional websites tailored to your unique needs.</p>
-      </li>
-      <li>
-        <h3>E-commerce Website Development</h3>
-        <p>Build robust online stores that drive sales and enhance customer experiences.</p>
-      </li>
-      <li>
-        <h3>Mobile App Development</h3>
-        <p>Create intuitive and feature-rich mobile applications for Android and iOS platforms.</p>
-      </li>
-    </ul>
-  </section>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.jpg" alt="">
+                <span style="display: block;">MywebMark</span>
 
-  <section id="portfolio">
-    <h2>Our Portfolio</h2>
-    <div class="project">
-      <h3>Project 1: EleganceClothing.com</h3>
-      <!-- Include project screenshot or image -->
-      <p>A sleek e-commerce website for a fashion retailer. Increased sales by 40%.</p>
+              </a>
+              <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
+                on customers methodology, data-driven insights, and creative prowess.</p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
+                    class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>
+                Fedha <br>
+                Nairobi,<br>
+                Kenya <br>
+                <strong>Phone:</strong> +254 111 893 789<br>
+                <strong>Email:</strong> info@mywebmark.tech<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <div class="back-to-top" id="backToTop">
+      <i class="fa fa-arrow-up"></i>
     </div>
-    <div class="project">
-      <h3>Project 2: MyApp - Fitness Tracking App</h3>
-      <!-- Include project screenshot or image -->
-      <p>An intuitive fitness app with 5-star user ratings on both Android and iOS platforms.</p>
-    </div>
-  </section>
 
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <blockquote>
-      <p>"Working with [Your Company Name] was a game-changer for our business. They exceeded our expectations and delivered a flawless website on time." - John Doe, XYZ Company</p>
-    </blockquote>
-  </section>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/belowheader.js"></script>
+    <script src="assets/js/below.js"></script>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Feel free to reach out to us at [Your Email] or call us at [Your Phone Number]. Ready to get started? Click below to request a free consultation!</p>
-    <button>Request a Free Consultation</button>
-  </section>
+    <!-- Online JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <footer>
-    <p>&copy; 2023 [Your Company Name]. All rights reserved.</p>
-  </footer>
-</body>
+    <script>
+   $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#backToTop').addClass('active');
+          } else {
+            $('#backToTop').removeClass('active');
+          }
+        });
+        $('#backToTop').click(function () {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 800);
+          return false;
+        });
+      });
+      
+    </script>
+    <script>
+        
+        function loadShapesContent() {
+      fetch('shapes.html')
+        .then(response => response.text())
+        .then(data => {
+          const shapesContainer = document.getElementById('shapes-container');
+          shapesContainer.innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error loading shapes content:', error);
+        });
+    }
+
+    loadShapesContent()
+    </script>
+  </body>
+
 </html>
