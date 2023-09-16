@@ -492,6 +492,21 @@
           return false;
         });
       });
+      // JavaScript to handle the active link
+const currentLocation = window.location.href;
+
+const navLinks = document.querySelectorAll('.header .navbar ul li a');
+
+navLinks.forEach(link => {
+if (link.href === currentLocation) {
+  link.classList.add('active');
+}
+});
+function toggleMobileMenu() {
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.toggle('active');
+}
+
     </script>
     <script>
         

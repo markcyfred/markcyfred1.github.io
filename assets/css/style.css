@@ -910,6 +910,3 @@ display: none; /* Hide the toggle button on larger screens */
 .header .navbar ul li a.active {
   color: #12aa1f;
 }
-html {
-  scroll-behavior: smooth;
-}
