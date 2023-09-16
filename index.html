@@ -93,7 +93,8 @@
                   We are dedicated to exploring and implementing every available resource to make your product or brand
                   stand out. Even if your business is already technologically advanced, we ensure you don't miss out on the
                   latest innovations.</p>
-                <a href="#learn-more" class="btn bounce-in">Learn More <i class="fas fa-arrow-down"></i></a>
+                  <a href="#who-we-are" class="btn bounce-in">Learn More <i class="fas fa-arrow-down"></i></a>
+
               </div>
             </div>
           </div>
@@ -128,8 +129,7 @@
           justify-content: space-between;
           background-color: #12aa1f;
           padding: 20px;
-          margin-top: -50px;
-          margin-bottom: 20px;
+          margin-top: -10px;
         }
 
         .box {
@@ -170,7 +170,98 @@
             flex-basis: 100%;
           }
         }
+
+#who-we-are {
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+#brief-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#info-content img {
+    max-width: 80%; /* Make image take 50% of the container */
+    height: auto;
+    margin-top: -100px;
+}
+
+#text-content {
+    flex: 1;
+    padding: 0 80px;
+    text-align: justify;
+    margin-left: -150px;
+}
+
+#read-more a {
+    text-decoration: none;
+    color: blue;
+}
+
+#read-more a:hover {
+    text-decoration: underline;
+}
+
+#who-we-are h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 280px; 
+    height: 3px;
+    background-color:#4154f1; 
+}
+
+
+#read-more {
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+#read-more h3 {
+    display: inline-block;
+    padding: 5px 20px; 
+    margin: 0;
+    background-color: #4154f1;
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+    border-radius: 100px 0 100px 10px;
+}
+
+#read-more h3:hover {
+    background-color: #12aa1f; 
+}
+
+
       </style>
+      <section id="who-we-are">
+        <h2 style="color: #12aa1f;" >WHO WE ARE
+         
+        </h2>
+        <h4>Brief Information About MyWebMark Technologies</h4>
+    
+        <div id="brief-info">
+            <div id="info-content">
+                <img src="assets/img/laptop-tablet-phone-mockup.png" alt="MyWebMark Logo">
+            </div>
+            <div id="text-content">
+                <p>
+                    MyWebMark Technologies focuses primarily on the Designing, support, research and development of Customized Information Technology Solutions for our clients at an affordable rate. Our mission is to drive Customer Satisfaction and the Digitization of Companies' Operations. We specialize in professional website design, development, Web Application Design and Development, and Mobile App Development. Our dynamic team consists of young and innovative website designers and developers, alongside talented graphic designers and some of the best software developers in the industry.
+                </p>
+                <div id="read-more">
+                  <a href="aboutus.html">
+                      <h3 style="font-size: 20px;">Read More</h3>
+                  </a>
+              </div>
+              
+            </div>
+        </div>
+    </section>
       <div id="services" style="padding-top: -2rem; background-color:white">
         <div class="container" style="padding: em 0">
           <h1 class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -90px;">
@@ -303,111 +394,59 @@
           </div>
         </div>
       </div>
-
-      <!-- ======= F.A.Q Section ======= -->
-      <section id="faq" class="faq">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>F.A.Q</h2>
-            <p>Frequently Asked Questions</p>
-          </header>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="accordion accordion-flush" id="faqlist1">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1">
-                      Can you design custom graphics that match my brand's identity?
-                    </button>
-                  </h2>
-                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                    <div class="accordion-body">
-                      Absolutely! Our graphic design team specializes in creating custom visuals that align perfectly
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2">
-                      How do I get started with MywebMark Technologies ?
-                    </button>
-                  </h2>
-                  <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                    <div class="accordion-body">
-                      Sign up for an account on our website.
-                      Once registered, you'll receive a tracking code.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3">
-                      What is Web Hosting Graphic?
-                    </button>
-                  </h2>
-                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                    <div class="accordion-body">
-                      Web Hosting Graphic is a specialized hosting service tailored for graphic-intensive websites and
-                      applications. It offers optimized server resources, high-speed content delivery, and advanced
-                      graphics handling for visually rich online experiences.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <!-- F.A.Q List 2-->
-              <div class="accordion accordion-flush" id="faqlist2">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faq2-content-1">
-                      How do I get started with Web Hosting Graphic?
-                    </button>
-                  </h2>
-                  <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                    <div class="accordion-body">
-                      Choose a suitable plan based on your website's needs.
-                      Sign up on our website and complete the payment process.
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faq2-content-2">
-                        What kind of customer support do you offer for Web Hosting Graphic?
-                      </button>
-                    </h2>
-                    <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                      <div class="accordion-body">
-                        We offer 24/7 customer support via live chat, email, and phone. Our knowledgeable support team is
-                        ready to assist you with any technical queries or issues related to your graphics-focused hosting.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faq2-content-3">
-                        How can I benefit from your combined hosting and graphic design services?
-                      </button>
-                    </h2>
-                    <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                      <div class="accordion-body">
-                        By choosing us, you'll experience a seamless integration between hosting and design. This means
-                        your website will not only have a robust hosting foundation but also stunning visuals that engage
-                        your audience and enhance your online presence.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
+      <section id="slanted-background">
+        <div class="content">
+            <h2>Welcome to Our Website</h2>
+            <p>We are dedicated to providing exceptional services and solutions for all your needs.</p>
+            <button id="calltoday" >Call Today</button>
+        </div>
+    </section>
+    
+    <style>
+        #slanted-background {
+            position: relative;
+            overflow: hidden;
+        }
+    
+        #slanted-background::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(335deg, #12aa1f 120%, #0099cc 0%);
+            z-index: -1;
+            transform: skewY(-5deg);
+        }
+    
+        #slanted-background .content {
+            color: white;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+    
+        #calltoday {
+            padding: 10px 20px;
+            background-color: #4154f1; /* Your desired button color */
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+    
+        #calltoday:hover {
+            background-color: #12aa1f; /* Change color on hover */
+        }
+    </style>
+    
+    
+   
+     
     </main>
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
