@@ -950,7 +950,7 @@ display: none; /* Hide the toggle button on larger screens */
 }
 .separator {
   width: 150px; 
-  border-top: 2px solid #12aa1f; 
+  border-top: 2px solid #4154f1; 
   margin: 10px 0;
   transform: rotateZ(4deg);
 }
