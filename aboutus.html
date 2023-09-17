@@ -17,6 +17,7 @@
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/css/main.css" rel="stylesheet">
       <link href="assets/css/shapes1.css" rel="stylesheet">
+
     </head>
 
   <body>
@@ -40,16 +41,15 @@
             </div>
         </button>
           <nav id="navbar" class="navbar">
-              <ul>
-                  <li><a  href="index.html">Home</a></li>
-                  <li><a class="active" class="nav-link" href="aboutus.html">About Us</a></li>
-                  <li><a class="nav-link" href="services.html">Services</a></li>
-                  <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-                  <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-                  <li><a class="nav-link" href="pricing.html">Pricing</a></li>
-                  <li><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
-                  <li><a class="getstarted scrollto nav-link" href="#about">Get Started</a></li>
-              </ul>
+            <ul>
+              <li><a  href="index.html">Home</a></li>
+              <li><a class="active nav-link" class="nav-link" href="aboutus.html">About Us</a></li>
+              <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+              <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+              <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+              <li style="margin-right: 20px;"><a class="nav-link" href="viewdesigns.html">View Designs</a></li>
+              <li><a class="getstarted scrollto nav-link" href="#about">Get Started</a></li>
+          </ul>
           </nav>
       </div>
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -59,7 +59,6 @@
               <ul>
                   <li><a class="nav-link" href="index.html">Home</a></li>
                   <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-                  <li><a class="nav-link" href="services.html">Services</a></li>
                   <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
                   <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
                   <li><a class="nav-link" href="pricing.html">Pricing</a></li>
@@ -92,6 +91,22 @@
           </div>
         </div>
       </section>
+      <section  id="why-website">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="content">
+                <div class="left-content">
+                  <h2 class="about-heading">WHY</h2>
+                  <h3 class="about-subheading">Choose Us In Your Work</h3>
+                </div>
+                <div class="right-content">
+                  <p>Companies invest millions of millions in producing and distributing advertisements. By having a website, you may completely avoid that. Online resources are available for potential customers to learn more about you and your offerings. They will want to visit your website if you mostly do business through networking and personal contacts.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>       
       <section id="our-story">
         <div class="container">
           <div class="row">
@@ -111,6 +126,81 @@
           </div>
         </div>
       </section>
+      <style>
+        @media (max-width: 767px) {
+          #our-story .col-lg-6 img {
+            display: none;
+          }
+        }
+        #why-website {
+          padding: 40px 0;
+          background-color: #ddd;
+          margin-top: -100px;
+          margin-bottom: 150px;
+        }
+        
+        #why-website .container {
+          display: flex;
+          justify-content: center;
+        }
+        
+        #why-website .content {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: 20px;
+        }
+        
+        #why-website .about-heading,
+        #why-website .about-subheading {
+          color: #333;
+          text-align: left;
+        }
+        
+        #why-website .right-content p {
+          color: #555;
+          text-align: justify;
+        }
+        
+        #why-website .about-subheading {
+          border-right: 2px solid #12aa1f;
+          padding: 40px 0px; 
+          margin-right: 20px;
+          margin-top: -40px;
+        }
+        
+        @media (max-width: 767px) {
+          #why-website{
+            margin-top: -50px;
+          }
+          #why-website .about-heading {
+            text-align: center;
+            margin-bottom: -20px; 
+          }
+
+          #why-website .about-subheading {
+            text-align: center;
+            margin-top: 10px;
+          }
+
+          #why-website .content {
+            display: flex;
+            flex-direction: column;
+          }
+
+          #why-website .left-content,
+          #why-website .right-content {
+            text-align: center;
+          }
+
+        
+
+          #why-website .right-content p {
+            margin: 10px 0;
+          }
+        }
+
+      </style>
+      
       <section id="our-mission">
         <div class="container">
           <div class="row">
