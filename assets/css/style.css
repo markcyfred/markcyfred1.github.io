@@ -1129,3 +1129,14 @@ display: none; /* Hide the toggle button on larger screens */
     background-color: #12aa1f; 
   }
 }
+/* Style for the nav-link in the mobile menu */
+.mobile-menu ul li a.nav-link {
+  color: #4154f1; /* Set initial color to blue */
+  font-weight: bold;
+}
+
+/* Style for the active link in the mobile menu */
+.mobile-menu ul li a.active {
+  color: #12aa1f; /* Change color to red when active */
+  font-weight: bold; /* Add any styles you want for the active link */
+}
