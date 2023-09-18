@@ -1,6 +1,6 @@
  /* Basic styling for the webdesign */
       #our-web-development {
-        padding: 80px 0;
+        padding: 130px 0;
         text-align: center;
       }
       
@@ -38,7 +38,7 @@
 #why-website {
   padding: 40px 0;
   background-color: #ddd;
-  margin-top: -82px;
+  margin-top: -90px;
 }
 
 #why-website .container {
