@@ -29,13 +29,13 @@
         }
       
         .left-arrow {
-          left: calc(54% - 30px); 
+          left: calc(7% - 30px); 
           top: 50%;
           transform: translateY(-50%); 
         }
       
         .right-arrow {
-          right: 120px;
+          right: 10px;
         }
       
         .text-image-section {
@@ -144,4 +144,7 @@
     .image-content .image-slide:last-child {
         margin-right: 0; 
     }
+}
+
+
 }
