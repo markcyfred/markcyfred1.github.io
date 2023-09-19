@@ -101,20 +101,21 @@
         display: none;
     }
 
-    .arrow {
+    
+      .left-arrow, .right-arrow {
         font-size: 24px; 
-    }
-
-   
-    .left-arrow {
-        left: 20px; 
-        margin-top: 380px;
-    }
-
-    .right-arrow {
-        right: 20px;
-        margin-top: 380px;
-    }
+      }
+    
+      .left-arrow {
+        left: 0; 
+        transform: translateY(-50%);
+      }
+    
+      .right-arrow {
+        right: 0; 
+        transform: translateY(-50%);
+      }
+    
     .image-content {
         flex: 1;
         display: flex;

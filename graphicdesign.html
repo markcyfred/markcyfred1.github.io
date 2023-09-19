@@ -62,7 +62,7 @@
  
     <main>
       <section class="text-image-section">
-        <div class="arrow left-arrow" onclick="changeImage(-1)">&#10094;</div>
+        
         <div class="text-content">
           <h2>PaulMedia: Your Graphic Design Expert</h2>
           <p>PaulMedia, our skilled UI/UX designer, invites you on a design journey. From carefully crafted logos that symbolize your essence to captivating brochures narrating your story, we blend creativity with strategy. Every pixel is a brushstroke, every interaction a canvas. We craft designs with precision, sparking connections and leaving indelible impressions. It's not just visuals; it's about making your brand resonate. Step into a world where creativity meets purpose, where your vision finds its perfect frame, and your story finds vibrant hues. Elevate your brand; redefine your identity with PaulMedia.</p>
@@ -70,6 +70,7 @@
         </div>
         <div class="divider"></div> 
         <div class="image-content">
+          <div class="arrow left-arrow" onclick="changeImage(-1)">&#10094;</div>
           <div class="image-slide">
               <img src="assets/img/graphic/Catelogue.jpg" alt="Image">
           </div>
@@ -85,11 +86,11 @@
           <div class="image-slide">
             <img src="assets/img/logo.jpg" alt="Image">
         </div>
-          
+        <div class="arrow right-arrow" onclick="changeImage(1)">&#10095;</div>
           <!-- Add more image-slide divs and images as needed -->
       </div>
       
-    <div class="arrow right-arrow" onclick="changeImage(1)">&#10095;</div>
+    
 </section>
       <script>
               const imageSlides = document.querySelectorAll('.image-slide');
