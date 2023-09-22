@@ -21,6 +21,7 @@
   100% {
     transform: translate3d(0, 0, 0) rotate(226deg);
   }
+  
 }
 
 .calimark-shape-1 {
@@ -213,6 +214,12 @@
   }
   100% {
     transform: translate3d(0, 0, 0) rotate(719deg);
+  }
+  
+}
+@media (max-width: 767px) {
+  .calimark-shape-100 {
+    display: none;
   }
 }
 .calimark-shape-100 {
@@ -480,3 +487,37 @@
     transform: translate3d(0, 0, 0) rotate(531deg);
   }
 }
+
+
+/* ... Your existing CSS rules ... */
+
+/* Add media query for smaller screens */
+@media (max-width: 767px) {
+  .calimark-shape-1 .random-shape:after,
+  .calimark-shape-3 .random-shape:after,
+  .calimark-shape-5 .random-shape:after,
+  .calimark-shape-6 .random-shape:after,
+  .calimark-shape-7 .random-shape:after,
+  .calimark-shape-8 .random-shape:after,
+  .calimark-shape-9 .random-shape:after,
+  .calimark-shape-10 .random-shape:after,
+  .calimark-shape-11 .random-shape:after,
+  .calimark-shape-13 .random-shape:after,
+  .calimark-shape-14 .random-shape:after,
+  .calimark-shape-15 .random-shape:after,
+  .calimark-shape-16 .random-shape:after,
+  .calimark-shape-17 .random-shape:after,
+  .calimark-shape-18 .random-shape:after,
+  .calimark-shape-19 .random-shape:after,
+  .calimark-shape-20 .random-shape:after,
+  .calimark-shape-21 .random-shape:after,
+  .calimark-shape-22 .random-shape:after,
+  .calimark-shape-24 .random-shape:after,
+  .calimark-shape-100 .random-shape:after
+  
+  {
+    font-size: 0.5rem; /* Adjust the font size for mobile */
+    margin: 25rem;
+  }
+}
+
