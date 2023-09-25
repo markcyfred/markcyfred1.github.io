@@ -151,18 +151,38 @@
             </div>
           </div>
           <label for="message">More Information:</label>
-          <textarea id="message" name="message" rows="5" placeholder="Share Your Thoughts with Us" required></textarea>
+          <textarea style="height: 100px;" id="message" name="message" rows="5" placeholder="Share Your Thoughts with Us" required></textarea>
           <button type="submit" onclick="confirmSendEmail()" id="send-button" style="margin-top: 10px;">Send
             SMS</button>
 
         </form>
       </div>
-
-
-
-
-
   </main>
+  <style>
+    /* Set a purple outline on focus for all input elements */
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus,
+    select:focus,
+    textarea:focus {
+      outline: 0px solid #12aa1f;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+  </style>
+  
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="footer-top">
@@ -322,7 +342,7 @@
       emailjs.send('service_iwp0t2b', 'template_fy43gyk', templateParams)
         .then(function (response) {
           // Display success alert
-          displayAlert('Email sent successfully!', true);
+          displayAlert('Message sent successfully!', true);
           document.getElementById('contact-form').reset();
         })
         .catch(function (error) {
@@ -334,10 +354,12 @@
           sendButton.innerHTML = originalButtonText;
         });
     };
+    
 
     // Load EmailJS and initialize it
     loadEmailJs();
   </script>
+  
 </body>
 
 </html>
