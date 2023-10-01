@@ -61,65 +61,168 @@
   </header>
  
     <main>
-    <div class="projects-container">
-            <h2 style="margin-top: 100px;text-align: center;">Our Projects</h2>
-
-            <div class="project">
-                <h3>House Hunt</h3>
-                <p>Your house search ally. House Hunt helps users find their dream homes by providing a comprehensive
-                    platform to search for properties based on their preferences and requirements.</p>
+      <h2 style="text-align: center; margin-top: 120px;" class="section-title">Projects</h2>
+      <div class="project-grid">
+        <!-- First row of project containers -->
+        <div class="project-container">
+          <div class="project-image">
+            <img src="projects/img/image.webp" alt="Project 1 Image">
+          </div>
+          <div class="project-details">
+            <div  class="project-name">
+              House Hunting
             </div>
-
-            <div class="project">
-                <h3>Store Manager</h3>
-                <p>Store Manager is a comprehensive software solution designed to streamline retail operations. It
-                    assists in inventory management, sales tracking, and employee management to optimize store
-                    performance.</p>
+            <div class="organization">
+              Housing
             </div>
-
-            <div class="project">
-                <h3>Agriculture Management </h3>
-                <p>The Agriculture Management System is a digital platform that facilitates efficient farm management.
-                    It includes features for crop monitoring, resource allocation, and enhanced productivity analysis. 
-                    </p>
+            <div class="read-more">
+              <a href="cypressmark.me">Read More</a>
             </div>
-<div class="coming-soon-container">
-            <h2 style="text-align: center;">Links Coming Soon</h2>
+          </div>
         </div>
+        <div class="project-container">
+          <div class="project-image">
+            <img src="projects/img/screenshot.webp" alt="Project 2 Image">
+          </div>
+          <div class="project-details">
+            <div class="project-name">
+              Store Management
+            </div>
+            <div class="organization">
+              Store
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
+        <div class="project-container">
+          <div class="project-image">
+            <img src="projects/img/w.png" alt="Project 3 Image">
+          </div>
+          <div class="project-details">
+            <div class="project-name">
+              Weather API
+            </div>
+            <div class="organization">
+              Weather
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-image">
+            <img src="projects/img/project4.webp" alt="Salon project">
+          </div>
+          <div class="project-details">
+            <div class="project-name">
+              Beuty Salon
+            </div>
+            <div class="organization">
+              Salon
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project containers as needed -->
+      </div>
+      
+      
+    
 <style>
-.our-head
-  .projects-container {
-    text-align: center;
-  }
+  .project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
 
-  .project {
-    display: inline-block;
-    width: 30%; /* Adjust width as needed */
-    margin: 10px;
-    border: 1px solid #ccc; /* Optional: Add border for style */
-    padding: 20px;
-  }
+.project-container {
+  flex: 1 0 calc(25% - 20px); /* Adjust the width and margin as needed */
+  margin: 10px;
+  overflow: hidden;
+  height: 300px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
-  .project.left {
-    text-align: left;
-  }
+.project-container .project-image {
+  width: 100%;
+  height: 100%; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
 
-  .project.center {
-    text-align: center;
-  }
+.project-container .project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center bottom; /* Image appears from the center bottom */
+  transition: transform 0.3s; /* Add transition for smooth hover effect */
+}
 
-  .project.right {
-    text-align: right;
-  }
+.project-container .project-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0; /* Initially hide the content */
+  transition: opacity 0.3s; /* Add transition for smooth hover effect */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Initial color */
+}
 
-  @media screen and (max-width: 600px) {
-    .project {
-      width: 100%;
-    }
-  }
-                                                                                                                   
-</style>
+.project-container:hover .project-image img {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.project-container:hover .project-details {
+  opacity: 1; /* Show the content on hover */
+  background: rgba(82, 82, 82, 0.6); /* Hover background color */
+
+}
+
+.project-container .project-name,
+.project-container .organization,
+.project-container .read-more {
+  text-align: center;
+  margin-bottom: 10px; /* Add margin between elements */
+}
+
+.project-container .read-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project-container .read-more a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+.project-container .project-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.project-container .organization {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+</style>      
     </main>
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
