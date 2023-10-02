@@ -66,6 +66,22 @@
         <!-- First row of project containers -->
         <div class="project-container">
           <div class="project-image">
+            <img src="projects/img/weather.webp" alt="Project 3 Image">
+          </div>
+          <div class="project-details">
+            <div class="project-name">
+              Weather API
+            </div>
+            <div class="organization">
+              Weather
+            </div>
+            <div class="read-more">
+              <a href="http://weather-api-eight-eosin.vercel.app" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-image">
             <img src="projects/img/image.webp" alt="Project 1 Image">
           </div>
           <div class="project-details">
@@ -76,7 +92,7 @@
               Housing
             </div>
             <div class="read-more">
-              <a href="cypressmark.me">Read More</a>
+              <a href="#">Read More</a>
             </div>
           </div>
         </div>
@@ -96,22 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="project-container">
-          <div class="project-image">
-            <img src="projects/img/w.png" alt="Project 3 Image">
-          </div>
-          <div class="project-details">
-            <div class="project-name">
-              Weather API
-            </div>
-            <div class="organization">
-              Weather
-            </div>
-            <div class="read-more">
-              <a href="#">Read More</a>
-            </div>
-          </div>
-        </div>
+       
         <div class="project-container">
           <div class="project-image">
             <img src="projects/img/project4.webp" alt="Salon project">
@@ -140,31 +141,14 @@
   justify-content: center;
   margin-top: 10px; /* Adjust margin as needed */
 }
-
 .project-container {
-  flex: 1 0 calc(25% - 20px); /* Adjust the width and margin as needed */
-  margin: 10px;
+  flex: 1 0 calc(20% - 30px); /* Adjust the width and margin as needed */
+  margin: 15px; /* Adjust the margin as needed for left and right space */
   overflow: hidden;
-  height: 300px; /* Adjust the height as needed */
+  height: 200px; /* Adjust the height as needed */
   display: flex;
   flex-direction: column;
   position: relative;
-}
-
-.project-container .project-image {
-  width: 100%;
-  height: 100%; /* Adjust the height as needed */
-  overflow: hidden;
-  border-radius: 10px 10px 0 0;
-  position: relative;
-}
-
-.project-container .project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform-origin: center bottom; /* Image appears from the center bottom */
-  transition: transform 0.3s; /* Add transition for smooth hover effect */
 }
 
 .project-container .project-details {
@@ -172,23 +156,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  opacity: 0; /* Initially hide the content */
-  transition: opacity 0.3s; /* Add transition for smooth hover effect */
+  opacity: 1; /* Initially show the content */
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.6); /* Initial color */
-}
-
-.project-container:hover .project-image img {
-  transform: scale(1.1); /* Zoom in effect on hover */
+  transition: transform 0.3s; /* Add transition for zoom effect */
+  transform: scale(1); /* Initial scale */
 }
 
 .project-container:hover .project-details {
-  opacity: 1; /* Show the content on hover */
-  background: rgba(82, 82, 82, 0.6); /* Hover background color */
-
+  transform: scale(1.2); /* Zoom in effect on hover */
 }
 
 .project-container .project-name,
@@ -206,21 +185,45 @@
   color: #3498db;
   border-radius: 5px;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for hover effect */
 }
 
 .project-container .read-more a:hover {
   background-color: #3498db;
   color: #fff;
 }
+
 .project-container .project-name {
   font-size: 20px;
   font-weight: 600;
   color: #fff;
 }
+
 .project-container .organization {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+}
+.project-container .project-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #3498db; /* Border added */
+  box-sizing: border-box; /* Include border in element's dimensions */
+  position: relative;
+}
+
+.project-container .project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    flex: 1 0 calc(100% - 30px); /* Adjust the width and margin as needed */
+  }
 }
 </style>      
     </main>
