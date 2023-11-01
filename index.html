@@ -1,242 +1,558 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>MywebMark Technologies</title>
-    <link href="assets/img/logo.png" rel="icon">
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/shapes1.css" rel="stylesheet">
-  </head>
-  <body>
-    <header id="header" class="header fixed-top">
-      <div id="shapes-container"></div>
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
-              <span style="display: block;">MywebMark</span>
-          </a>
-          <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
-            <div class="mobile-menu-box">
-                <div class="mobile-menu-bar"></div>
-                <div class="mobile-menu-bar"></div>
-                <div class="mobile-menu-bar"></div>
-            </div>
-        </button>
-          <nav id="navbar" class="navbar">
-            
-              <ul>
-                  <li><a class="active nav-link" href="index.html">Home</a></li>
-                  <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-                  <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-                  <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-                  <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
-                  <li style="margin-right: 20px;"><a class="nav-link" href="projects.html">Projects</a></li>
-                  <li><a class="getstarted scrollto nav-link" href="#about">Get Started</a></li>
-              </ul>
-          </nav>
-      </div>
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    
-          
-          <nav class="mobile-menu">
-              <ul>
-                  <li><a class="active nav-link" class="nav-link" href="index.html">Home</a></li>
-                  <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-                  <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-                  <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-                  <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
-                  <li><a class="nav-link" href="projects.html">Projects</a></li>
-                  <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-              </ul>
-          </nav>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MywebMark Technologies</title>
+  <link href="assets/img/logo.png" rel="icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/shapes1.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="header fixed-top">
+    <div id="shapes-container"></div>
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt>
+        <span style="display: block;">MywebMark</span>
+      </a>
+      <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
+        <div class="mobile-menu-box">
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+        </div>
+      </button>
+      <nav id="navbar" class="navbar">
+
+        <ul>
+          <li><a class="active nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+          <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
+          <li style="margin-right: 20px;"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="getstarted scrollto nav-link" href="#about">Get
+              Started</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <nav class="mobile-menu">
+        <ul>
+          <li><a class="active nav-link" class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+          <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button style="background-color: #12aa1f;" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button style="background-color: #12aa1f;" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button style="background-color: #12aa1f;" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="height: 100vh;">
+        <div class="carousel-item active">
+          <section class="content-below-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hero-image">
+                    <img src="assets/img/details-2.png" alt="Your Image" id="image" class="image-animation">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                
+                  <div class="hero-text">
+                    <div style="height:50px; overflow: hidden;">
+                      <h1><span id="dynamic-text" class="bounce-in">Elevating
+                          Brands</span></h1>
+                    </div>
+                    <div style="height: 50px; overflow: hidden;">
+                      <h1 style="font-size: 24px;">Within & Across The World</h1>
+                    </div>
+                    <p class="text-animation" id="dynamic-paragraph" style="min-height: 10px;text-align:none; ">As a
+                      skilled
+                      web
+                      developer and team
+                      of graphic designers, we offer a comprehensive solution
+                      for your branding and software development
+                      needs.
+                      We are dedicated to exploring and implementing every
+                      available resource to make your product or brand
+                      stand out. Even if your business is already
+                      technologically advanced, we ensure you don't miss out
+                      on the
+                      latest innovations.</p>
+                    <a style="border-radius: 100px 0 100px 10px;" href="#who-we-are" class="btn bounce-in">Learn More <i
+                        class="fas fa-arrow-down"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+          <section class="content-below-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hero-image">
+                    <img src="assets/img/hero-img.png" alt="Your Image" id="image" class="image-animation"
+                      style="max-width: 100%;">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="hero-text">
+                    <div class="dynamic-text-container">
+                      <h1><span id="dynamic-text" class="text-animation">Website design <span
+                            style="color: rgb(0, 0, 0); font-size: 14px; font-style: italic;">&#10003;---<i>customized
+                              modern
+                              , <span style="color: #007700;">design</span> ++</i></span></span></h1>
+                      </span> </i></span></span></span></h1>
+                    </div>
+                    <div class="secondary-heading">
+                      <h2>Get stunning website design</h2>
+                    </div>
+                    <p id="dynamic-paragraph" class="text-animation">
+                      Elevate your brand with innovative designs that leave a lasting impression.
+                    </p>
+
+                    <!-- Website showcase with descriptions above images and "Read More" link -->
+                    <div class="small-images-section">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h3>Website designs selection of the week</h3>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <div class="price">
+                                  <p>Blog Website</p>
+                                  <img style="width: 30px;" src="assets/img/save-money.png" alt="Price Image">
+                                  <span><strong>Ksh. 15,000</strong></span>
+                                  <!--image-->
+                                  <img style=" object-fit: contain;width: 100px;margin-left: 20px;"
+                                    src="assets/img/features-3.png" alt="Image 1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <div class="price">
+                                  <p>Basic Website</p>
+                                  <img style="width: 30px;" src="assets/img/save-money.png" alt="Price Image">
+                                  <span><strong>Ksh. 20,000</strong></span>
+                                  <img style=" object-fit: contain;width: 120px;margin-left: 20px;"
+                                    src="assets/img/seo.png" alt="Image 1">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <div class="price">
+                                  <p>Ecommerce</p>
+                                  <img style="width: 30px;" src="assets/img/save-money.png" alt="Price Image">
+                                  <span><strong>Ksh. 50,000</strong></span>
+                                  <img style=" object-fit: contain;width: 100px;margin-left: 20px;"
+                                    src="assets/img/desktop.png" alt="Image 1">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Add more image elements with descriptions and "Read More" links as needed -->
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+          </section>
+
+        </div>
+        <div style="margin-top: -40px;" class="carousel-item">
+          <section class="content-below-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hero-image">
+                    <img style="width: 400px!important;" src="assets/img/graphic/box.jpg"
+                      alt="Graphic Design Illustration" id="image" class="image-animation">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="hero-text">
+                    <div class="dynamic-text-container">
+                      <h1><span id="dynamic-text" class="text-animation">Graphic
+                          Design <span
+                            style="color: rgb(0, 0, 0); font-size: 14px; font-style: italic;">&#10003;---<i>logo
+                              design, <span style="color: #007700;">business
+                                cards</span> ++</i></span></span></h1>
+                    </div>
+                    <div class="secondary-heading">
+                      <h2>Engage with Creative Design</h2>
+                    </div>
+                    <p id="dynamic-paragraph" class="text-animation">
+                      Transform your vision into stunning visual content that
+                      captivates your audience. Our team of skilled designers
+                      will bring your ideas to life, ensuring a captivating
+                      and memorable visual experience for your brand.
+                    </p>
+
+                    <!-- Small images section within the third carousel item -->
+                    <div class="small-images-section">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h3>Graphic designs selection of the week</h3>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="assets/img/graphic/box.jpg" class="img-responsive img-fluid" alt="Image 1">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="assets/img/graphic/Catelogue.jpg" class="img-responsive img-fluid"
+                                  alt="Image 2">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="assets/img/social-media.jpg" class="img-responsive img-fluid" alt="Image 3">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Add more image elements as needed -->
+                        </div>
+                      </div>
+                    </div>
+                    <style>
+                      /* Style for the small images section */
+                      .small-images-section h3 {
+                        font-size: 24px;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        color: rgb(243, 3, 3);
+                        /* Text color */
+                      }
+
+                      /* Style for the image containers */
+                      .thumb-wrapper {
+                        margin-bottom: 20px;
+                        /* Spacing between images */
+                      }
+
+                      .img-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  /* Remove height and overflow properties */
+}
+  /* Style for the image box */
+                      .img-box {
+                        border: 1px solid #ddd;
+                        /* Border around images */
+                        padding: 10px;
+                        /* Padding within the image box */
+                        height: 200px;
+                        /* Set a fixed height for all images */
+                        
+                      }
+
+                      /* Style for the images */
+                      .img-box img {
+                        max-width: 100%;
+                        /* Ensure images don't exceed their container */
+                        height: 100%;
+                        /* Make the images fill the fixed height */
+                        object-fit: fill;
+                        /* Maintain aspect ratio and cover the entire box */
+                      }
+
+                      .image-animation {
+                        animation: scaleUp 2s ease-in-out;
+                        transform-origin: center center;
+                        opacity: 1;
+                      }
+
+                      .text-animation {
+                        animation: textSlideIn 2s ease-in-out;
+                        transform-origin: left center;
+                        opacity: 1;
+                      }
+
+                      @keyframes scaleUp {
+                        0% {
+                          transform: scale(0);
+                        }
+
+                        100% {
+                          transform: scale(1);
+                        }
+                      }
+
+                      @keyframes textSlideIn {
+                        0% {
+                          transform: translateX(-50px);
+                        }
+
+                        100% {
+                          transform: translateX(0);
+                        }
+                      }
+
+                      /* Reduce image size on mobile */
+@media (max-width: 767px) {
+  .hero-image img {
+    max-width: 100%; /* Ensure the image is responsive on mobile */
+    height: auto; /* Allow the image to adjust its height proportionally */
+  }
+}
+
+/* Style for dynamic text on mobile devices */
+@media (max-width: 767px) {
+  .hero-text .dynamic-text-container {
+    text-align: center; /* Center-align the dynamic text */
+  }
+
  
-    <main>
-      <section class="content-below-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="hero-image">
-                <img src="assets/img/details-2.png" alt="Your Image" id="image" class="bounce-in">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="hero-text">
-                <div style="height: 50px; overflow: hidden;">
-                  <h1><span id="dynamic-text" class="bounce-in">Elevating Brands</span></h1>
-                </div>
-                <div style="height: 50px; overflow: hidden;">
-                  <h1 style="font-size: 24px;">Within & Across The World</h1>
-                </div>
 
-                <p class="bounce-in" id="dynamic-paragraph" style="min-height: 10px;text-align:none; ">As a skilled web
-                  developer and team
-                  of graphic designers,we offer a comprehensive solution for your branding and software development needs.
-                  We are dedicated to exploring and implementing every available resource to make your product or brand
-                  stand out. Even if your business is already technologically advanced, we ensure you don't miss out on the
-                  latest innovations.</p>
-                  <a style="  border-radius: 100px 0 100px 10px;
-                  " href="#who-we-are" class="btn bounce-in">Learn More <i class="fas fa-arrow-down"></i></a>
+  .secondary-heading h2 {
+    font-size: 10px; /* Adjust the font size for the secondary heading */
+  }
+
+
+}
+/* Hide the specified paragraph on mobile devices */
+@media (max-width: 767px) {
+  #dynamic-paragraph {
+    text-align: left; /* Remove justify and align the text to the left */
+    display: block; /* Show the paragraph */
+    font-size: 10px; /* Adjust the font size to your preference */
+    line-height: 1.5;
+  }
+}
+
+/* Reduce font size for h3 element on mobile devices */
+@media (max-width: 767px) {
+  .small-images-section h3 {
+    font-size: 10px!important; /* Adjust the font size to your preference */
+  }
+}
+
+
+
+/* Show only the first image on mobile */
+
+@media (max-width: 767px) {
+  .small-images-section .container .row .col-md-4:nth-child(1) {
+    display: block; /* Show the first image */
+  }
+
+  .small-images-section .container .row .col-md-4:nth-child(2),
+  .small-images-section .container .row .col-md-4:nth-child(3) {
+    display: none; /* Hide the second and third images */
+  }
+
+  .small-images-section .container .row .col-md-4:nth-child(1) .img-box img {
+    max-width: 50%; /* Adjust the size of the first image as needed */
+    height: auto; /* Allow the image to adjust its height proportionally */
+  }
+}
+
+/* Show only the first image on mobile and reduce its size */
+
+
+/* Style for the <h1> element in the mobile view */
+  @media (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 10px!important; /* Set the font size for mobile */
+    line-height: 20px; /* Adjust the line height as needed */
+  }
+}
+
+
+
+                    </style>
+
+                  </div>
+                </div>
               </div>
             </div>
-            <style>
-              @media (max-width: 768px) {
-                .content-below-header .col-md-6 {
-                  width: 100%;
-                  padding: 0;
-                  margin-bottom: 0px; /* Adjust margin as needed */
-                }
-              
-                .content-below-header .hero-image {
-                  text-align: center;
-                }
-              
-                .content-below-header .hero-image img {
-                  width: 100%; /* Adjust image width */
-                  display: block;
-                  margin: 0 auto; /* Center the image */
-                }
-              
-                .content-below-header .hero-text {
-                  text-align: center;
-                }
-              
-              
-                .content-below-header p {
-                  font-size: 16px; /* Adjust font size */
-                  text-align: justify;
-                }
-              
-                .content-below-header .btn {
-                  display: block;
-                  margin: 0 auto; /* Center the button */
-                  border-radius: 100px; /* Adjust border-radius as needed */
-                }
-              }
-              </style>
-          </div>
+          </section>
         </div>
-      </section>
-      <section class="our-work">
-        <div class="box">
-          <h2 style="color: white; font-family: Ubuntu;">Web Design</h2>
-          <div class="content">
-            <img src="assets/img/hero-img.svg" alt="Web Design Image">
-            <p>Your Partner In Web Design</p>
-          </div>
+
+      </div>
+
+    </div>
+
+    <section class="our-work">
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">Web Design</h2>
+        <div class="content">
+          <img src="assets/img/hero-img.svg" alt="Web Design Image">
+          <p>Your Partner In Web Design</p>
         </div>
-        <div class="box">
-          <h2 style="color: white; font-family: Ubuntu;">Graphic Design</h2>
-          <div class="content">
-            <img src="assets/img/features-2.png" alt="Graphic Design Image">
-            <p>Elevate Your Brand </p>
-          </div>
+      </div>
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">Graphic Design</h2>
+        <div class="content">
+          <img src="assets/img/features-2.png" alt="Graphic Design Image">
+          <p>Elevate Your Brand </p>
         </div>
-        <div class="box">
-          <h2 style="color: white; font-family: Ubuntu;">SEO</h2>
-          <div class="content">
-            <img src="assets/img/slider-dec.png" alt="SEO Image">
-            <p>Boost Your Online Presence </p>
-          </div>
+      </div>
+      <div class="box">
+        <h2 style="color: white; font-family: Ubuntu;">SEO</h2>
+        <div class="content">
+          <img src="assets/img/slider-dec.png" alt="SEO Image">
+          <p>Boost Your Online Presence </p>
         </div>
-      </section>
-      <section id="who-we-are">
-        <h2 style="color: #12aa1f;" >WHO WE ARE
-         
-        </h2>
-        <h4>Brief Information About MyWebMark Technologies</h4>
-    
-        <div id="brief-info">
-            <div id="info-content">
-                <img src="assets/img/laptop-tablet-phone-mockup.png" alt="MyWebMark Logo">
-            </div>
-            <div id="text-content">
-                <p>
-                    MyWebMark Technologies focuses primarily on the Designing, support, research and development of Customized Information Technology Solutions for our clients at an affordable rate. Our mission is to drive Customer Satisfaction and the Digitization of Companies' Operations. We specialize in professional website design, development, Web Application Design and Development, and Mobile App Development. Our dynamic team consists of young and innovative website designers and developers, alongside talented graphic designers and some of the best software developers in the industry.
-                </p>
-                <div id="read-more">
-                  <a href="aboutus.html">
-                      <h3 style="font-size: 20px;">Read More</h3>
-                  </a>
-              </div>
-              
-            </div>
-        </div>
+      </div>
     </section>
-      <div id="services" style="padding-top: -2rem; background-color:white;margin-bottom: -50px;">
-        <div class="container" style="padding: em 0">
-          <h1 class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -90px;">
-            What We Do
-          </h1>
-          <div class="row">
-            <!-- Service 1 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
-              <div class="media" data-aos="fade-up" data-aos-delay="150" style="cursor: pointer;border: 2px solid #12aa1f">
-                <div class="media-top">
-                  <img alt="Best graphic designer kenya" style="margin-left: -70px; width: 300px;" class="mobile-image"
-                    src="assets/img/graphic-design.png">
+    <section id="who-we-are">
+      <h2 style="color: #12aa1f;">WHO WE ARE
 
-                </div>
-                <div class="media-body animated fadeInDown" data-aos="fade-in" data-aos-duration="4000">
-                  <h3 class="media-heading teal">Graphic Design</h3>
-                  <p style="color: #445;">At MywebMark Technologies wemake designs that breathe life into your brand, making a lasting impression on your audience and conveying your message effectively.</p>
-                </div>
+      </h2>
+      <h4>Brief Information About MyWebMark Technologies</h4>
+
+      <div id="brief-info">
+        <div id="info-content">
+          <img src="assets/img/laptop-tablet-phone-mockup.png" alt="MyWebMark Logo">
+        </div>
+        <div id="text-content">
+          <p>
+            MyWebMark Technologies focuses primarily on the Designing,
+            support, research and development of Customized
+            Information Technology Solutions for our clients at an affordable
+            rate. Our mission is to drive Customer
+            Satisfaction and the Digitization of Companies' Operations. We
+            specialize in professional website design,
+            development, Web Application Design and Development, and Mobile
+            App Development. Our dynamic team consists
+            of young and innovative website designers and developers,
+            alongside talented graphic designers and some of
+            the best software developers in the industry.
+          </p>
+          <div id="read-more">
+            <a href="aboutus.html">
+              <h3 style="font-size: 20px;">Read More</h3>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div id="services" style="padding-top: -2rem; background-color:white;margin-bottom: -50px;">
+      <div class="container" style="padding: em 0">
+        <h1 class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -90px;">
+          What We Do
+        </h1>
+        <div class="row">
+          <!-- Service 1 -->
+          <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
+            <div class="media" data-aos="fade-up" data-aos-delay="150"
+              style="cursor: pointer;border: 2px solid #12aa1f">
+              <div class="media-top">
+                <img alt="Best graphic designer kenya" style="margin-left: -70px; width: 300px;" class="mobile-image"
+                  src="assets/img/graphic-design.png">
+
+              </div>
+              <div class="media-body animated fadeInDown" data-aos="fade-in" data-aos-duration="4000">
+                <h3 class="media-heading teal">Graphic Design</h3>
+                <p style="color: #445;">At MywebMark Technologies wemake
+                  designs that breathe life into your brand,
+                  making a lasting impression on your audience and conveying
+                  your message effectively.</p>
               </div>
             </div>
+          </div>
 
-            <!-- Service 2 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
-              <div class="media" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;">
-                <div class="media-top">
-                  <img alt="Web developer in nairobi" class="mobile-image" src="assets/img/web.jpg">
-                </div>
-                <div class="media-body">
-                  <h3 class="media-heading teal">Web Development</h3>
-                  <p style="color: #445;">At MywebMark Technologies we design a customized, dynamic and efficient web applications tailored to your unique vision and requirements.</p>
-                </div>
+          <!-- Service 2 -->
+          <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
+            <div class="media" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;">
+              <div class="media-top">
+                <img alt="Web developer in nairobi" class="mobile-image" src="assets/img/web.jpg">
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading teal">Web Development</h3>
+                <p style="color: #445;">At MywebMark Technologies we design a
+                  customized, dynamic and efficient web
+                  applications tailored to your unique vision and
+                  requirements.</p>
               </div>
             </div>
+          </div>
 
-            <!-- Service 3 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
-              <div class="media" data-aos="fade-up" data-aos-delay="400" style="cursor: pointer;">
-                <div class="media-top">
-                  <img alt="cheap domain names" class="mobile-image" src="assets/img/ui.jpeg" height="170px">
-                </div>
-                <div class="media-body">
-                  <h3 class="media-heading teal">UI/UX Design</h3>
-                  <p style="color: #445;">We elevate your website's appeal and user-friendliness with our UI/UX design.
-                    Captivate visitors and deliver exceptional browsing experiences.</p>
-                </div>
+          <!-- Service 3 -->
+          <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
+            <div class="media" data-aos="fade-up" data-aos-delay="400" style="cursor: pointer;">
+              <div class="media-top">
+                <img alt="cheap domain names" class="mobile-image" src="assets/img/ui.jpeg" height="170px">
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading teal">UI/UX Design</h3>
+                <p style="color: #445;">We elevate your website's appeal and
+                  user-friendliness with our UI/UX design.
+                  Captivate visitors and deliver exceptional browsing
+                  experiences.</p>
               </div>
             </div>
+          </div>
 
-            <!-- Service 4 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
-              <a style="cursor: pointer;">
-                <div class="media" data-aos="fade-up" data-aos-delay="600" style="padding: 0;border: 2px solid #12aa1f">
-                  <div class="media-top">
-                    <img alt="affordable web hosting in kenya" class="mobile-image" src="assets/img/CMS.png" width="300px" height="170px">
-                  </div>
-                  <div class="media-body" style="padding: 0 20px;">
-                    <h3 class="media-heading teal">CMS</h3>
-                    <p style="color: #445;">At MywebMark Technologies We Simplify website management with CMS integration. Easily update and
-                      maintain your content. Bringing to your success in online presence.</p>
-                  </div>
+          <!-- Service 4 -->
+          <div class="col-lg-3 col-md-3 col-sm-6" style="margin-bottom: 20px;">
+            <a style="cursor: pointer;">
+              <div class="media" data-aos="fade-up" data-aos-delay="600" style="padding: 0;border: 2px solid #12aa1f">
+                <div class="media-top">
+                  <img alt="affordable web hosting in kenya" class="mobile-image" src="assets/img/CMS.png" width="300px"
+                    height="170px">
                 </div>
-              </a>
-            </div>
-            
-           
+                <div class="media-body" style="padding: 0 20px;">
+                  <h3 class="media-heading teal">CMS</h3>
+                  <p style="color: #445;">At MywebMark Technologies We
+                    Simplify website management with CMS integration.
+                    Easily update and
+                    maintain your content. Bringing to your success in online
+                    presence.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
           <div class="text-center" style="padding-top: 2em; color: green;">
             <a href="contact-us.html" class="btn btn-teal btn-padded hvr-float-shadow"
               style="background-color: green; color: white; display: inline-block; padding: 10px 10px;">
@@ -246,149 +562,160 @@
         </div>
       </div>
 
-
       <section>
         <div class="container" style="margin-top: -2em; margin-bottom: -2em;">
           <div class="row">
-              <div class="col-sm-6">
-                  <div class="migrate-container" style="padding: 1em;" data-aos="fade-up" data-aos-delay="200">
-                      <div class="media-body">
-                          <h2 class="teal media-heading text-left">Get Your Design</h2>
-                          <p class="text-left" style="padding-top: .5em">Elevate your graphics with our expertise, creating visuals that leave a lasting impact.</p>
-                          <div class="text-left">
-                              <a href="graphicdesign.html" style="    border-radius: 100px 0 100px 10px;
-                              " class="btn btn-sm btn-teal hvr-float-shadow">Your Design</a>
-                          </div>
-                      </div>
+            <div class="col-sm-6">
+              <div class="migrate-container" style="padding: 1em;" data-aos="fade-up" data-aos-delay="200">
+                <div class="media-body">
+                  <h2 class="teal media-heading text-left">Get Your Design</h2>
+                  <p class="text-left" style="padding-top: .5em">Elevate your
+                    graphics with our expertise, creating
+                    visuals that leave a lasting impact.</p>
+                  <div class="text-left">
+                    <a href="graphicdesign.html" style="    border-radius: 100px 0 100px 10px;
+                              " class="btn btn-sm btn-teal hvr-float-shadow">Your
+                      Design</a>
                   </div>
+                </div>
               </div>
-      
-              <div class="col-sm-6">
-                  <div class="migrate-container" style="padding: 1em;" data-aos="fade-up" data-aos-delay="400">
-                      <div class="media-body">
-                          <h2 class="orange media-heading text-left">Get Your website</h2>
-                          <p class="text-left" style="padding-top: .5em">Enhance your website with our expertise, delivering a captivating online presence that leaves a mark.</p>
-                          <div class="text-left">
-                              <a href="webdesign.html" style="    border-radius: 100px 0 100px 10px;
-                              " class="btn btn-sm btn-orange hvr-float-shadow">Your Website</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </section>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-    <section id="slanted-background">
-      <div class="mark-container">
-          <h2>TALK TO US</h2>
-          <hr class="separator">
-          <p>Feel Free To Contact Us Any Time</p>
-          <a href="contact-us.html" class="btn btn-contact">Contact Us</a> 
-      </div>
-  </section>
-     
-    </main>
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-5 col-md-12 footer-info">
-              <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
-                <span style="display: block;">MywebMark</span>
+            </div>
 
-              </a>
-              <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
-                on customers methodology, data-driven insights, and creative prowess.</p>
-              <div class="social-links mt-3">
-                <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
-                    class="bi bi-linkedin"></i></a>
+            <div class="col-sm-6">
+              <div class="migrate-container" style="padding: 1em;" data-aos="fade-up" data-aos-delay="400">
+                <div class="media-body">
+                  <h2 class="orange media-heading text-left">Get Your website</h2>
+                  <p class="text-left" style="padding-top: .5em">Enhance your
+                    website with our expertise, delivering a
+                    captivating online presence that leaves a mark.</p>
+                  <div class="text-left">
+                    <a href="webdesign.html" style="    border-radius: 100px 0 100px 10px;
+                              " class="btn btn-sm btn-orange hvr-float-shadow">Your
+                      Website</a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="webdesign.html">Web Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">AboutUs</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-              <h4>Contact Us</h4>
-              <p>
-                Fedha <br>
-                Nairobi,<br>
-                Kenya <br>
-                <strong>Phone:</strong> +254 111 893 789<br>
-                <strong>Email:</strong> info@mywebmark.tech<br>
-              </p>
             </div>
           </div>
         </div>
+      </section>
+      <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+          var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+          s1.async = true;
+          s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
+          s1.charset = 'UTF-8';
+          s1.setAttribute('crossorigin', '*');
+          s0.parentNode.insertBefore(s1, s0);
+        })();
+      </script>
+      <!--End of Tawk.to Script-->
+      <section id="slanted-background">
+        <div class="mark-container">
+          <h2>TALK TO US</h2>
+          <hr class="separator">
+          <p>Feel Free To Contact Us Any Time</p>
+          <a href="contact-us.html" class="btn btn-contact">Contact Us</a>
+        </div>
+      </section>
+
+  </main>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt>
+              <span style="display: block;">MywebMark</span>
+
+            </a>
+            <p>We stand out as a reliable ally in attaining marketing
+              success and business growth thanks to our focused
+              on customers methodology, data-driven insights, and creative
+              prowess.</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About
+                  us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of
+                  service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy
+                  policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="webdesign.html">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">AboutUs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product
+                  Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Fedha <br>
+              Nairobi,<br>
+              Kenya <br>
+              <strong>Phone:</strong> +254 111 893 789<br>
+              <strong>Email:</strong> info@mywebmark.tech<br>
+            </p>
+          </div>
+        </div>
       </div>
-      </div>
-    </footer>
-    <div class="back-to-top" id="backToTop">
-      <i class="fa fa-arrow-up"></i>
     </div>
+    </div>
+  </footer>
+  <div class="back-to-top" id="backToTop">
+    <i class="fa fa-arrow-up"></i>
+  </div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/below.js"></script>
-    <script src="assets/js/belowheader.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/below.js"></script>
+  <script src="assets/js/belowheader.js"></script>
 
-    <!-- Online JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Online JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script>
-   $(document).ready(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#backToTop').addClass('active');
-          } else {
-            $('#backToTop').removeClass('active');
-          }
-        });
-        $('#backToTop').click(function () {
-          $('html, body').animate({
-            scrollTop: 0
-          }, 800);
-          return false;
-        });
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('#backToTop').addClass('active');
+        } else {
+          $('#backToTop').removeClass('active');
+        }
       });
-      
-    </script>
-    <script>
-        
-        function loadShapesContent() {
+      $('#backToTop').click(function () {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    });
+
+  </script>
+  <script>
+
+    function loadShapesContent() {
       fetch('shapes.html')
         .then(response => response.text())
         .then(data => {
@@ -401,7 +728,7 @@
     }
 
     loadShapesContent()
-    </script>
-  </body>
+  </script>
+</body>
 
 </html>
