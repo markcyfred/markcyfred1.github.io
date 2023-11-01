@@ -1,221 +1,247 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 
-   <head>
-     <meta charset="utf-8">
-      <meta content="width=device-width, initial-scale=1.0" name="viewport">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-         <title> Page Not Found</title>
+  <title> Page Not Found</title>
 
-           <!-- logo -->
-           <link href="assets/img/logo.png" rel="icon">
-           <!-- Online CSS -->
-           <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-             rel="stylesheet">
-           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- logo -->
+  <link href="assets/img/logo.png" rel="icon">
+  <!-- Online CSS -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-            <!-- Template main CSS File -->
-            <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-             <link href="assets/css/main.css" rel="stylesheet">
-             <link href="assets/css/shapes1.css" rel="stylesheet">
+  <!-- Template main CSS File -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/shapes1.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
 
-               <!-- Add a custom error illustration -->
-          <style>
-                    body {
-                              font-family: 'Open Sans', sans-serif;
-                              background-color: #fff;
+    }
 
-
-                    }
-
-                    .error-illustration {
-                              max-width: 100%;
-                              height: auto;
-                    }
+    .error-illustration {
+      max-width: 100%;
+      height: auto;
+    }
 
 
-                    .message {
-                              font-size: 1.5rem;
-                              margin-top: 1rem;
-                              color: #333;
-                              margin-left: 350px;
+    .message {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #333;
+      margin-left: 350px;
 
-                    }
+    }
 
-                    .home-link {
-                              margin-top: 2rem;
-                              font-size: 1rem;
-                              text-decoration: none;
-                              display: inline-block;
-                              padding: 10px 20px;
-                              background-color: #007700;
-                              color: #f8f8f8;
-                               transition: all 0.3s ease-in-out;
-                              margin-left: 550px;
-                          
+    .home-link {
+      margin-top: 2rem;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007700;
+      color: #f8f8f8;
+      transition: all 0.3s ease-in-out;
+      margin-left: 550px;
+    }
+    @media (max-width: 768px) {
+      .message {
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: #333;
+        margin-left: 10px;
+        margin-right: 0;
+      }
 
-                    }
+      .home-link {
+        margin-top: 2rem;
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007700;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        margin-left: 0;
+        /* Remove the margin-left */
+      }
 
-                    /* Add this CSS for smaller screens (e.g., mobile) */
-                    @media (max-width: 768px) {
-                              .message {
-                                        font-size: 1rem;
-                                        margin-top: 1rem;
-                                        color: #333;
-                                        margin-left: 10px;
-                                        margin-right: 0;
-                                        /* Remove the margin-right */
-                              }
+      /* Make the footer columns stack on top of each other */
+      .footer-links {
+        margin-top: 20px;
+      }
+    }
+  </style>
+  <style>
+    @media (max-width: 768px) {
+      .message {
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: #333;
+        margin-left: 10px;
+        margin-right: 0;
+        /* Remove the margin-right */
+      }
 
-                              .home-link {
-                                        margin-top: 2rem;
-                                        font-size: 1rem;
-                                        text-decoration: none;
-                                        display: inline-block;
-                                        padding: 10px 20px;
-                                        background-color: #007700;
-                                        color: #fff;
-                                        border-radius: 5px;
-                                        transition: all 0.3s ease-in-out;
-                                        margin-left: 0;
-                                        /* Remove the margin-left */
-                              }
+      .home-link {
+        margin-top: 2rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #3498db;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007700;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        margin-left: 0;
+        /* Remove the margin-left */
+      }
 
-                              /* Make the footer columns stack on top of each other */
-                              .footer-links {
-                                        margin-top: 20px;
-                              }
-                    }
-          </style>
-          <style>  @media (max-width: 768px) { .message { font-size: 1rem; margin-top: 1rem; color: #333; margin-left: 10px; margin-right: 0; /* Remove the margin-right */ } .home-link { margin-top: 2rem; font-size: 1rem; text-decoration: none; color: #3498db; display: inline-block; padding: 10px 20px; background-color: #007700; color: #fff; border-radius: 5px; transition: all 0.3s ease-in-out; margin-left: 0; /* Remove the margin-left */ } /* Add margin-top to the image */ .error-illustration { max-width: 100%; height: auto; margin-top: 20px; /* Adjust the margin value to your preference */ } } </style>
- </head>
+      /* Add margin-top to the image */
+      .error-illustration {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        /* Adjust the margin value to your preference */
+      }
+    }
+  </style>
+</head>
 
 <body>
   <style>
     /* CSS for the active link */
     .header .navbar ul li a.active {
-      color: #12aa1f; 
+      color: #12aa1f;
     }
   </style>
-   <header id="header" class="header fixed-top">
+  <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo.png" alt="">
-            <span style="display: block;">MywebMark</span>
-        </a>
-        <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
-          <div class="mobile-menu-box">
-              <div class="mobile-menu-bar"></div>
-              <div class="mobile-menu-bar"></div>
-              <div class="mobile-menu-bar"></div>
-          </div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span style="display: block;">MywebMark</span>
+      </a>
+      <button id="mobile-menu-toggle" class="mobile-nav-toggle" onclick="toggleMobileMenu()">
+        <div class="mobile-menu-box">
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+          <div class="mobile-menu-bar"></div>
+        </div>
       </button>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a  href="index.html">Home</a></li>
-            <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-            <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-            <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-            <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
-            <li style="margin-right: 20px;"><a class="nav-link" href="projects.html">Projects</a></li>
-            <li><a class="getstarted scrollto nav-link" href="#">Get Started</a></li>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+          <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
+          <li style="margin-right: 20px;"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="getstarted scrollto nav-link" href="#">Get Started</a></li>
         </ul>
-        </nav>
+      </nav>
     </div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-  
-        
-        <nav class="mobile-menu">
-            <ul>
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="aboutus.html">About Us</a></li>
-                <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
-                <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
-                <li><a  class="nav-link" href="contact-us.html">Contact-us</a></li>
-                <li><a class="nav-link" href="projects.html">Projects</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-            </ul>
-        </nav>
+
+
+      <nav class="mobile-menu">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li><a class="nav-link" href="webdesign.html">Web Design</a></li>
+          <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
+          <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+      </nav>
     </div>
-</header>
-          <div style="display: flex; justify-content: center; align-items: center;margin-top: 100px;">
-                    <img style="width: 100%; max-width: 300px;@media screen {
+  </header>
+  <div style="display: flex; justify-content: center; align-items: center;margin-top: 100px;">
+    <img style="width: 100%; max-width: 300px;@media screen {
                                                                                                                    
                                                                                                                    
-                    }" src="assets/img/error.png" alt="404 Error"
-                              class="error-illustration">
+                    }" src="assets/img/error.png" alt="404 Error" class="error-illustration">
+  </div>
+
+  <div class="message">Oops! The page you're looking for could not be found.</div>
+  <a href="index.html" class="home-link">Go back to the homepage</a>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span style="display: block;">MywebMark</span>
+
+            </a>
+            <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
+              on customers methodology, data-driven insights, and creative prowess.</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
           </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="webdesign.html">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">AboutUs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Fedha <br>
+              Nairobi,<br>
+              Kenya <br>
+              <strong>Phone:</strong> +254 111 893 789<br>
+              <strong>Email:</strong> info@mywebmark.tech<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
 
-          <div class="message">Oops! The page you're looking for could not be found.</div>
-          <a href="index.html" class="home-link">Go back to the homepage</a>
 
-          <footer id="footer" class="footer">
-            <div class="footer-top">
-              <div class="container">
-                <div class="row gy-4">
-                  <div class="col-lg-5 col-md-12 footer-info">
-                    <a href="index.html" class="logo d-flex align-items-center">
-                      <img src="assets/img/logo.png" alt="">
-                      <span style="display: block;">MywebMark</span>
-      
-                    </a>
-                    <p>We stand out as a reliable ally in attaining marketing success and business growth thanks to our focused
-                      on customers methodology, data-driven insights, and creative prowess.</p>
-                    <div class="social-links mt-3">
-                      <a href="https://www.facebook.com/mark.kinai.1/" class="facebook"><i class="bi bi-facebook"></i></a>
-                      <a href="https://www.linkedin.com/in/mark-kinai-2948b3275/" class="linkedin"><i
-                          class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 col-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                      <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">About us</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-2 col-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                      <li><i class="bi bi-chevron-right"></i> <a href="webdesign.html">Web Design</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="aboutus.html">AboutUs</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="graphicdesign.html">Graphic Design</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                    <h4>Contact Us</h4>
-                    <p>
-                      Fedha <br>
-                      Nairobi,<br>
-                      Kenya <br>
-                      <strong>Phone:</strong> +254 111 893 789<br>
-                      <strong>Email:</strong> info@mywebmark.tech<br>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-          </footer>
-          
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/below.js"></script>
 
-          <!-- Vendor JS Files -->
-          <script src="assets/vendor/aos/aos.js"></script>
-          <script src="assets/js/main.js"></script>
-          <script src="assets/js/below.js"></script>
-
-          <!-- Online JS -->
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script>
-          function loadShapesContent() {
+  <!-- Online JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    function loadShapesContent() {
       fetch('shapes.html')
         .then(response => response.text())
         .then(data => {
@@ -228,7 +254,7 @@
     }
 
     loadShapesContent()
-          </script>     
+  </script>
 </body>
 
 </html>
