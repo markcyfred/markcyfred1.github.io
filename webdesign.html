@@ -14,10 +14,12 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/shapes1.css" rel="stylesheet">
+  <link href="assets/css/project.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <header id="header" class="header fixed-top">
+  <header style="background-color: white;" id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
@@ -53,42 +55,66 @@
           <li><a class="active nav-link" class="nav-link" href="webdesign.html">Web Design</a></li>
           <li><a class="nav-link" href="graphicdesign.html">Graphic Design</a></li>
           <li><a class="nav-link" href="contact-us.html">Contact-us</a></li>
-          <li><a class="nav-link" href="#">Project</a></li>
+          <li><a class="nav-link" href="projects.html">Project</a></li>
           <li><a class="getstarted scrollto nav-link" href="#">Get Started</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <section id="our-web-development">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/CMS.png" alt="Website Development Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6">
-            <h2 class="about-heading">Website Development</h2>
-            <p>At MyWebMark Technologies, our journey began with a vision to make a difference in the digital world.
-              Founded by a group of passionate individuals, our story is one of dedication, creativity, and growth.</p>
-            <p>From our humble beginnings, we've evolved into a team of professionals who are committed to delivering
-              exceptional website development and graphic design services. Our clients' success remains at the heart of
-              our
-              mission, and our journey continues to be guided by values and aspirations that inspire us every day.</p>
-            <p>We are excited about the future and the endless possibilities that lie ahead. Join us on this exciting
-              journey as we strive to bring your digital dreams to life.</p>
-            <button class="btn btn-special-discount" onclick="scrollToDiscount()">Special Discount <i
-                class="fas fa-arrow-down"></i></button>
-                <button class="btn btn-get-quote" onclick="redirectToAnotherPage()">Get a Quote <i class="fas fa-arrow-circle-right"></i></button>
 
-                <script>
-                  function redirectToAnotherPage() {
-                    window.location.href = 'contact-us.html';
-                  }
-                </script>
-                          </div>
+    <style>
+      .landing-banner {
+        background-image: url('assets/img/blog/bg.avif');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    </style>
+    <div class="landing-banner d-flex align-items-center justify-content-center" id="home">
+      <section class="section pb-0 landing-banner-section">
+        <div class="container">
+          <div class="row justify-content-between text-center">
+            <div class="col-xl-12 my-auto">
+              <div class="landing-banner-content">
+                <p class="fw-semibold mb-3 underline-text text-white">Explore MyWebMark Website Development</p>
+                <p id="hero" class="fs-16 text-white op-9 fw-normal mb-5 col-10 mx-auto">Exciting opportunities await! Join us on this thrilling journey as we turn your digital dreams into reality.</p>
+
+
+                <div class="btn-list">
+                  <h1 class="btn btn-lg btn-success min-w-btn">
+                    Discount
+                    <i class="fas fa-gift ms-1 align-middle rocket-animation"></i> <!-- Gift Icon -->
+                  </h1>
+                  <h1 class="btn btn-lg btn-danger">
+                    Features
+                    <i class="fas fa-lightbulb ms-1 align-middle bulb-animation"></i> <!-- Lightbulb Icon -->
+                  </h1>
+                  <a href="contact-us.html" class="btn btn-lg btn-warning min-w-btn">
+                    Get a Quote
+                    <i class="fas fa-play-circle ms-1 align-middle play-circle-animation"></i> <!-- Play Circle Icon -->
+                  </a>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-xl-12">
+              <div class="px-4 landing-banner-img-content">
+                <div class="img-container-main"> <img src="assets/img/blog/MywebMark.png" alt=""
+                    class="landing-main-img">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <section id="why-website">
       <div class="container">
         <div class="row">
@@ -328,7 +354,8 @@
 
                 <div id="blogs-package" style="border: 2px solid #12aa1f" class="pricing-plan">
                   <h3 style="font-size: 20px;text-align: center;">Blogs Package</h3>
-                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong></p>
+                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong>
+                  </p>
                   <p style="font-size:15px;"> &#10003; Depends on work.</p>
                   <p style="font-size:15px;"> &#10003; Crafted for bloggers.</p>
                   <p style="font-size:15px;"> &#10003; Tailored design with
@@ -356,7 +383,8 @@
 
                 <div id="basic-package" class="pricing-plan">
                   <h3 style="font-size: 20px;text-align: center;">Basic Package</h3>
-                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong></p>
+                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong>
+                  </p>
                   <p style="font-size:15px;"> &#10003;Crafted to suit needs.</p>
                   <p style="font-size:15px;"> &#10003;Your Preferences</p>
                   <p style="font-size:15px;"> &#10003; Tailored design with
@@ -384,7 +412,8 @@
 
                 <div id="corporate-package" class="pricing-plan">
                   <h3 style="font-size: 20px;text-align: center;">Corporate Package</h3>
-                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong></p>
+                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong>
+                  </p>
                   <p style="font-size:15px;"> &#10003;Cater to specific needs </p>
                   <p style="font-size:15px;"> &#10003;Your Preferences</p>
                   <p style="font-size:15px;"> &#10003; Tailored design with
@@ -412,7 +441,8 @@
 
                 <div id="ecommerce-package" style="border: 2px solid #12aa1f" class="pricing-plan">
                   <h3 style="font-size: 20px;text-align: center;">Ecommerce Package</h3>
-                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong></p>
+                  <p style="font-size: 12px;"><strong style="color: rgb(243, 3, 3);"> Design and Development</strong>
+                  </p>
                   <p style="font-size:15px;"> &#10003;Crafted to Users.</p>
                   <p style="font-size:15px;"> &#10003;Your Preferences</p>
                   <p style="font-size:15px;"> &#10003; Tailored design with
@@ -475,19 +505,19 @@
         </section>
 
 
-      <!--Start of Tawk.to Script-->
-      <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-          var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-          s1.async = true;
-          s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
-          s1.charset = 'UTF-8';
-          s1.setAttribute('crossorigin', '*');
-          s0.parentNode.insertBefore(s1, s0);
-        })();
-      </script>
-      <!--End of Tawk.to Script-->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+          var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+          (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+          })();
+        </script>
+        <!--End of Tawk.to Script-->
 
   </main>
 
@@ -552,7 +582,7 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.js"></script>
-    <script src="assets/js/below.js"></script>
+  <script src="assets/js/below.js"></script>
 
   <!-- Online JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

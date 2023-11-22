@@ -1004,91 +1004,6 @@ display: none; /* Hide the toggle button on larger screens */
   border-radius: 5px 20px;
 }
 
-/* Web design page css */
- /* Basic styling for the webdesign */
- #our-web-development {
-  padding: 130px 0;
-  text-align: center;
-}
-
-#our-web-development .about-heading {
-  color: #333;
-}
-
-#our-web-development p {
-  color: #555;
-  text-align: justify;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.btn-special-discount {
-  background-color: rgb(243, 3, 3);
-  color: #fff;
-  margin-right: 20px;
-}
-
-.btn-get-quote {
-  background-color: #3498db;
-  color: #fff;
-}
-#why-website {
-padding: 40px 0;
-background-color: #ddd;
-margin-top: -145px;
-}
-
-#why-website .container {
-display: flex;
-justify-content: center;
-}
-
-#why-website .content {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-column-gap: 20px;
-}
-
-#why-website .about-heading,
-#why-website .about-subheading {
-color: #333;
-text-align: left;
-}
-
-#why-website .right-content p {
-color: #555;
-text-align: justify;
-}
-
-#why-website .about-subheading {
-border-right: 2px solid #12aa1f;
-padding: 40px 0px; 
-margin-right: 20px;
-margin-top: -40px;
-}
-
-@media (max-width: 767px) {
-#why-website .content {
-grid-template-columns: 1fr;
-}
-
-#why-website .about-subheading {
-border-right: none;
-padding: 0;
-margin-right: 0;
-}
-}
-
 
 
 #our-pricing {
@@ -1136,41 +1051,6 @@ font-size: 1.2em;
 color: #12aa1f;
 }
 /* Mobile CSS for the Why Website section */
-@media (max-width: 767px) {
-#why-website .about-heading {
-text-align: center;
-margin-bottom: 10px; 
-}
-
-#why-website .about-subheading {
-text-align: center;
-margin-top: 10px;
-}
-
-#why-website .content {
-display: flex;
-flex-direction: column;
-}
-
-#why-website .left-content,
-#why-website .right-content {
-text-align: center;
-}
-
-#why-website .about-subheading::after {
-content: "";
-display: block;
-border-bottom: 2px solid #333;
-margin: 10px auto;
-width: 50%;
-}
-
-#why-website .right-content p {
-margin: 20px 0;
-}
-}
-
-
 
 @media (max-width: 767px) {
 
@@ -1186,17 +1066,7 @@ margin: 20px 0;
     font-size: 14px;
   }
 
-  #why-website .about-heading {
-    font-size: 30px;
-  }
 
-  #why-website .about-subheading {
-    font-size: 20px;
-  }
-
-  #why-website .right-content p {
-    font-size: 16px;
-  }
 
   #our-pricing .about-heading {
     font-size: 30px;

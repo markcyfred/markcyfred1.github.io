@@ -18,17 +18,19 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/shapes1.css" rel="stylesheet">
+  <link href="assets/css/project.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-  
+
   <style>
     .header .navbar ul li a.active {
       color: #12aa1f;
     }
   </style>
-  <header id="header" class="header fixed-top">
+  <header style="background-color: white;" id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
@@ -71,28 +73,63 @@
     </div>
   </header>
   <main>
-    <section id="about-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="about-heading">About MywebMark Technologies</h2>
-            <p>At MywebMark Technologies, we are passionate about web development and graphic design. While we are
-              currently a small team of dedicated individuals, we believe that value is at the core of our work. Our
-              mission is to provide our clients with exceptional services that not only enhance their online presence
-              but also leave a lasting impact on their businesses.</p>
-            <p>Our commitment to excellence drives us every day. We are guided by a set of values, aspirations, and
-              goals that go beyond individual pursuits. Instead, we are inspired by a collective purpose that fuels our
-              efforts. This is the essence of the MywebMark Experience, where we bring endless possibilities to life</p>
-            <div class="text-center">
-              <a href="aboutus.html" class="btn btn-primary">Explore Company Portfolio</a>
+    <style>
+      .landing-banner {
+        background-image: url('assets/img/blog/bg.avif');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <div class="landing-banner d-flex align-items-center justify-content-center" id="home">
+      <section class="section pb-0 landing-banner-section">
+        <div class="container">
+          <div class="row justify-content-between text-center">
+            <div class="col-xl-12 my-auto">
+              <div class="landing-banner-content">
+                <p class="fw-semibold mb-3 underline-text text-white">About MywebMark Technologies</p>
+                <p style="display: -moz-groupbox;" id="hero" class="fs-16 text-white op-9 fw-normal mb-5 col-10 mx-auto">Value is everything to us, and
+                  we strive to provide our clients with the best service possible so that their experience with
+                  MywebMark IT solutions will be beneficial and truly influence the lives we have the privilege of
+                  influencing. Additionally, we think that every day we are inspired by a cause deserving of our best
+                  efforts and propelled by ideals, aspirations, and objectives bigger than ourselves. 
+
+                </p>
+
+
+                <div class="btn-list">
+                  <h1 class="btn btn-lg btn-success min-w-btn">
+                    Discount
+                    <i class="fas fa-gift ms-1 align-middle rocket-animation"></i> <!-- Gift Icon -->
+                  </h1>
+                  <h1 class="btn btn-lg btn-danger">
+                    Features
+                    <i class="fas fa-lightbulb ms-1 align-middle bulb-animation"></i> <!-- Lightbulb Icon -->
+                  </h1>
+                  <a href="contact-us.html" class="btn btn-lg btn-warning min-w-btn">
+                    Get a Quote
+                    <i class="fas fa-play-circle ms-1 align-middle play-circle-animation"></i> <!-- Play Circle Icon -->
+                  </a>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-xl-12">
+              <div class="px-4 landing-banner-img-content">
+                <div class="img-container-main"> <img src="assets/img/blog/MywebMark.png" alt=""
+                    class="landing-main-img">
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img src="assets/img/features.png" alt="MywebMark Image" class="img-fluid">
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <style>
       /* Styles for mobile devices */
       @media (max-width: 767px) {
@@ -165,80 +202,6 @@
         </div>
       </div>
     </section>
-    <style>
-      #why-website {
-        padding: 40px 0;
-        background-color: #ddd;
-        margin-top: -100px;
-        margin-bottom: 150px;
-      }
-
-      #why-website .container {
-        display: flex;
-        justify-content: center;
-      }
-
-      #why-website .content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-      }
-
-      #why-website .about-heading,
-      #why-website .about-subheading {
-        color: #333;
-        text-align: left;
-      }
-
-      #why-website .right-content p {
-        color: #555;
-        text-align: justify;
-      }
-
-      #why-website .about-subheading {
-        border-right: 2px solid #12aa1f;
-        padding: 40px 0px;
-        margin-right: 20px;
-        margin-top: -40px;
-      }
-
-      @media (max-width: 767px) {
-        #why-website {
-          margin-top: -50px;
-        }
-
-        #why-website .about-heading {
-          text-align: center;
-          margin-bottom: -20px;
-        }
-
-        #why-website .about-subheading {
-          text-align: center;
-          margin-top: 10px;
-        }
-
-        #why-website .content {
-          display: flex;
-          flex-direction: column;
-        }
-
-        #why-website .left-content,
-        #why-website .right-content {
-          text-align: center;
-        }
-
-
-
-        #why-website .right-content p {
-          margin: 10px 0;
-        }
-
-        #our-story .about-heading {
-          text-align: center;
-          margin-top: -50px;
-        }
-      }
-    </style>
 
     <section id="our-mission">
       <div class="container">
@@ -271,19 +234,19 @@
         </div>
       </div>
     </section>
-          <!--Start of Tawk.to Script-->
-          <script type="text/javascript">
-            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-            (function () {
-              var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-              s1.async = true;
-              s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
-              s1.charset = 'UTF-8';
-              s1.setAttribute('crossorigin', '*');
-              s0.parentNode.insertBefore(s1, s0);
-            })();
-          </script>
-          <!--End of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
     <section id="slanted-background">
       <div class="mark-container">
         <h2>TALK TO US</h2>

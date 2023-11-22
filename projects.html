@@ -14,10 +14,12 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/shapes1.css" rel="stylesheet">
+  <link href="assets/css/project.css" rel="stylesheet">
+  <link href="assets/css/project.css" rel="stylesheet">
 </head>
 
 <body>
-  <header id="header" class="header fixed-top">
+  <header style="background-color: white;" id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
@@ -63,143 +65,75 @@
   </header>
 
   <main>
-    <h2 style="text-align: center; margin-top: 120px; margin-bottom: 50px;" class="section-title">Projects</h2>
-    </div>
 
-    <!--boxes for projects 4-->
-    <div style="margin-bottom: 20px;" class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="box">
-            <span class="featured-label">Sales order</span> <!-- Add this line for the "Featured" label -->
+    <style>
+      .landing-banner {
+        background-image: url('assets/img/blog/bg.avif');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <div class="landing-banner d-flex align-items-center justify-content-center" id="home">
+      <section class="section pb-0 landing-banner-section">
+        <div class="container">
+          <div class="row justify-content-between text-center">
+            <div class="col-xl-12 my-auto">
+              <div class="landing-banner-content">
+                <p class="fw-semibold mb-3 underline-text text-white">Explore MyWebMark Technologies' Projects</p>
+                <p id="hero" class="fs-15 text-white op-9 fw-normal mb-5 col-9 mx-auto"> Elevate your projects with our
+                  premium,
+                  fully-functional solutions. MyWebMark Technologies is proud to present a curated selection of projects
+                  designed to meet your business needs. Streamline your workflow and impress your clients with these
+                  exceptional creations. </p>
+                <div class="btn-list">
+                  <h1 class="btn btn-lg btn-success min-w-btn">
+                    Explore
+                    <i class="ri-arrow-right-circle-line ms-1 align-middle rocket-animation"></i>
+                    <i class="fas fa-rocket ms-1 align-middle rocket-animation"></i> <!-- Rocket Icon -->
+                  </h1>
+                  <h1 class="btn btn-lg btn-danger">
+                    Discover
+                    <i class="ri-file-list-3-line ms-1 align-middle bulb-animation"></i>
+                    <i class="fas fa-lightbulb ms-1 align-middle bulb-animation"></i> <!-- Lightbulb Icon -->
+                  </h1>
+                  <h1 class="btn btn-lg btn-warning min-w-btn">
+                    Get Started
+                    <i class="ri-bank-card-line align-middle me-1 play-circle-animation"></i>
+                    <i class="fas fa-play-circle ms-1 align-middle play-circle-animation"></i> <!-- Play Circle Icon -->
+                  </h1>
+                </div>
 
-            <div class="imgBox">
-              <img src="assets\img\graphic\2zh1X8zy5M.png" alt="">
-            </div>
-            <div class="details">
-              <div style="color: black; text-align: justify;" class="content">
-                <h2 style="color: white;">Ecommerce</h2>
-                <p> &#10003; Shipping --- <i style="color: white; font-size: 14px; font-style: italic;">status
-                    updates++</i> </p>
-                <p> &#10003; Shopping Cart</p>
-                <p> &#10003; Product Listings</p>
-                <p> &#10003; Order --- <i style="color: white; font-size: 14px; font-style: italic;">deliverd, Packed
-                    +++</i> </p>
-                <p> &#10003; Search and Browsing</p>
-                <p> &#10003; Payment Processing and more ++++</p>
-                <a href="#" style="color: white;">Coming-Online-soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div style="background-color: rgb(243, 3, 3);" class="box">
-            <span class="hot-label">Real Estate Hub</span> <!-- Add this line for the "Hot" label -->
 
-            <div style="margin-top: 40px;" class="imgBox">
-              <img src="assets\img\graphic\Oedbwk1Nq0.png" alt="">
-            </div>
-            <div class="details">
-              <div style="color: black; text-align: justify;" class="content">
-                <h2 style="color: white;">House-Sell</h2>
-                <p> &#10003; Property <i style="color: white; font-size: 14px; font-style: italic;">recent , new +++</i>
-                </p>
-                <p> &#10003; Favorites and Alerts</p>
-                <p> &#10003; Contacting Sellers/Agents</p>
-                <p> &#10003; Property Management</p>
-                <p> &#10003; Property Search</p>
-                <p> &#10003; Admin/Users & Sellers and more ++++</p>
-                <a href="#" style="color: white;">Coming-Online-soon</a>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div style="background-color: rgb(243, 3, 3);" class="box">
-            <span class="hot-label">Point of Sale</span> <!-- Add this line for the "Hot" label -->
-            <div style="margin-top: 40px;" class="imgBox">
-              <img src="assets\img\graphic\Pos System.png" alt="">
-            </div>
-            <div class="details">
-              <div style="color: black;text-align: justify;" class="content">
-                <h2 style="color: white;">P O S</h2>
-                <p> &#10003; Inventory Management</p>
-                <p> &#10003; Barcode Scanning</p>
-                <p>&#10003; Checkout --- <i style="color: white; font-size: 14px; font-style: italic;">credit card
-                    ++</i></p>
-                <p>&#10003; Receipt Generation</p>
-                <p>&#10003; Returns and Refunds</p>
-                <p>&#10003; Pay Terminal Integration and more ++++</p>
-                <a href="#" style="color: white;">Coming-Online-soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Featured to be on right side -->
-        <div class="col-md-3">
-          <div class="box">
-            <span class="right-label">Record Team</span> <!-- Add this line for the "Featured" label -->
-            <div class="imgBox">
-              <img src="assets\img\graphic\hr.jpg" alt="">
-            </div>
-            <div class="details">
-              <div style="color: black;text-align: justify;" class="content">
-                <h2 style="color: white;">HRMS</h2>
-                <p>&#10003; Employee --- <i style="color: white; font-size: 14px; font-style: italic;">records ++</i>
-                </p>
-                <p>&#10003; Employee --- <i style="color: white; font-size: 14px; font-style: italic;">self services
-                    ++</i></p>
-                <p>&#10003; Recruitment & Onboarding</p>
-                <p>&#10003; Time --- <i style="color: white; font-size: 14px; font-style: italic;">clock in & out ++</i>
-                </p>
-                <p>&#10003; Leave Management</p>
-                <p>&#10003; Payroll Processing and more ++++</p>
-                <a href="#" style="color: white;" class="view-link">Coming-Online-soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--boxes for projects 4-->
-      <div style="margin-bottom: 20px;margin-top: 70px;" class="container">
-        <div class="row">
-         <!--Weather API-->
-          <div class="col-md-3">
-            <div class="box">
-              <span class="featured-label">Weather API</span> <!-- Add this line for the "Featured" label -->
-
-              <div class="imgBox">
-                <img src="assets\img\graphic\weather.png" alt="">
-              </div>
-              <div class="details">
-                <div style="color: black; text-align: justify;" class="content">
-                  <h2 style="color: white;">Weather</h2>
-                  <p> &#10003; Current Weather</p>
-                  <p> &#10003; 3 Day / 3 Hour Forecast</p>
-                  <p> &#10003; Historical Data</p>
-                  <p> &#10003; Air Pollution</p>
-                  <p> &#10003; UV Index</p>
-                  <a href="https://cypressmark.me" target="_blank" style="color: white;">View</a>
+            <div class="col-xl-12">
+              <div class="px-4 landing-banner-img-content">
+                <div class="img-container-main"> <img src="assets/img/blog/MywebMark.png" alt="" class="landing-main-img">
                 </div>
               </div>
-
-          
-          
-          <!--Featured to be on right side -->
+            </div>
+          </div>
         </div>
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-          var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-          (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-          })();
-        </script>
-        <!--End of Tawk.to Script-->
+      </section>
+    </div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/652d7fb96fcfe87d54ba5584/1hct0ksqc';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
   </main>
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
