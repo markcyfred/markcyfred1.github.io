@@ -30,51 +30,18 @@
 
 <body>
 
-  <!-- <div  class="ld-ripple" id="loader">
+  <div class="ld-ripple" id="loader">
     <div></div>
     <div></div>
-  </div> -->
-  <!-- <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Show the loader
-      document.getElementById("loader").style.display = "flex";
-
-      // Set a timeout to hide the loader after 5 seconds
-      setTimeout(function () {
-        document.getElementById("loader").style.display = "none";
-      }, 5000); // 5 seconds in milliseconds
-    });
-  </script> -->
-
+  </div>
+  
   <script>
-    !function () {
-      var e, t, n, a;
-      window.MyAliceWebChat || ((t = document.createElement("div")).id = "myAliceWebChat",
-        (n = document.createElement("script")).type = "text/javascript",
-        n.async = !0,
-        n.src = "https://widget.myalice.ai/index.js",
-        (a = (e = document.body.getElementsByTagName("script"))[e.length - 1]).parentNode.insertBefore(n, a),
-        a.parentNode.insertBefore(t, a),
-        n.addEventListener("load", function () {
-          MyAliceWebChat.init({
-            selector: "myAliceWebChat",
-            number: "254111893789",
-            message: "Hello! How can I assist you today?",
-            color: "#25D366",
-            channel: "wa",
-            boxShadow: "none",
-            text: "",
-            theme: "light",
-            position: "bottom-left",
-            mb: "250px",
-            mx: "20px",
-            borderRadius: "50%", // Set the borderRadius to 50% for a circular shape
-          })
-        })
-      )
-    }();
+    window.onload = function () {
+      // Hide the loader
+      document.getElementById("loader").style.display = "none";
+    };
   </script>
-
+  
 
   <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
