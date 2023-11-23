@@ -24,6 +24,17 @@
 </head>
 
 <body>
+  <div class="ld-ripple" id="loader">
+    <div></div>
+    <div></div>
+  </div>
+  
+  <script>
+    window.onload = function () {
+      // Hide the loader
+      document.getElementById("loader").style.display = "none";
+    };
+  </script>
 
   <style>
     .header .navbar ul li a.active {

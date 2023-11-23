@@ -19,6 +19,17 @@
 </head>
 
 <body>
+  <div class="ld-ripple" id="loader">
+    <div></div>
+    <div></div>
+  </div>
+  
+  <script>
+    window.onload = function () {
+      // Hide the loader
+      document.getElementById("loader").style.display = "none";
+    };
+  </script>
   <header style="background-color: white;" id="header" class="header fixed-top">
     <div id="shapes-container"></div>
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
