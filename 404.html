@@ -227,21 +227,8 @@
 
   <!-- Online JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    function loadShapesContent() {
-      fetch('shapes.html')
-        .then(response => response.text())
-        .then(data => {
-          const shapesContainer = document.getElementById('shapes-container');
-          shapesContainer.innerHTML = data;
-        })
-        .catch(error => {
-          console.error('Error loading shapes content:', error);
-        });
-    }
+  <script src="assets/js/load.js"></script>
 
-    loadShapesContent()
-  </script>
 </body>
 
 </html>

@@ -64,7 +64,7 @@
   <main>
 
     <style>
-        .landing-banner {
+      .landing-banner {
         background-image: url('assets/img/blog/bg.avif');
         background-size: cover;
         background-position: center;
@@ -74,7 +74,6 @@
         justify-content: center;
         margin-top: 50px;
       }
-
     </style>
     <div class="landing-banner d-flex align-items-center justify-content-center" id="home">
       <section class="section pb-0 landing-banner-section">
@@ -83,7 +82,8 @@
             <div class="col-xl-12 my-auto">
               <div class="landing-banner-content">
                 <p class="fw-semibold mb-3 underline-text text-white">Explore MyWebMark Website Development</p>
-                <p id="hero" class="fs-16 text-white op-9 fw-normal mb-5 col-10 mx-auto">Exciting opportunities await! Join us on this thrilling journey as we turn your digital dreams into reality.</p>
+                <p id="hero" class="fs-16 text-white op-9 fw-normal mb-5 col-10 mx-auto">Exciting opportunities await!
+                  Join us on this thrilling journey as we turn your digital dreams into reality.</p>
 
 
                 <div class="btn-list">
@@ -587,51 +587,8 @@
 
   <!-- Online JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/load.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-          $('#backToTop').addClass('active');
-        } else {
-          $('#backToTop').removeClass('active');
-        }
-      });
-      $('#backToTop').click(function () {
-        $('html, body').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    });
-    function scrollToDiscount() {
-      const discountSection = document.getElementById('special-discounts');
-      const offset = 20;  // Adjust this offset as needed
-      const offsetPosition = discountSection.offsetTop - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-
-  </script>
-  <script>
-
-    function loadShapesContent() {
-      fetch('shapes.html')
-        .then(response => response.text())
-        .then(data => {
-          const shapesContainer = document.getElementById('shapes-container');
-          shapesContainer.innerHTML = data;
-        })
-        .catch(error => {
-          console.error('Error loading shapes content:', error);
-        });
-    }
-
-    loadShapesContent()
-  </script>
 </body>
 
 </html>
