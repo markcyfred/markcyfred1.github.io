@@ -34,14 +34,14 @@
     <div></div>
     <div></div>
   </div>
-
+  
   <script>
     window.onload = function () {
       // Hide the loader
       document.getElementById("loader").style.display = "none";
     };
   </script>
-
+  
 
   <header id="header" class="header fixed-top">
     <div id="shapes-container"></div>
@@ -91,64 +91,53 @@
 
 
     <section style="margin-bottom: -100px;" class="content-below-header">
-      <div class="container">
         <div class="row">
-          <div class="col-md-6 order-md-1">
-            <!-- Image carousel on the left -->
+          <div class="col-md-6">
             <div class="hero-image">
-              <div class="carousel">
-                <img src="assets/img/slider-dec.png" alt="Image 1" class="image-animation active" />
-                <img src="assets/img/details-2.png" alt="Image 2" class="image-animation" />
-                <img src="assets/img/seo.png" alt="Image 3" class="image-animation" />
-                <!-- Add more images as needed -->
-              </div>
-              <button class="prev" onclick="changeImage(-1)">
-                <i class="fas fa-arrow-left"></i>
-              </button>
-              <button class="next" onclick="changeImage(1)">
-                <i class="fas fa-arrow-right"></i>
-              </button>
+              <img style="width: 600px;" src="assets/img/hero1.png" alt="Your Image" id="image" class="image-animation">
+              <style>
+                .image-animation {
+                  animation: slideIn 1s ease-in-out infinite alternate;
+                }
+    
+                @keyframes slideIn {
+                  0% {
+                    transform: translateY(0);
+                  }
+    
+                  100% {
+                    transform: translateY(-10px);
+                  }
+                }
+    
+                @media screen and (max-width: 768px) {
+                  .image-animation {
+                    width: 140%!important;
+                    margin-left: -50px!important;
+                  }
+                }
+              </style>
             </div>
           </div>
-          <div class="col-md-6 order-md-2">
-            <!-- Text content on the right -->
+          <div class="col-md-6" style="position: relative; background-image: url('assets/img/hero0.png'); background-size: cover; background-position: right center; background-repeat: no-repeat;">
             <div class="hero-text">
-              <div style="height: 50px; overflow: hidden;">
+              <div style="height:50px; overflow: hidden;">
                 <h1><span id="dynamic-text" class="bounce-in">Elevating Brands</span></h1>
               </div>
               <div style="height: 50px; overflow: hidden;">
                 <h1 style="font-size: 24px;">Within & Across The World</h1>
               </div>
-              <p class="text-animation"  id="dynamic-paragraph">Supercharge your business growth by taking it online and reaching more customers.</p>
+              <p class="text-animation" id="dynamic-paragraph" style="min-height: 10px;text-align:none; font-size: 15px;">
+                Supercharge your business growth by taking it online and reaching more customers.
+              </p>
               <a style="border-radius: 100px 0 100px 10px;" href="#who-we-are" class="btn bounce-in">Learn More <i class="fas fa-arrow-down"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
-    <script>
-      let currentImageIndex = 0;
+    
 
-      function changeImage(n) {
-        showImage(currentImageIndex += n);
-      }
-
-      function showImage(n) {
-        const images = document.querySelectorAll('.carousel img');
-        if (n >= images.length) {
-          currentImageIndex = 0;
-        }
-        if (n < 0) {
-          currentImageIndex = images.length - 1;
-        }
-        images.forEach(img => img.classList.remove('active'));
-        images[currentImageIndex].classList.add('active');
-      }
-
-      // Automatically advance to the next image every 5 seconds (adjust as needed)
-      setInterval(() => changeImage(1), 5000);
-    </script>
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
