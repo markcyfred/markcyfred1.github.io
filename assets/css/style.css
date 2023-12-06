@@ -2514,4 +2514,42 @@ h2 {
   background: #12aa1f;
   color: #fff;
 }
+ /*---------------------------------------
+        FAQs              
+        -----------------------------------------*/
+        .faq-section .accordion-item {
+          border: 0;
+        }
 
+        .faq-section .accordion-button {
+          background-color: #fff;
+          border: 0;
+          border-radius: 10px;
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+          color: var(--p-color);
+          font-size: 18px;
+          font-weight: 600;
+          padding: 20px 30px;
+          position: relative;
+          text-align: left;
+          transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+          width: 100%;
+        }
+
+        .faq-section .accordion-item:first-of-type .accordion-button {
+          border-radius: 10px 10px 0 0;
+        }
+
+        .faq-section .accordion-button:not(.collapsed) {
+          background-color: green;
+          /* Set the background color to green after click */
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+          color: #fff;
+          /* Set the text color to white after click */
+        }
+
+        .faq-section .accordion-body {
+          color: var(--p-color);
+          font-size: var(--btn-font-size);
+          line-height: 40px;
+        }
