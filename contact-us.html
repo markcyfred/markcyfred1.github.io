@@ -14,7 +14,7 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/shapes1.css" rel="stylesheet">
-  
+
   <!-- Icon Font Stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet" />
 
@@ -25,7 +25,7 @@
     <div></div>
     <div></div>
   </div>
-  
+
   <script>
     window.onload = function () {
       // Hide the loader
@@ -112,7 +112,7 @@
       </div>
 
       <div class="contact-form">
-        <form id="contact-form"> 
+        <form id="contact-form">
           <div class="inline-inputs">
             <div class="input-group">
               <label for="name">Your Name:</label>
@@ -121,14 +121,16 @@
 
             <div class="input-group">
               <label for="email">Your Email:</label>
-              <input type="email" id="email" name="email" placeholder="Eg. markkinai3@gmail.com">
+              <input type="email" id="email" name="email" placeholder="Eg. markkinai3@gmail.com"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
             </div>
           </div>
 
           <div class="inline-inputs">
             <div class="input-group">
               <label for="phone">Your Phone:</label>
-              <input type="tel" id="phone" name="phone" placeholder="+254 111 893 789" required>
+              <input type="tel" id="phone" name="phone" placeholder="+254111893789" pattern="[+]{1}[0-9]{3}[0-9]{9}"
+                required>
             </div>
 
             <div class="input-group">
@@ -154,7 +156,7 @@
 
             <div class="input-group">
               <label for="howDidYouFindSelect">How you found us?</label>
-              <select id="howDidYouFindSelect" name="how_did_you_find_us" required>
+              <select style="width: 400px!important;" id="howDidYouFindSelect" name="how_did_you_find_us" required>
                 <option value disabled selected>Select an option</option>
                 <option value="Marketing Campaigns">Marketing Campaigns</option>
                 <option value="Friends">Friends</option>
