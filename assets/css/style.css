@@ -2554,6 +2554,73 @@ h2 {
           line-height: 40px;
         }
 /*canva*/
+.image-animation {
+  width: 100%;
+}
+
+/*media class it*/
+@media screen and (max-width: 768px) {
+  .it {
+    font-size: 25px!important;
+    margin-left: -50px!important;
+  }
+}
+/*media quote and date*/
+@media screen and (max-width: 768px) {
+  #bcl {
+    margin-top: -70px!important;
+  }
+  
+  #quote {
+    font-size: 14pt!important;
+    margin-left: -50px!important;
+  }
+  #date {
+    font-size: 14pt!important;
+    margin-left: -50px!important;
+
+  }
+}
+/*media class text-animation*/
+@media screen and (max-width: 768px) {
+  .text-animation {
+   display: none!important;
+  }
+}
+/*media start button*/
+@media screen and (max-width: 768px) {
+  #start {
+    margin-left: 100px!important;
+    padding: 10px 10px!important;
+  }
+}
+/*media class hero12*/
+@media screen and (max-width: 768px) {
+  .hero12 {
+   display: none!important;
+  }
+}
+/*image-animation*/
+@media screen and (max-width: 768px) {
+  .image-animation {
+    width: 100%!important;
+    margin-right: 130px!important;
+    margin-top: 100px!important;
+  }
+}
+/* .slider-thumb::before */
+@media screen and (max-width: 768px) {
+  .slider-thumb::before {
+   margin-top: -80px!important;
+  }
+}
+/*media dynamic text*/
+@media screen and (max-width: 768px) {
+  #dynamic-text {
+    font-size: 12px!important;
+  }
+}
+/*canva*/
 .slider-thumb::before {
   position: absolute;
   content: "";
