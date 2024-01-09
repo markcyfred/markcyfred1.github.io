@@ -92,55 +92,56 @@
 
     <section style="margin-bottom: -100px;" class="content-below-header">
       <div class="row">
-        <div class="col-md-6">
-          <div class="hero-image">
-            <img style="width: 900px;margin-top: -150px;margin-left: -100px;" src="assets/img/graphic/hd.png" alt="Your Image" id="image"
-              class="image-animation">
-            <style>
-              .image-animation {
-                animation: slideIn 1s ease-in-out infinite alternate;
-              }
-
-              @keyframes slideIn {
-                0% {
-                  transform: translateY(0);
-                }
-
-                100% {
-                  transform: translateY(-10px);
-                }
-              }
-
-              @media screen and (max-width: 768px) {
-                .image-animation {
-                  width: 180% !important;
-                  margin-left: -130px !important;
-                  margin-top: -100px !important;
-
-                }
-              }
-            </style>
-          </div>
-        </div>
-        <div class="col-md-6"
-          style="position: relative; background-image: url('assets/img/hero12.png'); background-size: cover; background-position: right center; background-repeat: no-repeat;">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
           <div class="hero-text">
-            <div style="height:50px; overflow: hidden;">
+            <div class="slider-thumb"></div>
+            <div id="bcl">
+              <a style="font-size: 8pt; text-decoration: none;">
+                <span id="quote" style="color: white;"></span>
+                <br>
+                <span id="date" style="color: white;"></span>
+              </a>
+            </div>
+          
+            
+            <h1 style="font-size: 24px; color: #6cb809; margin-left: 15px;">IT Services Designed</h1>
+            
+            <div style="height: 50px; overflow: hidden; margin-left: 100px;">
               <h1><span id="dynamic-text" class="bounce-in">Elevating Brands</span></h1>
             </div>
-            <div style="height: 50px; overflow: hidden;">
-              <h1 style="font-size: 24px;">Within & Across The World</h1>
-            </div>
-            <p class="text-animation" id="dynamic-paragraph" style="min-height: 10px;text-align:none; font-size: 15px;">
+            <p class="text-animation" id="dynamic-paragraph"
+              style="min-height: 10px; text-align: none; font-size: 18px; margin-left: 100px;">
               Supercharge your business growth by taking it online and reaching more customers.
             </p>
-            <a style="border-radius: 100px 0 100px 10px;" href="#who-we-are" class="btn bounce-in">Learn More <i
-                class="fas fa-arrow-down"></i></a>
+
+            <a href="#who-we-are" style="margin-left: 100px;" class="btn bounce-in">Start a Project</a>
+            <div style="margin-top: -120px;">
+              <img style="width: 500px;margin-left: 40px;" src="assets/img/hero12.png" alt="Your Image" id="image">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hero-image">
+            <img style="max-width: 100%; margin-top: -60px; margin-right: -50px;"
+              src="assets/img/graphic/hero-1-img.png" alt="Your Image" id="image" class="image-animation">
           </div>
         </div>
       </div>
-      </div>
+      <style>
+        .image-animation {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+          .image-animation {
+            width: 180%;
+            margin-right: -130px !important;
+            margin-top: -100px !important;
+          }
+        }
+      </style>
     </section>
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
@@ -754,7 +755,26 @@
   <script src="assets/lib/counterup/counterup.min.js"></script>
   <!-- carousel JS -->
   <script src="assets/js/carousel.js"></script>
-
+    
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const now = new Date();
+      const d = now.getDay();
+  
+      // Adding a short quote
+      const shortQuotes = [
+        "Start a design!",
+      ];
+  
+      const randomShortQuote = shortQuotes[Math.floor(Math.random() * shortQuotes.length)];
+  
+      // Get short month name
+      const monthsShort = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const currentMonthShort = monthsShort[now.getMonth()];
+  
+      document.getElementById('quote').innerText = randomShortQuote;
+      document.getElementById('date').innerText = `Today: ${currentMonthShort} ${now.getDate()}, ${now.getFullYear()}`;
+    });
   </script>
 </body>
 

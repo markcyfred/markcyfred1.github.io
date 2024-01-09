@@ -2,7 +2,7 @@ const dynamicText = document.getElementById("dynamic-text");
 const image = document.getElementById("image");
 
 
-const textVariations = ["Elevating Brands",  "Growing Businesses"];
+const textVariations = ["Awesome IT Services",  "For Your Business"];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
