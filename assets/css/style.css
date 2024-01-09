@@ -864,8 +864,8 @@ h2 {
 #who-we-are {
   text-align: center;
   background-color: #f9f9f9;
-  margin-bottom: 30px;
-  padding-top: 100px;
+  margin-bottom: -50px;
+  padding-top: 10px;
 }
 
 #brief-info {
@@ -898,14 +898,7 @@ h2 {
   text-decoration: underline;
 }
 
-#who-we-are h2::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 280px;
-  height: 3px;
-  background-color: rgb(243, 3, 3);
-}
+
 
 
 #read-more {
@@ -2266,99 +2259,6 @@ h2 {
 }
 
 
-/*** Roadmap ***/
-.roadmap-carousel, .testimonial-carousel {
-  position: relative;
-}
-
-.roadmap-carousel::before, .testimonial-carousel::before {
-  position: absolute;
-  content: "";
-  height: 0;
-  width: 100%;
-  top: 20px;
-  left: 0;
-  border-top: 2px dashed #12aa1f;
-}
-
-.roadmap-carousel .roadmap-item .roadmap-point , .testimonial-carousel .testimonial-item .roadmap-point{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 6px;
-  left: 50%;
-  margin-left: -15px;
-  background: #FFFFFF;
-  border: 2px solid #12aa1f;
-  transform: rotate(45deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.roadmap-carousel .roadmap-item .roadmap-point span , .testimonial-carousel .testimonial-item .roadmap-point span{
-  display: block;
-  width: 18px;
-  height: 18px;
-  background: #12aa1f;
-}
-
-.roadmap-carousel .roadmap-item , .testimonial-carousel .testimonial-item{
-  position: relative;
-  padding-top: 150px;
-  text-align: center;
-}
-
-.roadmap-carousel .roadmap-item::before , .testimonial-carousel .testimonial-item::before{
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 115px;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  border-right: 2px dashed rgb(243, 3, 3);
-}
-
-.roadmap-carousel .roadmap-item::after, .testimonial-carousel .testimonial-item::after {
-  position: absolute;
-  content: "";
-  width: 14px;
-  height: 14px;
-  top: 111px;
-  left: 50%;
-  margin-left: -7px;
-  transform: rotate(45deg);
-  background: rgb(243, 3, 3);
-}
-
-.roadmap-carousel .owl-nav, .testimonial-carousel .owl-nav {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.roadmap-carousel .owl-nav .owl-prev,
-.roadmap-carousel .owl-nav .owl-next {
-  margin: 0 12px;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  font-size: 22px;
-  color: #12aa1f;
-  background: #fff;
-  transition: .5s;
-}
-
-.roadmap-carousel .owl-nav .owl-prev:hover,
-.roadmap-carousel .owl-nav .owl-next:hover {
-  color: #fff;
-  background: #12aa1f;
-}
-
 /*loader*/
 #loader {
   position: fixed;
@@ -2659,4 +2559,246 @@ h2 {
     border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
   }
+}
+ /* Section Features-12 */
+ #features-12 {
+  padding-top: 0px;
+}
+
+.shape--bg {
+  background-color: #fff;
+  /* Change the background color as needed */
+}
+
+.shape--white-500 {
+  fill: #fff;
+  /* Change the shape color as needed */
+}
+
+.features-section {
+  text-align: center;
+  /* Adjust the text alignment as needed */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left Column Styles */
+.col-md-5 {
+  flex: 0 0 45%;
+  /* Adjust the width as needed */
+}
+
+.txt-block {
+  max-width: 400px;
+  /* Adjust the max-width as needed */
+  margin-right: auto;
+}
+
+.section-id {
+  display: block;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.s-46 {
+  font-size: 2.875em;
+  /* Adjust the font size as needed */
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Content Box Styles */
+.cbox-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ico-15 {
+  font-size: 30px;
+  /* Adjust the icon size as needed */
+  margin-right: 15px;
+}
+
+/* Right Column Styles */
+.col-md-7 {
+  flex: 0 0 50%;
+  /* Adjust the width as needed */
+}
+
+.fbox-12-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Feature Box Styles */
+.fbox-12 {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Feature Icon Styles */
+.fbox-ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #feecf2;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.ico-50 {
+  font-size: 24px;
+  color: #ff0606;
+}
+
+/* Feature Text Styles */
+.fbox-txt {
+  text-align: left;
+}
+
+.s-19 {
+  font-size: 1.1875em;
+  /* Adjust the font size as needed */
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Additional Styles for the Vector Icons */
+.shape-ico {
+  width: 100%;
+  height: 100%;
+}
+
+/* Animation Styles */
+.wow {
+  box-sizing: border-box;
+}
+
+.fadeInRight,
+.fadeInLeft {
+  animation-duration: 1s;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+/* Adjustments for the SVG Paths */
+
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-5,
+  .col-md-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/*123*/
+.py-100 {
+  padding-top: 50px;
+}
+
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  /* Adjust as needed */
+  margin: 0 auto;
+}
+
+/* Row styling */
+.row {
+  display: flex;
+  align-items: center;
+}
+
+/* Image Block styling */
+.img-block {
+  text-align: right;
+  /* Adjust as needed */
+}
+
+.left-column img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Text Block styling */
+.txt-block {
+  text-align: left;
+  /* Adjust as needed */
+}
+
+.right-column {
+  padding-left: 30px;
+  /* Adjust as needed */
+}
+
+/* Content Box styling */
+.cbox-2 {
+  margin-bottom: 30px;
+  /* Adjust as needed */
+}
+
+.process-step {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon Wrap styling */
+.ico-wrap {
+  margin-right: 20px;
+  /* Adjust as needed */
+}
+
+.cbox-2-ico {
+  background-color: #3498db;
+  /* Replace with your desired background color */
+  color: #ffffff;
+  /* Replace with your desired text color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  /* Adjust as needed for spacing between icon and text */
+}
+
+
+.s-22 {
+  font-size: 22px;
+}
+
+.w-700 {
+  font-weight: 700;
 }
