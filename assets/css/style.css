@@ -535,28 +535,6 @@ h2 {
   margin-top: -30px;
 }
 
-/*our-mission*/
-/* CSS for the mission icons */
-#our-mission ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#our-mission ul li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: baseline;
-}
-
-/* CSS for the mission icons */
-#our-mission ul li img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  vertical-align: middle;
-  margin-top: 10px;
-}
-
 /* CSS for the right column with the image */
 #our-mission .col-lg-6.order-lg-2 {
   text-align: center;
