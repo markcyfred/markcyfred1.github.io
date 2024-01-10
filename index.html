@@ -331,10 +331,18 @@
               style="visibility: visible; animation-name: fadeInRight;">
 
               <!-- Section ID -->
-              <span class="section-id">One-Stop Solution</span>
+              <span style="color: #007700;" class="section-id">One-Stop Solution</span>
 
               <!-- Title -->
               <h2 class="s-46 w-700">Smart solutions, real-time results</h2>
+              <style>
+                /*media s-46 w-700 */
+                @media (max-width: 768px) {
+                  .s-46 {
+                    font-size: 17px;
+                  }
+                }
+              </style>
 
               <!-- Text -->
               <p>
@@ -503,7 +511,16 @@
           <div class="col-md-6">
             <div class="img-block left-column wow fadeInRight"
               style="visibility: visible; animation-name: fadeInRight;">
-              <img class="img-fluid" src="assets/img/graphic/img-09.png" alt="content-image">
+              <img id="mj" class="img-fluid" src="assets/img/graphic/img-09.png" alt="content-image">
+              <style>
+                /*media s-46 w-700 */
+                @media (max-width: 768px) {
+                  #mj {
+                    margin-right: 20px!important;
+                    margin-top: -70px!important;
+                  }
+                }
+              </style>
             </div>
           </div>
 
