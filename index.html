@@ -22,6 +22,11 @@
 
   <!-- Icon Font Stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Include AOS library CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Include AOS library JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 
 
@@ -127,53 +132,69 @@
           <div class="hero-image">
             <img style="max-width: 100%; margin-top: -60px; margin-right: -50px;"
               src="assets/img/graphic/hero-1-img.png" alt="Your Image" id="image" class="image-animation">
-              
+
           </div>
         </div>
       </div>
     </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+          duration: 500, // Animation duration in milliseconds
+          once: true, // Only animate once
+        });
+      });
+    </script>
+    
 
-    <section class="Recommends section-padding">
+
+    <section class="Recommends section-padding" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
       <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-6">
-                  <div class="section-head text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                      <h6 class="color-green text-uppercase"> //    Recommends    // </h6>
-                      <h2 class="fs-1"> Leading industry experts recommend  </h2>
-                  </div>
-              </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-head text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <h6 class="color-green text-uppercase"> // Recommends // </h6>
+              <h2 class="fs-1"> Leading industry experts recommend </h2>
+            </div>
           </div>
-          <div class="content mt-70">
-              <div class="row justify-content-between gx-0">
-                  <div class="col-lg-2 col-5">
-                      <div class="img mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <img src="assets/img/projects/Customer Engagement.png" alt="">
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-5">
-                      <div class="img mb-30 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <img src="assets/img/projects/Web Design.png" alt="">
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-5">
-                      <div class="img mb-30 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <img src="assets/img/projects/logo design.png" alt="">
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-5">
-                      <div class="img mb-30 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <img src="assets/img/projects/seo.png" alt="">
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-5">
-                      <div class="img mb-30 wow fadeInUp" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                        <img src="assets/img/projects/cms.png" alt="">
-                      </div>
-                  </div>
+        </div>
+        <div class="content mt-70">
+          <div class="row justify-content-between gx-0">
+            <div class="col-lg-2 col-5">
+              <div class="img mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <img src="assets/img/projects/Customer Engagement.png" alt="">
               </div>
+            </div>
+            <div class="col-lg-2 col-5">
+              <div class="img mb-30 wow fadeInUp" data-wow-delay="0.2s"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <img src="assets/img/projects/Web Design.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-5">
+              <div class="img mb-30 wow fadeInUp" data-wow-delay="0.4s"
+                style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <img src="assets/img/projects/logo design.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-5">
+              <div class="img mb-30 wow fadeInUp" data-wow-delay="0.6s"
+                style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                <img src="assets/img/projects/seo.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-5">
+              <div class="img mb-30 wow fadeInUp" data-wow-delay="0.8s"
+                style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                <img src="assets/img/projects/cms.png" alt="">
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-  </section>
+    </section>
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -244,6 +265,7 @@
                     transform: translateY(-5px);
                   }
                 }
+
                 .color-green {
                   color: #6cb809;
                 }
@@ -261,7 +283,7 @@
     </section>
     <!-- End Services Section -->
 
-    <section id="who-we-are">
+    <section id="who-we-are" data-aos="fade-up">
       <h2 style="color: #12aa1f;">WHO WE ARE
       </h2>
       <h5 style="margin-top: 20px;" class="s-24 w-700">Digits that define growth</h5>
@@ -295,7 +317,7 @@
         </div>
       </div>
     </section>
-    <div id="statistic-1" class="py-100 statistic-section division">
+    <div id="statistic-1" class="py-100 statistic-section division" data-aos="fade-up">
       <div class="container">
 
         <!-- STATISTIC-1 WRAPPER -->
@@ -368,7 +390,7 @@
 
       </div> <!-- End container -->
     </div>
-    <section id="features-12" class="shape--bg shape--white-500 pt-100 features-section division">
+    <section id="features-12" class="shape--bg shape--white-500 pt-100 features-section division" data-aos="fade-down">
       <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -386,7 +408,9 @@
               <style>
                 /*media s-46 w-700 */
                 @media (max-width: 768px) {
-                  .s-46,#get {
+
+                  .s-46,
+                  #get {
                     font-size: 17px;
                   }
                 }
@@ -412,7 +436,11 @@
                 <style>
                   /*media s-46 w-700 */
                   @media (max-width: 768px) {
-                    .cbox-1-txt,.s-22,.mb-4, #ourb {
+
+                    .cbox-1-txt,
+                    .s-22,
+                    .mb-4,
+                    #ourb {
                       font-size: 16px;
                     }
                   }
@@ -557,7 +585,7 @@
       </div> <!-- End container -->
     </section>
 
-    <section class="py-100 ct-02 content-section division">
+    <section class="py-100 ct-02 content-section division" data-aos="fade-up">
       <div class="container">
 
         <!-- SECTION CONTENT (ROW) -->
@@ -572,8 +600,8 @@
                 /*media s-46 w-700 */
                 @media (max-width: 768px) {
                   #mj {
-                    margin-right: 20px!important;
-                    margin-top: -70px!important;
+                    margin-right: 20px !important;
+                    margin-top: -70px !important;
                   }
                 }
               </style>
@@ -646,7 +674,7 @@
 
     <!-- End Services Section -->
 
-    <section class="faq-section section-padding" id="section_4">
+    <section class="faq-section section-padding" id="section_4" data-aos="fade-down">
       <div class="container">
         <div class="row">
 
@@ -664,7 +692,7 @@
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseOne"
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
                     Is MyWebMark able to assist with SEO to increase online presence?
                   </button>
@@ -719,7 +747,7 @@
       </div>
     </section>
     <!-- ======= Blog Section ======= -->
-    <section class="blog_section">
+    <section class="blog_section" data-aos="fade-up">
       <div class="container">
         <div class="blog_content">
           <h2 id="ourb" class="text-center" data-aos="fade-up" style="color: #007700; margin-top: -50px;">
@@ -785,17 +813,17 @@
     </section>
     <!-- End blog  Section -->
     <!-- Enhanced Roadmap Start -->
-    
+
     <!-- Enhanced Roadmap End -->
 
     <section>
-      <div class="container" style="margin-top: -2em; margin-bottom: -2em;">
+      <div class="container" style="margin-top: -2em; margin-bottom: -2em;" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-6">
             <div class="migrate-container" style="padding: 1em;" data-aos="fade-up" data-aos-delay="200">
               <div class="media-body">
                 <h2 id="get" class="teal media-heading text-left">Get Your Design</h2>
-                <p  id="get" class="text-left" style="padding-top: .5em">Elevate your
+                <p id="get" class="text-left" style="padding-top: .5em">Elevate your
                   graphics with our expertise, creating
                   visuals that leave a lasting impact.</p>
                 <div class="text-left">
@@ -814,8 +842,8 @@
                 <p class="text-left" style="padding-top: .5em">Enhance your
                   website with our expertise, delivering a
                   captivating online presence that leaves a mark.</p>
-                <div  class="text-left">
-                  <a  href="webdesign.html" style="    border-radius: 100px 0 100px 10px;
+                <div class="text-left">
+                  <a href="webdesign.html" style="    border-radius: 100px 0 100px 10px;
                                 " class="btn btn-sm btn-orange hvr-float-shadow">Your
                     Website</a>
                 </div>
@@ -827,7 +855,7 @@
     </section>
 
     <!-- End blog  Section -->
-    <section id="slanted-background">
+    <section id="slanted-background" data-aos="fade-up">
       <div class="mark-container">
         <h2>TALK TO US</h2>
         <hr class="separator">
