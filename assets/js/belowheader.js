@@ -1,8 +1,7 @@
 const dynamicText = document.getElementById("dynamic-text");
 const image = document.getElementById("image");
 
-
-const textVariations = ["Awesome IT Services",  "For Your Business"];
+const textVariations = ["Awesome IT Services", "For Your Business"];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -10,7 +9,7 @@ let isDeleting = false;
 function typeText() {
     const currentText = textVariations[textIndex];
     if (isDeleting) {
-        dynamicText.textContent = currentText.substring(0, charIndex - 1);
+        dynamicText.textContent = currentText.substring(0, charIndex - 1) + "|"; // Adding stick icon
         charIndex--;
     } else {
         dynamicText.textContent = currentText.substring(0, charIndex + 1);
