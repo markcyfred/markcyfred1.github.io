@@ -19837,9 +19837,9 @@ span.select2-selection.select2-selection--single:focus {
     color: #666;
     line-height: 1.6;
 }
-@media screen and (max-width: 768px) {
-    .color-scheme-wrap {
-        max-width: 320px;
-        max-height: 200px;
-    }
-}
+ @media screen and (max-width: 768px) {
+                .color-scheme-wrap {
+                    max-width: 320px;
+                    max-height: 200px;
+                }
+            }
