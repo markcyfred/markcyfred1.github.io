@@ -63,16 +63,6 @@
                     alt="Flame"></a>
         </div>
 
-        <style>
-            @media screen and (max-width: 768px) {
-                .color-scheme-wrap {
-                    max-width: 320px;
-                    max-height: 200px;
-                }
-            }
-        </style>
-
-
         <a href="#" class="th-btn text-center w-100">
             <i class="fa fa-shopping-cart me-2"></i> Get It Now
         </a>
@@ -283,13 +273,12 @@
         <div class="hero-shape3"><img src="assets/img/hero/hero_shape_2_3.png" alt="shape"></div>
     </div>
     <style>
-       @media screen and (max-width: 768px){
-        #second-carousel, .third-carousel{
-            display: none;
+        @media (max-width: 576px) {
+            #hero .swiper-slide:nth-child(n+2) {
+                display: none;
+            }
         }
-        
-       }
-    </style>
+    </>
 
 
     <div class="overflow-hidden space">
@@ -524,32 +513,32 @@
                         data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5"}}}'>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;" src="assets/img/brand/html.png"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;" src="assets/img/brand/html.png"
                                         alt="Brand Logo">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;" src="assets/img/brand/react.png"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;" src="assets/img/brand/react.png"
                                         alt="Brand Logo">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;"
                                         src="assets/img/brand/laravel.png" alt="Brand Logo">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;"
                                         src="assets/img/brand/nodejs.png" alt="Brand Logo">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;"
                                         src="assets/img/brand/bootstrap.png" alt="Brand Logo">
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="brand-box py-20"><img style="width: 100px;" src="assets/img/brand/vue.png"
+                                <div class="brand-box py-20"><img id="weuse" style="width: 100px;" src="assets/img/brand/vue.png"
                                         alt="Brand Logo">
                                 </div>
                             </div>
