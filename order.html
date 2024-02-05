@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -54,15 +54,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="#" data-color="#684DF4"><img style="width: 50px;" src="assets/img/favicons/logo-design.png"
+            <a href="graphic.design.html" data-color="#684DF4"><img style="width: 50px;"
+                    src="assets/img/favicons/logo-design.png" alt="Flame"></a>
+            <a href="web.design.html" data-color="#FF4C60"><img style="width: 50px;"
+                    src="assets/img/favicons/ux-design.png" alt="Flame"></a>
+            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="#" data-color="#FF4C60"><img style="width: 50px;" src="assets/img/favicons/ux-design.png"
-                    alt="Flame"></a>
-            <a href="#" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
-                    alt="Flame"></a>
-            <a href="#" data-color="#FFD54C"><img style="width: 50px;" src="assets/img/favicons/poster-design.png"
-                    alt="Flame"></a>
-            <a href="#" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="graphic.design.html" data-color="#FFD54C"><img style="width: 50px;"
+                    src="assets/img/favicons/poster-design.png" alt="Flame"></a>
+            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -106,7 +106,7 @@
 
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="Project.html">Projects</a></li>
+                            <li><a href="project.html">Projects</a></li>
                         </ul>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
@@ -168,7 +168,7 @@
 
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="Project.html">Projects</a></li>
+                                            <li><a href="project.html">Projects</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -246,7 +246,8 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group text-center">
-                                        <button id="submitBtn" type="submit" class="btn btn-primary">Submit Order</button>
+                                        <button id="submitBtn" type="submit" class="btn btn-primary">Submit
+                                            Order</button>
                                         <div id="loadingIcon" style="display: none;">Sending...</div>
                                     </div>
                                 </div>
@@ -259,27 +260,27 @@
     </section>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             // Retrieve parameters from URL
             const urlParams = new URLSearchParams(window.location.search);
             const orderName = urlParams.get('name');
             const orderPrice = urlParams.get('price');
-    
+
             // Set values to form fields
             document.getElementById('order-name').value = orderName;
             document.getElementById('order-price').value = orderPrice;
         });
-    
+
         // Initialize EmailJS with your user ID
         emailjs.init('MpyANUQh9X26T_sh8');
-    
+
         // Add event listener to the form submission
         document.getElementById('submitBtn').addEventListener('click', function (event) {
             event.preventDefault(); // Prevent default form submission
-    
+
             // Show loading icon
             document.getElementById('loadingIcon').style.display = 'block';
-    
+
             // Get the form data
             const formData = {
                 name: document.getElementById('name').value,
@@ -288,7 +289,7 @@
                 orderName: document.getElementById('order-name').value,
                 orderPrice: document.getElementById('order-price').value
             };
-    
+
             // Send the form data using EmailJS
             emailjs.send('service_3h8xxph', 'template_2obfuik', formData)
                 .then(function (response) {
@@ -319,7 +320,7 @@
                 });
         });
     </script>
-    
+
     <style>
         .sweet-alert-custom {
             font-family: Arial, sans-serif;
@@ -508,7 +509,7 @@
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/particles-config.js"></script>
     <script src="assets/js/main.js"></script>
-  
+
 </body>
 
 </html>
