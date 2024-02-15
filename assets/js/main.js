@@ -6,6 +6,7 @@ document.addEventListener('contextmenu', function(event) {
 document.addEventListener('keydown', function(event) {
     event.stopPropagation();
 }, true);
+
  function loadHTMLPage(url, containerId) {
     var container = document.getElementById(containerId);
     var xhttp = new XMLHttpRequest();
