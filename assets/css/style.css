@@ -11959,6 +11959,7 @@ span.select2-selection.select2-selection--single:focus {
     background-color: var(--theme-color);
     z-index: -1;
     overflow: hidden
+    
 }
 
 .marquee-wrapper {
