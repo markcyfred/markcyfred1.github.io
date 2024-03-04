@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="assets/js/intlTelInput.min.js"></script>
 
 
 </head>
@@ -125,7 +127,7 @@
                                 <li><i class="fas fa-map-location"></i>Nairobi-Kenya</li>
                                 <li><i class="fas fa-phone"></i><a href="tel:+254 792 966 620">+254-792-966-620</a></li>
                                 <li><i class="fas fa-envelope"></i><a
-                                        href="mailto:info@mywebmark.tech">info@mywebmark.tech</a></li>
+                                        href="mailto:mywebmarktechnologies@gmail.com">mywebmarktechnologies@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -230,20 +232,71 @@
                                         <input type="text" id="name" class="form-control" placeholder="Enter your name">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email">Your Email:</label>
-                                        <input type="email" id="email" class="form-control"
-                                            placeholder="Enter your email">
-                                    </div>
+ 
+                                <div class="form-group col-md-6">
+                                    <input  type="email" class="form-control" name="email" id="email" placeholder="Email Address" required> <i class="fal fa-envelope"></i>
+                                    <div id="email-feedback" style="color: red;"></div>
+                                    <script>
+                                        var emailInput = document.querySelector("#email");
+                                        var emailFeedback = document.querySelector("#email-feedback");
+                                
+                                        emailInput.addEventListener("input", function () {
+                                            if (emailInput.validity.valid || emailInput.value === "") {
+                                                emailFeedback.textContent = ""; // Clear error message when input is valid or empty
+                                            } else {
+                                                emailFeedback.textContent = "Your email is invalid. Please enter a valid email.";
+                                            }
+                                        });
+                                    </script>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phone">Your Phone Number:</label>
-                                        <input type="tel" id="phone" class="form-control"
-                                            placeholder="Enter your phone number">
-                                    </div>
+                                <div class="form-group col-md-12">
+                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
+                                    <div id="phone-code"  style="color: blue;display: none;"></div>
+                                    <div id="phone-feedback" style="color: red;"></div>
                                 </div>
+                                
+                                <script>
+                                    var input = document.querySelector("#phone");
+                                    var phoneCodeDisplay = document.querySelector("#phone-code");
+                                    var phoneFeedback = document.querySelector("#phone-feedback");
+                                    var iti = window.intlTelInput(input, {
+                                        separateDialCode: true,
+                                        excludeCountries: ["in", "il"],
+                                        preferredCountries: ["ke"]
+                                    });
+                                
+                                    // Function to update the phone number with the country code and ensure the correct number of digits
+                                    function updatePhoneNumber() {
+                                        var countryData = iti.getSelectedCountryData();
+                                        var dialCode = countryData.dialCode;
+                                        var phoneNumber = input.value.replace(/\D/g, ''); // Remove non-digit characters
+                                
+                                        // Display the phone code
+                                        phoneCodeDisplay.textContent = "+" + dialCode;
+                                
+                                        // Ensure the phone number conforms to the selected country's requirements
+                                        if (phoneNumber.startsWith(dialCode)) {
+                                            phoneNumber = phoneNumber.slice(dialCode.length); // Remove the dial code
+                                        }
+                                
+                                        // Update the phone number with the country code
+                                        input.value = phoneNumber;
+                                
+                                        // Provide live feedback on the phone number format
+                                        if (phoneNumber.length !== 9) {
+                                            phoneFeedback.textContent = "Your format is incorrect. Number should have 9 digits.";
+                                        } else {
+                                            phoneFeedback.textContent = "";
+                                        }
+                                    }
+                                
+                                    // Listen for changes in the selected country
+                                    input.addEventListener("countrychange", updatePhoneNumber);
+                                
+                                    // Listen for input events to provide live feedback
+                                    input.addEventListener("input", updatePhoneNumber);
+                                </script>
+                                
                                 <div class="col-md-12">
                                     <div class="form-group text-center">
                                         <button id="submitBtn" type="submit" class="btn btn-primary">Submit
@@ -289,6 +342,13 @@
                 orderName: document.getElementById('order-name').value,
                 orderPrice: document.getElementById('order-price').value
             };
+            
+            // Modify the phone number format to include the country code and spaces
+            var selectedCountryData = iti.getSelectedCountryData();
+            var dialCode = selectedCountryData.dialCode;
+            var phoneNumber = document.getElementById('phone').value.replace(/\D/g, ''); // Remove non-digit characters
+            phoneNumber = phoneNumber.replace(/(\d{3})(\d{3})(\d{3})/, "$1 $2 $3"); // Add spaces
+            formData.phone = "+" + dialCode + " " + phoneNumber;
 
             // Send the form data using EmailJS
             emailjs.send('service_xfuei5t', 'template_pvopkgh', formData)
@@ -370,8 +430,8 @@
                             <div class="footer-contact">
                                 <div class="footer-contact_icon"><i class="fas fa-envelope"></i></div>
                                 <div class="media-body"><span class="footer-contact_text">Mail Us On:</span> <a
-                                        href="mailto:info@mywebmark.tech"
-                                        class="footer-contact_link">info@mywebmark.tech</a>
+                                        href="mailto:mywebmarktechnologies@gmail.com"
+                                        class="footer-contact_link">mywebmarktechnologies@gmail.com</a>
                                 </div>
                             </div>
                             <div class="footer-contact">

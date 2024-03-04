@@ -6,8 +6,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Contact MywebMark Technologies - Leading Website & Logo Design Company in Kenya</title>
     <meta name="author" content="MywebMark Technologies">
-    <meta name="description" content="Get in touch with MywebMark Technologies, the leading Website & Logo Design company in Kenya. Reach out for inquiries, collaborations, or any questions you may have about our services.">
-    <meta name="keywords" content="MywebMark Technologies, Contact us, Website design Kenya, Logo design Kenya, Kenya web design company">
+    <meta name="description"
+        content="Get in touch with MywebMark Technologies, the leading Website & Logo Design company in Kenya. Reach out for inquiries, collaborations, or any questions you may have about our services.">
+    <meta name="keywords"
+        content="MywebMark Technologies, Contact us, Website design Kenya, Logo design Kenya, Kenya web design company">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo.png">
@@ -37,6 +39,8 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="assets/js/intlTelInput.min.js"></script>
 
 </head>
 
@@ -122,7 +126,8 @@
                                 <li><i class="fas fa-map-location"></i>Nairobi-Kenya</li>
                                 <li><i class="fas fa-phone"></i><a href="tel:+254 792 966 620">+254-792-966-620</a></li>
                                 <li><i class="fas fa-envelope"></i><a
-                                        href="mailto:info@mywebmark.tech">info@mywebmark.tech</a></li>
+                                        href="mailto:mywebmarktechnologies@gmail.com">mywebmarktechnologies@gmail.com</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -145,7 +150,8 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
+                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a>
+                            </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
@@ -220,7 +226,8 @@
                         <div class="contact-info_icon"><i class="fas fa-envelope"></i></div>
                         <div class="media-body">
                             <h4 class="box-title">Send An Email</h4><span class="contact-info_text"><a
-                                    href="mailto:hello@mywebmark.tec">hello@mywebmark.tech</a> </span>
+                                    href="mailto:mywebmarktechnologies@gmail.com"
+                                    style="font-size: 12px;">mywebmarktechnologies@gmail.com</a> </span>
                         </div>
                     </div>
                 </div>
@@ -241,36 +248,135 @@
                                     src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>contact with us!
                         </span>
                         <h2 class="sec-title">Have Any Questions?</h2>
-                        <p class="sec-text">Enthusiastically disintermediate one-to-one leadership via business
-                            e-commerce. Dramatically reintermediate compelling process improvements rather than
-                            empowered relationships.</p>
+                        <p class="sec-text">
+                            We are here to help you with any questions you may have. Reach out to us and we will get
+                            back
+                            to you as soon as possible.
+                        </p>
                     </div>
                     <form id="contact-form">
                         <div class="row">
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name"
-                                    id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
-                            <div class="form-group col-md-6"><input type="email" class="form-control" name="email"
-                                    id="email" placeholder="Email Address"> <i class="fal fa-envelope"></i></div>
-                            <div class="form-group col-md-6"><select name="service" id="serviceSelect"
-                                    class="form-select">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select Service
-                                    </option>
-                                    <option value="Web Development">Web Development</option>
-                                    <option value="Brand Marketing">Brand Marketing</option>
-                                    <option value="UI/UX Designing">UI/UX Designing</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                </select> <i class="fal fa-chevron-down"></i></div>
-                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="phone"
-                                    id="phone" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
-                            <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3"
-                                    class="form-control" placeholder="Your Message"></textarea> <i
-                                    class="fal fa-comment"></i></div>
-                            <div class="form-btn text-xl-start text-center col-12"><button id="send-button"
-                                    class="th-btn">Send Message<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                            <div class="form-group col-md-6">
+                                <input style="background-color: white!important;" type="text" class="form-control"
+                                    name="name" id="name" placeholder="Your Name" required> <i class="fal fa-user"></i>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input style="background-color: white!important;" type="email" class="form-control"
+                                    name="email" id="email" placeholder="Email Address" required> <i
+                                    class="fal fa-envelope"></i>
+                                <div id="email-feedback" style="color: red;"></div>
+                                <script>
+                                    var emailInput = document.querySelector("#email");
+                                    var emailFeedback = document.querySelector("#email-feedback");
+
+                                    emailInput.addEventListener("input", function () {
+                                        if (emailInput.validity.valid || emailInput.value === "") {
+                                            emailFeedback.textContent = ""; // Clear error message when input is valid or empty
+                                        } else {
+                                            emailFeedback.textContent = "Your email is invalid. Please enter a valid email.";
+                                        }
+                                    });
+                                </script>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <select style="background-color: white!important;" name="service" id="serviceSelect"
+                                    class="form-select" required>
+                                    <option value="" disabled selected hidden>Select Service</option>
+                                    <option value="Web Development">&#128187; Web Development</option>
+                                    <option value="Brand Marketing">&#128293; Brand Marketing</option>
+                                    <option value="UI/UX Designing">&#128640; UI/UX Designing</option>
+                                    <option value="Digital Marketing">&#128249; Digital Marketing</option>
+                                    <option value="SEO">&#128273; SEO</option>
+                                    <option value="Content Writing">&#9997; Content Writing</option>
+                                    <option value="App Development">&#128241; App Development</option>
+                                    <option value="E-commerce">&#128722; E-commerce</option>
+                                    <option value="Other">&#128712; Other Services</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-6">
+                                <select style="background-color: white!important;" class="form-select" name="how_heard"
+                                    id="howHeard" required>
+                                    <option value="" disabled selected>How did you hear about-us</option>
+                                    <option value="Google">&#128269; GoogleSearch</option>
+                                    <option value="Bing">&#128347; Bing</option>
+                                    <option value="Yahoo">&#128512; Yahoo</option>
+                                    <option value="Facebook">&#128247; Facebook</option>
+                                    <option value="Twitter">&#128640; Twitter</option>
+                                    <option value="Instagram">&#127988; Instagram</option>
+                                    <option value="LinkedIn">&#128100; LinkedIn</option>
+                                    <option value="TikTok">&#127916; TikTok</option>
+                                    <option value="Word of mouth">&#128101; Word of mouth</option>
+                                    <option value=" Online">&#127760; Online</option>
+                                    <option value=" TV">&#128250; TV</option>
+                                    <option value=" Radio">&#127911; Radio</option>
+                                    <option value=" Print">&#128240; Print</option>
+                                    <option value="Other">&#128712; Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input style="background-color: white !important; width: 100%;" type="tel"
+                                    class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
+                                <div id="phone-code" style="color: blue;display: none;"></div>
+                                <div id="phone-feedback" style="color: red;"></div>
+                            </div>
+
+                            <script>
+                                var input = document.querySelector("#phone");
+                                var phoneCodeDisplay = document.querySelector("#phone-code");
+                                var phoneFeedback = document.querySelector("#phone-feedback");
+                                var iti = window.intlTelInput(input, {
+                                    separateDialCode: true,
+                                    excludeCountries: ["in", "il"],
+                                    preferredCountries: ["ke"]
+                                });
+
+                                // Function to update the phone number with the country code and ensure the correct number of digits
+                                function updatePhoneNumber() {
+                                    var countryData = iti.getSelectedCountryData();
+                                    var dialCode = countryData.dialCode;
+                                    var phoneNumber = input.value.replace(/\D/g, ''); // Remove non-digit characters
+
+                                    // Display the phone code
+                                    phoneCodeDisplay.textContent = "+" + dialCode;
+
+                                    // Ensure the phone number conforms to the selected country's requirements
+                                    if (phoneNumber.startsWith(dialCode)) {
+                                        phoneNumber = phoneNumber.slice(dialCode.length); // Remove the dial code
+                                    }
+
+                                    // Update the phone number with the country code
+                                    input.value = phoneNumber;
+
+                                    // Provide live feedback on the phone number format
+                                    if (phoneNumber.length !== 9) {
+                                        phoneFeedback.textContent = "Your format is incorrect. Number should have 9 digits.";
+                                    } else {
+                                        phoneFeedback.textContent = "";
+                                    }
+                                }
+
+                                // Listen for changes in the selected country
+                                input.addEventListener("countrychange", updatePhoneNumber);
+
+                                // Listen for input events to provide live feedback
+                                input.addEventListener("input", updatePhoneNumber);
+                            </script>
+
+
+                            <div class="form-group col-12">
+                                <textarea style="background-color: white!important;" name="message" id="message"
+                                    cols="30" rows="3" class="form-control" placeholder="Your Message"
+                                    required></textarea> <i class="fal fa-comment"></i>
+                            </div>
+                            <div class="form-btn text-xl-start text-center col-12">
+                                <button id="send-button" class="th-btn">Send Message<i
+                                        class="fa-regular fa-arrow-right ms-2"></i></button>
                             </div>
                         </div>
-                        <p class="form-messages mb-0 mt-3"></p>
                     </form>
+
 
                 </div>
             </div>
@@ -280,43 +386,56 @@
         (function () {
             emailjs.init('FhXIz0zUnDqf0loBW');
         })();
-    </script>
 
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the form from submitting normally
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('send-button').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the form from submitting normally
 
-            // Get the form data
-            var formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                service: document.getElementById('serviceSelect').value,
-                phone: document.getElementById('phone').value,
-                message: document.getElementById('message').value
-            };
+                // Change button text to "Sending..."
+                document.getElementById('send-button').innerHTML = 'Sending...';
 
-            // Send the email
-            emailjs.send('service_yhpy2pa', 'template_a0kkw7j', formData)
-                .then(function (response) {
-                    console.log('Email sent successfully', response);
-                    //swet alert
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Message Sent!',
-                        text: 'Thank you for contacting us, we will get back to you soon!',
+                // Get the form data
+                var formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    service: document.getElementById('serviceSelect').value,
+                    how_heard: document.getElementById('howHeard').value,
+                    message: document.getElementById('message').value
+                };
+
+                // Modify the phone number format to include the country code and spaces
+                var selectedCountryData = iti.getSelectedCountryData();
+                var dialCode = selectedCountryData.dialCode;
+                var phoneNumber = document.getElementById('phone').value.replace(/\D/g, ''); // Remove non-digit characters
+                phoneNumber = phoneNumber.replace(/(\d{3})(\d{3})(\d{3})/, "$1 $2 $3"); // Add spaces
+                formData.phone = "+" + dialCode + " " + phoneNumber;
+
+                // Send the email
+                emailjs.send('service_yhpy2pa', 'template_a0kkw7j', formData)
+                    .then(function (response) {
+                        console.log('Email sent successfully', response);
+                        // Change button text back to original
+                        document.getElementById('send-button').innerHTML = 'Send Message<i class="fa-regular fa-arrow-right ms-2"></i>';
+                        // Sweet alert
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Message Sent!',
+                            text: 'Thank you for contacting us, we will get back to you soon!',
+                        });
+
+                    }, function (error) {
+                        console.error('Email sending failed', error);
+                        // Change button text back to original
+                        document.getElementById('send-button').innerHTML = 'Send Message<i class="fa-regular fa-arrow-right ms-2"></i>';
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Something went wrong! Please try again later.',
+                        });
                     });
-
-                }, function (error) {
-                    console.error('Email sending failed', error);
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Oops...',
-                        text: 'Something went wrong! Please try again later.',
-                    });
-                });
+            });
         });
     </script>
-
 
     <footer class="footer-wrapper footer-layout1">
         <div class="footer-top">
@@ -337,8 +456,8 @@
                             <div class="footer-contact">
                                 <div class="footer-contact_icon"><i class="fas fa-envelope"></i></div>
                                 <div class="media-body"><span class="footer-contact_text">Mail Us On:</span> <a
-                                        href="mailto:info@mywebmark.tech"
-                                        class="footer-contact_link">info@mywebmark.tech</a>
+                                        href="mailto:mywebmarktechnologies@gmail.com"
+                                        class="footer-contact_link">mywebmarktechnologies@gmail.com</a>
                                 </div>
                             </div>
                             <div class="footer-contact">
