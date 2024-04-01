@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/shapes.php'; ?>
-<div style="margin-top: -70px;margin-bottom: -70px;" class="space responsive-sec" id="responsive">
+<!-- <div style="margin-top: -70px;margin-bottom: -70px;" class="space responsive-sec" id="responsive">
     <div class="responsive-shape"></div>
     <div class="container">
         <div class="responsive-area">
@@ -93,8 +93,8 @@
             <span class="tab-text">Customised Design</span>
         </div>
     </div>
-</div>
-<div class="space">
+</div> -->
+<!-- <div class="space">
     <div class="container">
         <div class="row gy-4">
             <div class="col-xl-4 col-md-6">
@@ -125,9 +125,9 @@
     </div>
 </div>
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 
-
+<!-- 
 <div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png">
     <div class="container">
         <div class="row">
@@ -260,7 +260,27 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<!--page under mantainance--> 
+ 
+<section class="page-under-maintenance">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 text-center">
+                <img src="assets/img/error.png" alt="Under Maintenance" class="img-fluid mb-4">
+            </div>
+            <div class="col-md-6">
+                <div class="page-under-maintenance-content text-center text-md-left">
+                    <h1 class="display-4">Page Under Maintenance</h1>
+                    <p class="lead">We're currently working on this page to enhance your experience. Please check back soon!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--page under mantainance-->
 <script>
     (function() {
         emailjs.init('FhXIz0zUnDqf0loBW');
