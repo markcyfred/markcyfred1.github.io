@@ -59,15 +59,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="graphicdesign.html" data-color="#684DF4"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#684DF4"><img style="width: 50px;"
                     src="assets/img/favicons/logo-design.png" alt="Flame"></a>
-            <a href="webdesign.html" data-color="#FF4C60"><img style="width: 50px;"
+            <a href="webdesign.php" data-color="#FF4C60"><img style="width: 50px;"
                     src="assets/img/favicons/ux-design.png" alt="Flame"></a>
-            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
+            <a href="service.php" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="graphicdesign.html" data-color="#FFD54C"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#FFD54C"><img style="width: 50px;"
                     src="assets/img/favicons/poster-design.png" alt="Flame"></a>
-            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="s.e.o.php" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -92,29 +92,29 @@
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img style="width: 50px;" src="assets/img/favicons/logo.png"
+            <div class="mobile-logo"><a href="index.php"><img style="width: 50px;" src="assets/img/favicons/logo.png"
                         alt=" MywebMark">MywebMark Technologies</a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     </li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="s.e.o.html">S.E.O</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="webdesign.html">Web design</a></li>
-                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="project.php">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -153,36 +153,36 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
+                                    href="index.php"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     </li>
-                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="s.e.o.html">S.E.O</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="webdesign.html">Web design</a></li>
-                                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                                    <li><a href="webdesign.php">Web design</a></li>
+                                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="project.php">Projects</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="header-button"> <a href="contact-us.html" class="th-btn style3 shadow-none">Make
+                            <div class="header-button"> <a href="contact-us.php" class="th-btn style3 shadow-none">Make
                                     Appointment<i class="fas fa-arrow-right ms-1"></i></a></div>
                         </div>
                     </div>
@@ -409,7 +409,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><a class="icon-masking" href="index.html"><img style="width: 100px;"
+                        <div class="footer-logo"><a class="icon-masking" href="index.php"><img style="width: 100px;"
                                     src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                     </div>
                     <div class="col-xl-9">
@@ -463,10 +463,10 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact-us.html">Help & FAQs</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="project.php">Our Projects</a></li>
+                                    <li><a href="contact-us.php">Help & FAQs</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -476,11 +476,11 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="webdesign.html">Web Development</a></li>
-                                    <li><a href="webdesign.html">Business Development</a></li>
-                                    <li><a href="webdesign.html">Product Management</a></li>
-                                    <li><a href="webdesign.html">UI/UX Design</a></li>
-                                    <li><a href="webdesign.html">Cloud services</a></li>
+                                    <li><a href="webdesign.php">Web Development</a></li>
+                                    <li><a href="webdesign.php">Business Development</a></li>
+                                    <li><a href="webdesign.php">Product Management</a></li>
+                                    <li><a href="webdesign.php">UI/UX Design</a></li>
+                                    <li><a href="webdesign.php">Cloud services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -490,23 +490,23 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Organic
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Organic
                                                 keyword generation</a>
                                         </h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>15 Jan, 2024</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Sharing
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Sharing
                                                 webdesign process</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>16 Jan, 2024</a></div>
                                     </div>
                                 </div>
@@ -527,9 +527,9 @@
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="aboutus.html">Terms & Condition</a></li>
-                                <li><a href="aboutus.html">Careers</a></li>
-                                <li><a href="aboutus.html">Privacy Policy</a></li>
+                                <li><a href="aboutus.php">Terms & Condition</a></li>
+                                <li><a href="aboutus.php">Careers</a></li>
+                                <li><a href="aboutus.php">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

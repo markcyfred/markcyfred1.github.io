@@ -4,12 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Effective SEO Solutions - MywebMark Technologies Kenya</title>
+    <title>Services | MywebMark Technologies</title>
     <meta name="author" content="MywebMark Technologies">
-    <meta name="description"
-        content="Discover effective SEO solutions and services offered by MywebMark Technologies in Kenya. Boost your online visibility and organic traffic with our expert optimization strategies.">
-    <meta name="keywords"
-        content="SEO solutions, SEO services, Search engine optimization, Kenya SEO, Online visibility, Organic traffic">
+    <meta name="description" content="MywebMark Technologies is a leading IT company in Nairobi, Kenya. We provide the best IT solutions for your business.">
+    <meta name="keywords" content="MywebMark Technologies, IT company in Nairobi, Kenya, IT solutions, Web development, Graphic design, S.E.O, Web design, Digital marketing, Business analysis, Software services, IT management, C.M.S">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo.png">
@@ -44,7 +42,7 @@
 
 <body>
     <div class="fixed-tag">
-        <img src="assets/img/SEO.png" alt="SEO work in kenya">
+        <img src="assets/img/Services.png" alt="Webdesign in kenya">
     </div>
     <div class="cursor"></div>
     <div class="cursor2"></div>
@@ -56,15 +54,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="graphicdesign.html" data-color="#684DF4"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#684DF4"><img style="width: 50px;"
                     src="assets/img/favicons/logo-design.png" alt="Flame"></a>
-            <a href="webdesign.html" data-color="#FF4C60"><img style="width: 50px;"
+            <a href="webdesign.php" data-color="#FF4C60"><img style="width: 50px;"
                     src="assets/img/favicons/ux-design.png" alt="Flame"></a>
-            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
+            <a href="service.php" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="graphicdesign.html" data-color="#FFD54C"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#FFD54C"><img style="width: 50px;"
                     src="assets/img/favicons/poster-design.png" alt="Flame"></a>
-            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="s.e.o.php" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -89,28 +87,29 @@
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img style="width: 50px;" src="assets/img/favicons/logo.png"
+            <div class="mobile-logo"><a href="index.php"><img style="width: 50px;" src="assets/img/favicons/logo.png"
                         alt=" MywebMark">MywebMark Technologies</a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     </li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="s.e.o.html">S.E.O</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="s.e.o.php">S.E.O</a></li>
+
                         </ul>
                     </li>
-                    <li><a href="webdesign.html">Web design</a></li>
-                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="project.php">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -149,36 +148,36 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a>
-                            </div>
+                                    href="index.php"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     </li>
-                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="s.e.o.html">S.E.O</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="s.e.o.php">S.E.O</a></li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="webdesign.html">Web design</a></li>
-                                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                                    <li><a href="webdesign.php">Web design</a></li>
+                                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="project.php">Projects</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="header-button"> <a href="contact-us.html" class="th-btn style3 shadow-none">Make
+                            <div class="header-button"> <a href="contact-us.php" class="th-btn style3 shadow-none">Make
                                     Appointment<i class="fas fa-arrow-right ms-1"></i></a></div>
                         </div>
                     </div>
@@ -281,283 +280,124 @@
             </div>
         </div>
     </div>
-    <div class="down-option-area">
-        <div class="down-option-area_wrapper">
-            <div class="about-client-box mb-sm-0 mb-3">
-                <div class="client-thumb-group">
-                    <div class="thumb"><img src="assets/img/testimonial/client-img-1-1.png" alt="avater"></div>
-                    <div class="thumb"><img src="assets/img/testimonial/client-img-1-2.png" alt="avater"></div>
-                    <div class="thumb"><img src="assets/img/testimonial/john.png" alt="avater"></div>
-                </div><span class="cilent-box_title">Make An Appointment</span>
-            </div>
-            <div class="about-counter">
-                <h2 class="mb-0"><span class="counter-number">10</span></h2><span class="cilent-box_title">Happily <span
-                        class="cilent-box_title">active
-                        client’s</span></span>
-            </div>
-            <div class="cilent-box">
-                <div class="about_review"><i class="fa-sharp fa-solid fa-star"></i><i
-                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
-                <h4 class="cilent-box_counter"><span class="counter-number">30</span>+ Client Reviews</h4>
-            </div>
-        </div>
-    </div>
-    <div style="margin-top: -190px;" class="position-relative overflow-hidden">
-        <div class="container th-container5">
-            <div class="about-sec4 position-relative overflow-hidden" >
-                <div class="about-shape4">
-                    <div class="marquee-wrapper" >
-                        <div class="marquee">
-                            <div class="marquee-group">
-                                <div class="text">Keywords</div>
-                                <div class="text">Backlinks</div>
-                                <div class="text">Meta tags</div>
-                                <div class="text">Anchor text</div>
-                                <div class="text">Organic traffic</div>
-                                <div class="text">SERP</div>
-                                <div class="text">Algorithm</div>
-                                <div class="text">Page rank</div>
-                                <div class="text">Link building</div>
-                                <div class="text">SEO audit</div>
-                                <div class="text">Optimization</div>
-                                <div class="text">Canonical</div>
-                                <div class="text">Crawling</div>
-                                <div class="text">Indexing</div>
-                                <div class="text">Sitemap</div>
-                                <div class="text">Content marketing</div>
-                                <div class="text">Keyword density</div>
-                                <div class="text">301 redirect</div>
-                                <div class="text">404 error</div>
-                                <div class="text">Alt tags</div>
-                                <div class="text">Internal linking</div>
-                                <div class="text">External linking</div>
-                                <div class="text">Mobile optimization</div>
-                                <div class="text">Long-tail keywords</div>
-                                <div class="text">Keyword research</div>
-                                <div class="text">Site speed</div>
-                                <div class="text">User experience (UX)</div>
-                                <div class="text">Search intent</div>
-                            </div>
-                            <div aria-hidden="true" class="marquee-group">
-                                <div class="text">Keyword Research</div>
-                                <div class="text">Backlinks</div>
-                                <div class="text">Meta Tags</div>
-                                <div class="text">Anchor Text</div>
-                                <div class="text">Organic Traffic</div>
-                                <div class="text">SERP</div>
-                                <div class="text">Algorithm</div>
-                                <div class="text">Page Rank</div>
-                                <div class="text">Link Building</div>
-                                <div class="text">SEO Audit</div>
-                                <div class="text">Optimization</div>
-                                <div class="text">Canonical</div>
-                                <div class="text">Crawling</div>
-                                <div class="text">Indexing</div>
-                                <div class="text">Sitemap</div>
-                                <div class="text">Content Marketing</div>
-                                <div class="text">Keyword Density</div>
-                                <div class="text">301 Redirect</div>
-                                <div class="text">404 Error</div>
-                                <div class="text">Alt Tags</div>
-                                <div class="text">Internal Linking</div>
-                                <div class="text">External Linking</div>
-                                <div class="text">Mobile Optimization</div>
-                                <div class="text">Long-Tail Keywords</div>
-                                <div class="text">Keyword Research</div>
-                                <div class="text">Site Speed</div>
-                                <div class="text">User Experience (UX)</div>
-                                <div class="text">Search Intent</div>
-                            </div>
-                        </div>
-                        <div class="marquee marquee--reverse">
-                            <div class="marquee-group">
-                                
-                            </div>
-                            <div aria-hidden="true" class="marquee-group">
-                                <div class="text">SEO Strategy</div>
-                                <div class="text">Content Optimization</div>
-                                <div class="text">Keyword Analysis</div>
-                                <div class="text">Link Profile</div>
-                                <div class="text">Site Architecture</div>
-                                <div class="text">Mobile Responsiveness</div>
-                                <div class="text">Local SEO</div>
-                                <div class="text">Site Speed Optimization</div>
-                                <div class="text">Google Analytics</div>
-                                <div class="text">Search Engine Algorithms</div>
-                                <div class="text">Social Media Integration</div>
-                                <div class="text">Quality Backlinks</div>
-                                <div class="text">Site Indexing</div>
-                                <div class="text">SEO Audit</div>
-                                <div class="text">Competitor Analysis</div>
-                                <div class="text">On-Page SEO</div>
-                                <div class="text">Off-Page SEO</div>
-                                <div class="text">Keyword Density</div>
-                                <div class="text">Meta Description Optimization</div>
-                                <div class="text">Image Optimization</div>
-                                <div class="text">User Engagement Metrics</div>
-                                <div class="text">Long-Tail Keyword Optimization</div>
-                                <div class="text">Structured Data Markup</div>
-                                <div class="text">XML Sitemap</div>
-                                <div class="text">Canonical Tags</div>
-                                <div class="text">Conversion Rate Optimization (CRO)</div>
-                                <div class="text">Duplicate Content Issues</div>
-                                <div class="text">301 Redirects</div>
-                                <div class="text">404 Error Handling</div>
-                            </div>
-                        </div>
-                        <div class="marquee">
-                            <div aria-hidden="true" class="marquee-group">
-                                <div class="text">SEO Analysis</div>
-                                <div class="text">Keyword Ranking</div>
-                                <div class="text">Link Building Strategies</div>
-                                <div class="text">On-Page Optimization</div>
-                                <div class="text">Off-Page Optimization</div>
-                                <div class="text">Local SEO</div>
-                                <div class="text">Technical SEO</div>
-                                <div class="text">Mobile SEO</div>
-                                <div class="text">Voice Search Optimization</div>
-                                <div class="text">SEO Tools</div>
-                                <div class="text">Content Strategy</div>
-                                <div class="text">Meta Tags Optimization</div>
-                                <div class="text">SEO Copywriting</div>
-                                <div class="text">Schema Markup</div>
-                                <div class="text">User Experience (UX)</div>
-                                <div class="text">Site Speed Optimization</div>
-                                <div class="text">Conversion Rate Optimization (CRO)</div>
-                                <div class="text">Structured Data</div>
-                                <div class="text">Content Management System (CMS)</div>
-                                <div class="text">Competitor Analysis</div>
-                                <div class="text">Search Engine Algorithms</div>
-                                <div class="text">Google Search Console</div>
-                                <div class="text">Bing Webmaster Tools</div>
-                                <div class="text">Page Authority</div>
-                                <div class="text">Domain Authority</div>
-                                <div class="text">Backlink Analysis</div>
-                                <div class="text">Social Media Integration</div>
-                                <div class="text">Site Audit</div>
-                                <div class="text">Keyword Research Tools</div>
-                            </div>
-                            <div aria-hidden="true" class="marquee-group">
-                                <div class="text">Keyword Strategy</div>
-                                <div class="text">Link Building</div>
-                                <div class="text">SEO Audit</div>
-                                <div class="text">Content Optimization</div>
-                                <div class="text">Local SEO</div>
-                                <div class="text">Technical SEO</div>
-                                <div class="text">On-Page SEO</div>
-                                <div class="text">Off-Page SEO</div>
-                                <div class="text">Mobile SEO</div>
-                                <div class="text">Voice Search Optimization</div>
-                                <div class="text">SEO Analytics</div>
-                                <div class="text">Schema Markup</div>
-                                <div class="text">User Experience (UX)</div>
-                                <div class="text">Site Speed Optimization</div>
-                                <div class="text">Conversion Rate Optimization (CRO)</div>
-                                <div class="text">Structured Data</div>
-                                <div class="text">Content Management System (CMS)</div>
-                                <div class="text">Competitor Analysis</div>
-                                <div class="text">Search Engine Algorithms</div>
-                                <div class="text">Google Search Console</div>
-                                <div class="text">Bing Webmaster Tools</div>
-                                <div class="text">Page Authority</div>
-                                <div class="text">Domain Authority</div>
-                                <div class="text">Backlink Analysis</div>
-                                <div class="text">Social Media Integration</div>
-                                <div class="text">Site Audit</div>
-                                <div class="text">Keyword Research</div>
-                                <div class="text">Long-Tail Keywords</div>
-                                <div class="text">Meta Tags Optimization</div>
-                            </div>
-
-                        </div>
+    <section class="space" id="service-sec">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">01</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">Web Development</a></h3>
+                        <p class="service-card_text">
+                            We are providing the best Product Design. That help you
+                            very much.
+                        </p><i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
                 </div>
-                <div class="about-area4" >
-                    <div class="title-area-wrapper" >
-                        <div class="title-area mb-40" ><span class="sub-title style1 text-white">Our SEO Mission</span>
-                            <h2 class="sec-title text-white">
-                                Effective SEO Solutions for Your Business</h2>
-                            </h2>
-                        </div><a href="contact-us.html" class="th-btn style5 style-radius">More About S.E.O</a>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">02</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">UI/UX Design</a></h3>
+                        <p class="service-card_text">We are providing the best UI/UX design. That help you
+                            be professional.</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">03</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">Digital Marketing</a></h3>
+                        <p class="service-card_text">We empower small and medium-sized businesses to
+                            overcome challenges</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">04</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">Business Analysis</a></h3>
+                        <p class="service-card_text">
+                            We provide the best business analysis services. That help you
+                            be professional.
+                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">05</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">Software Services</a></h3>
+                        <p class="service-card_text">
+                            We provide the best software services. That help you
+                            be professional.
+                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">06</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_6_3.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">Graphic design</a></h3>
+                        <p class="service-card_text">We create a unique logo that represents your brand,
+                            making your business stand out.</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">07</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_7.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">IT Management</a></h3>
+                        <p class="service-card_text">
+                            We provide the best IT management services. That help you
+                            be professional.
+                        </p><i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">08</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_card_8.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">C.M.S</a></h3>
+                        <p class="service-card_text">
+                            We provide the best C.M.S services. That help you
+                            be professional.
+                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-card">
+                        <div class="service-card_number">09</div>
+                        <div class="shape-icon"><img src="assets/img/icon/service_6_2.svg" alt="Icon"> <span
+                                class="dots"></span></div>
+                        <h3 class="box-title"><a href="service-details.php">S.E.O</a></h3>
+                        <p class="service-card_text">
+                            With strategic SEO, we improve your online visibility
+                            and drive more organic traffic .
+                        </p><i
+                            class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <section id="key-elements">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Key SEO Elements</h2>
-                    <p>Effective SEO involves optimizing various elements on your website to improve its visibility and
-                        ranking on search engine results pages (SERPs). Some key elements of SEO include:</p>
-                    <ul>
-                        <li>Keywords and Keyword Research</li>
-                        <li>Meta Tags (Title Tag, Meta Description)</li>
-                        <li>Header Tags (H1, H2, H3, etc.)</li>
-                        <li>Internal Linking Structure</li>
-                        <li>Content Quality and Relevance</li>
-                        <li>Mobile-Friendliness and Page Load Speed</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </section>
-    <section id="on-page-seo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>On-Page SEO Techniques</h2>
-                    <p>On-page SEO refers to optimizing individual web pages to improve their search engine rankings and
-                        drive organic traffic. Some on-page SEO techniques include:</p>
-                    <ul>
-                        <li>Keyword Optimization in Title Tags, Headings, and Content</li>
-                        <li>Optimizing Meta Descriptions and URLs</li>
-                        <li>Using Descriptive Alt Tags for Images</li>
-                        <li>Creating High-Quality and Engaging Content</li>
-                        <li>Improving Page Load Speed and Mobile Responsiveness</li>
-                        <li>Implementing Structured Data Markup</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="off-page-seo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Off-Page SEO Strategies</h2>
-                    <p>Off-page SEO involves activities that take place outside of your website but contribute to its
-                        overall authority and relevance in search engine algorithms. Some off-page SEO strategies
-                        include:</p>
-                    <ul>
-                        <li>Link Building from High-Quality and Relevant Websites</li>
-                        <li>Social Media Marketing and Engagement</li>
-                        <li>Guest Blogging and Influencer Outreach</li>
-                        <li>Online Reputation Management</li>
-                        <li>Local SEO Optimization (Google My Business, Local Directories)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="conclusion">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Conclusion</h2>
-                    <p>Implementing effective SEO strategies is crucial for businesses looking to improve their online
-                        visibility, attract more organic traffic, and grow their customer base. By optimizing various
-                        on-page and off-page elements, businesses can enhance their search engine rankings and stay
-                        ahead of the competition.</p>
-                    <p>For further assistance with your SEO needs, feel free to <a href="contact-us.html">contact us</a>
-                        today.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="position-relative space">
         <div class="th-bg-img" data-bg-src="assets/img/bg/cta_bg_2.jpg"><img src="assets/img/bg/bg_overlay_1.png"
                 alt="overlay"></div>
@@ -571,7 +411,7 @@
                         </span>
                         <h2 class="sec-title text-white">Need Any Kind Of IT Solution For <span
                                 class="text-theme fw-normal">Your Business?</span></h2>
-                    </div><a href="contact-us.html" class="th-btn style3">Get In Touch</a>
+                    </div><a href="contact-us.php" class="th-btn style3">Get In Touch</a>
                 </div>
             </div>
         </div>
@@ -583,7 +423,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><a class="icon-masking" href="index.html"><img style="width: 100px;"
+                        <div class="footer-logo"><a class="icon-masking" href="index.php"><img style="width: 100px;"
                                     src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                     </div>
                     <div class="col-xl-9">
@@ -637,10 +477,10 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact-us.html">Help & FAQs</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="project.php">Our Projects</a></li>
+                                    <li><a href="contact-us.php">Help & FAQs</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -650,11 +490,11 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="webdesign.html">Web Development</a></li>
-                                    <li><a href="webdesign.html">Business Development</a></li>
-                                    <li><a href="webdesign.html">Product Management</a></li>
-                                    <li><a href="webdesign.html">UI/UX Design</a></li>
-                                    <li><a href="webdesign.html">Cloud services</a></li>
+                                    <li><a href="webdesign.php">Web Development</a></li>
+                                    <li><a href="webdesign.php">Business Development</a></li>
+                                    <li><a href="webdesign.php">Product Management</a></li>
+                                    <li><a href="webdesign.php">UI/UX Design</a></li>
+                                    <li><a href="webdesign.php">Cloud services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -664,23 +504,23 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Organic
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Organic
                                                 keyword generation</a>
                                         </h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>15 Jan, 2024</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Sharing
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Sharing
                                                 webdesign process</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>16 Jan, 2024</a></div>
                                     </div>
                                 </div>
@@ -701,9 +541,9 @@
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="aboutus.html">Terms & Condition</a></li>
-                                <li><a href="aboutus.html">Careers</a></li>
-                                <li><a href="aboutus.html">Privacy Policy</a></li>
+                                <li><a href="aboutus.php">Terms & Condition</a></li>
+                                <li><a href="aboutus.php">Careers</a></li>
+                                <li><a href="aboutus.php">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

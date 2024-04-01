@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>About MywebMark Technologies - Premier Website  & Logo Design Company in Kenya</title>
+    <title>Explore Our Projects - MywebMark Technologies Kenya</title>
     <meta name="author" content="MywebMark Technologies">
-    <meta name="description" content="MywebMark Technologies is the leading Web Design company in Kenya, offering exceptional website design, logo design, SEO, and IT services">
-    <meta name="keywords" content="MywebMark Technologies, Web design Kenya, Logo design Kenya, SEO Kenya, IT services Kenya">
+    <meta name="description" content="Explore the diverse range of projects completed by MywebMark Technologies in Kenya. From stunning website designs to captivating logo creations, discover our portfolio of successful endeavors.">
+    <meta name="keywords" content="Projects, Portfolio, Website designs, Logo creations, Kenya projects">    
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo.png">
@@ -42,7 +42,7 @@
 
 <body>
     <div class="fixed-tag">
-        <img src="assets/img/About-us.png" alt="img">
+        <img src="assets/img/Projects.png" alt="Webdesign in kenya">
     </div>
     <div class="cursor"></div>
     <div class="cursor2"></div>
@@ -54,15 +54,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="graphicdesign.html" data-color="#684DF4"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#684DF4"><img style="width: 50px;"
                     src="assets/img/favicons/logo-design.png" alt="Flame"></a>
-            <a href="webdesign.html" data-color="#FF4C60"><img style="width: 50px;"
+            <a href="webdesign.php" data-color="#FF4C60"><img style="width: 50px;"
                     src="assets/img/favicons/ux-design.png" alt="Flame"></a>
-            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
+            <a href="service.php" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="graphicdesign.html" data-color="#FFD54C"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#FFD54C"><img style="width: 50px;"
                     src="assets/img/favicons/poster-design.png" alt="Flame"></a>
-            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="s.e.o.php" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -87,27 +87,29 @@
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img style="width: 50px;" src="assets/img/favicons/logo.png"
+            <div class="mobile-logo"><a href="index.php"><img style="width: 50px;" src="assets/img/favicons/logo.png"
                         alt=" MywebMark">MywebMark Technologies</a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     </li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="s.e.o.html">S.E.O</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="s.e.o.php">S.E.O</a></li>
+
                         </ul>
                     </li>
-                    <li><a href="webdesign.html">Web design</a></li>
-                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="graphicdesign.php">Graphic design</a></li>
+
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="project.php">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -146,34 +148,36 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
+                                    href="index.php"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     </li>
-                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="s.e.o.html">S.E.O</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="s.e.o.php">S.E.O</a></li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="webdesign.html">Web design</a></li>
-                                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                                    <li><a href="webdesign.php">Web design</a></li>
+                                    <li><a href="graphicdesign.php">Graphic design</a></li>
+
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="project.php">Projects</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="header-button"> <a href="contact-us.html" class="th-btn style3 shadow-none">Make
+                            <div class="header-button"> <a href="contact-us.php" class="th-btn style3 shadow-none">Make
                                     Appointment<i class="fas fa-arrow-right ms-1"></i></a></div>
                         </div>
                     </div>
@@ -182,7 +186,6 @@
             </div>
         </div>
     </header>
-   
     <div style="margin-top: -70px;margin-bottom: -70px;" class="space responsive-sec" id="responsive">
         <div class="responsive-shape"></div>
         <div class="container">
@@ -277,125 +280,393 @@
             </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1">
-                        <div class="img1"><img style="width: 500px;" src="assets/img/normal/MywebMark.png" alt="About">
-                        </div>
-                        <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
-                        <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">2</span></h3>
-                            <p class="year-counter_text">Years Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="ps-xxl-4 ms-xl-3">
-                        <div class="title-area mb-35"><span class="sub-title">
-                                <div class="icon-masking me-2"><span class="mask-icon"
-                                        data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>About Us
-                            </span>
-                            <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">IT
-                                    Solution</span></h2>
-                        </div>
-                        <p class="mt-n2 mb-25">
-                            MywebMark Technologies is a leading IT company in Nairobi, Kenya. We are a team of
-                            professionals who are dedicated to providing the best services to our clients. We offer a
-                            wide range of services including web design, graphic design, and digital marketing.
+    <section class="section" id="demo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title text-center mb-3">
+                        <h3>
+                            <span class="text-danger">MywebMark Projects</span> <span class="text-muted">Demos</span>
+                        </h3>
+                        <p class="text-muted">Explore a world of creativity with MywebMark Projects - where boundless
+                            ideas come
+                            to life.</p>
                         </p>
-                        <div class="about-feature-wrap">
-                            <div class="about-feature">
-                                <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_1.svg"
-                                        alt="Icon"></div>
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">Certified Company</h3>
-                                    <p class="about-feature_text">Best Provide Skills Services</p>
-                                </div>
-                            </div>
-                            <div class="about-feature">
-                                <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_2.svg"
-                                        alt="Icon"></div>
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">Expart Team</h3>
-                                    <p class="about-feature_text">100% Expert Team</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-group"><a href="aboutus.html" class="th-btn">DISCOVER MORE<i
-                                    class="fa-regular fa-arrow-right ms-2"></i></a>
-                            <div class="call-btn">
-                                <div class="play-btn"><i class="fas fa-phone"></i></div>
-                                <div class="media-body"><span class="btn-text">Call Us On:</span> <a
-                                        href="tel:+19088000393" class="btn-title">+254 792 966 620</a></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <section class="position-relative space">
-        <div class="th-bg-img" data-bg-src="assets/img/bg/cta_bg_2.jpg"><img src="assets/img/bg/bg_overlay_1.png"
-                alt="overlay"></div>
-        <div class="container z-index-common">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-9 text-center">
-                    <div class="title-area mb-35"><span class="sub-title">
-                            <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>CONTACT US
-                        </span>
-                        <h2 class="sec-title text-white">Need Any Kind Of IT Solution For <span
-                                class="text-theme fw-normal">Your Business?</span></h2>
-                    </div><a href="contact-us.html" class="th-btn style3">Get In Touch</a>
+            <!-- end row -->
+
+            <div style="background-color: #eee;" class="row justify-content-center">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/ecormece.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">Shop-Sales <span class="sub-title">(Ecommerce)</span></h4>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/house.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live
+                                    Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">House-Sel <span class="sub-title">(Real Estate)</span></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/hrms.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">Human-Resource<span class="sub-title">(Management)</span></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/weather.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">Weather App <span class="sub-title">(Apis -weather forecast)</span>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/p.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">Point of Sale <span class="sub-title">(Management)</span></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="demo-box">
+                        <img src="assets/img/projects/loan.png" alt="demo-img" class="img-fluid mx-auto d-block">
+                        <div class="demo-overlay">
+                            <div class="demo-btn">
+                                <a href="#coming-soon" target="_blank" class="btn btn-danger">Live Preview
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="demo-box-title">loan <span class="sub-title">(Management)</span></h4>
+                    </div>
+                </div>
+
+            </div> <!-- end row-->
+        </div> <!-- end container-fluid -->
     </section>
 
-    <div class="space" data-bg-src="assets/img/bg/why_bg_1.png">
-        <div class="container">
-            <div class="row align-items-center flex-row-reverse">
-                <div class="col-xxl-7 col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box2">
-                        <div class="img1"><img src="assets/img/normal/why_1_1.jpg" alt="Why"></div>
-                    </div>
-                </div>
-                <div class="col-xxl-5 col-xl-6">
-                    <div class="title-area mb-35"><span class="sub-title">
-                            <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>WHY CHOOSE US
-                        </span>
-                        <h2 class="sec-title">We Are The Best IT <span class="text-theme">Services Provider</span></h2>
-                    </div>
-                    <p class="mt-n2 mb-30">
-                        We are a team of professionals who are dedicated to providing the best services to our clients.
-                        We offer a wide range of services including web design, graphic design, and digital marketing.
-                    </p>
-                    <div class="two-column">
-                        <div class="checklist style2">
-                            <ul>
-                                <li><i class="far fa-check"></i> Big Data Analysis</li>
-                                <li><i class="far fa-check"></i> 24/7 Online Support</li>
-                                <li><i class="far fa-check"></i> Business Improvement</li>
-                            </ul>
-                        </div>
-                        <div class="checklist style2">
-                            <ul>
-                                <li><i class="far fa-check"></i> Robust Security Measures</li>
-                                <li><i class="far fa-check"></i> Dedicated Support Team</li>
-                                <li><i class="far fa-check"></i> Streamlined Solutions</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <style>
+        .rocket-animation {
+            animation: rocket-bounce 1.5s ease-in-out infinite;
+        }
+
+        @keyframes rocket-bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .bulb-animation {
+            animation: bulb-on-off 1.5s ease-in-out infinite;
+        }
+
+        @keyframes bulb-on-off {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1;
+                color: #f39c12;
+            }
+
+            50% {
+                transform: scale(1);
+                opacity: 0.7;
+                color: #ddd;
+            }
+
+        }
+
+        .play-circle-animation {
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box !important;
+        }
+
+        .landing-banner-section {
+            padding-bottom: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        .landing-banner-content {
+            text-align: center;
+        }
+
+        #hero {
+            color: #ffffff !important;
+            margin-bottom: 1rem !important;
+            font-size: 15px !important;
+            opacity: 0.9 !important;
+        }
+
+        .underline-text {
+            text-decoration: none;
+            color: white !important;
+            font-weight: 600 !important;
+            position: relative !important;
+            font-size: 45px !important;
+            line-height: 1.2 !important;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+
+        .btn-warning {
+            background-color: #ffc107;
+            color: #212529;
+        }
+
+        .img-container-main {
+            overflow: hidden;
+        }
+
+        .landing-main-img {
+            border-radius: 0.5rem;
+            width: 100%;
+            height: auto;
+        }
+
+        .landing-banner-img-content {
+            padding: 0 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .landing-banner-img-content {
+                padding: 0;
+            }
+
+            .underline-text {
+                font-size: 18px !important;
+
+            }
+
+        }
+
+        @media only screen and (min-width: 577px) and (max-width: 768px) {
+            .btn-list {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .btn {
+                width: calc(50% - 10px);
+                margin: 10px 0;
+            }
+
+            .btn:nth-child(3) {
+                width: 100%;
+                margin-top: 100px;
+            }
+
+
+        }
+
+        #why-website {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+        }
+
+        #why-website .container {
+            position: relative;
+        }
+
+        #why-website .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #why-website .left-content {
+            flex: 1;
+        }
+
+        #why-website .about-heading {
+            font-size: 3rem;
+            color: #007bff;
+        }
+
+        #why-website .about-subheading {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        #why-website .right-content {
+            flex: 2;
+            margin-left: 40px;
+        }
+
+        #why-website p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            #why-website .content {
+                flex-direction: column;
+                text-align: center;
+                margin-top: 70px;
+            }
+
+            #why-website .right-content {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        .demo-box {
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            background-color: #28a745;
+            margin-top: 30px;
+            box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+            border: 3px solid #fff;
+        }
+
+        .demo-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .demo-box:hover .demo-overlay {
+            opacity: 1;
+        }
+
+        .demo-btn {
+            text-align: center;
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #db2222;
+            border-color: #35dc6d;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .demo-box-title {
+            color: #28a745;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .sub-title {
+            font-size: 14px;
+        }
+
+        .demo-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+
 
     <footer class="footer-wrapper footer-layout1">
         <div class="footer-top">
@@ -403,7 +674,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><a class="icon-masking" href="index.html"><img style="width: 100px;"
+                        <div class="footer-logo"><a class="icon-masking" href="index.php"><img style="width: 100px;"
                                     src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                     </div>
                     <div class="col-xl-9">
@@ -457,10 +728,10 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact-us.html">Help & FAQs</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="project.php">Our Projects</a></li>
+                                    <li><a href="contact-us.php">Help & FAQs</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -470,11 +741,11 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="webdesign.html">Web Development</a></li>
-                                    <li><a href="webdesign.html">Business Development</a></li>
-                                    <li><a href="webdesign.html">Product Management</a></li>
-                                    <li><a href="webdesign.html">UI/UX Design</a></li>
-                                    <li><a href="webdesign.html">Cloud services</a></li>
+                                    <li><a href="webdesign.php">Web Development</a></li>
+                                    <li><a href="webdesign.php">Business Development</a></li>
+                                    <li><a href="webdesign.php">Product Management</a></li>
+                                    <li><a href="webdesign.php">UI/UX Design</a></li>
+                                    <li><a href="webdesign.php">Cloud services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -484,23 +755,23 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Organic
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Organic
                                                 keyword generation</a>
                                         </h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>15 Jan, 2024</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Sharing
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Sharing
                                                 webdesign process</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>16 Jan, 2024</a></div>
                                     </div>
                                 </div>
@@ -521,9 +792,9 @@
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="aboutus.html">Terms & Condition</a></li>
-                                <li><a href="aboutus.html">Careers</a></li>
-                                <li><a href="aboutus.html">Privacy Policy</a></li>
+                                <li><a href="aboutus.php">Terms & Condition</a></li>
+                                <li><a href="aboutus.php">Careers</a></li>
+                                <li><a href="aboutus.php">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

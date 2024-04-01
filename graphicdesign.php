@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Contact MywebMark Technologies - Leading Website & Logo Design Company in Kenya</title>
+    <title>Graphic Design Services - MywebMark Technologies Kenya</title>
     <meta name="author" content="MywebMark Technologies">
     <meta name="description"
-        content="Get in touch with MywebMark Technologies, the leading Website & Logo Design company in Kenya. Reach out for inquiries, collaborations, or any questions you may have about our services.">
+        content="Explore professional graphic design services offered by MywebMark Technologies in Kenya. From logo design to branding, our expert team delivers creative solutions tailored to your business needs.">
     <meta name="keywords"
-        content="MywebMark Technologies, Contact us, Website design Kenya, Logo design Kenya, Kenya web design company">
+        content="Graphic design services, Logo design Kenya, Branding services, Professional graphic design, Kenya graphic design company">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo.png">
@@ -39,14 +39,12 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css" />
-    <script src="assets/js/intlTelInput.min.js"></script>
 
 </head>
 
 <body>
     <div class="fixed-tag">
-        <img src="assets/img/Contact us.png" alt="Contact Us MywebMark Technologies">
+        <img src="assets/img/Graphic Design.png" alt="graphic design mywebamrk kenya logo design">
     </div>
     <div class="cursor"></div>
     <div class="cursor2"></div>
@@ -58,15 +56,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="graphicdesign.html" data-color="#684DF4"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#684DF4"><img style="width: 50px;"
                     src="assets/img/favicons/logo-design.png" alt="Flame"></a>
-            <a href="webdesign.html" data-color="#FF4C60"><img style="width: 50px;"
+            <a href="webdesign.php" data-color="#FF4C60"><img style="width: 50px;"
                     src="assets/img/favicons/ux-design.png" alt="Flame"></a>
-            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
+            <a href="service.php" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="graphicdesign.html" data-color="#FFD54C"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#FFD54C"><img style="width: 50px;"
                     src="assets/img/favicons/poster-design.png" alt="Flame"></a>
-            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="s.e.o.php" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -91,29 +89,29 @@
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img style="width: 50px;" src="assets/img/favicons/logo.png"
+            <div class="mobile-logo"><a href="index.php"><img style="width: 50px;" src="assets/img/favicons/logo.png"
                         alt=" MywebMark">MywebMark Technologies</a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     </li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="s.e.o.html">S.E.O</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="webdesign.html">Web design</a></li>
-                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="project.php">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -129,8 +127,7 @@
                                 <li><i class="fas fa-map-location"></i>Nairobi-Kenya</li>
                                 <li><i class="fas fa-phone"></i><a href="tel:+254 792 966 620">+254-792-966-620</a></li>
                                 <li><i class="fas fa-envelope"></i><a
-                                        href="mailto:mywebmarktechnologies@gmail.com">mywebmarktechnologies@gmail.com</a>
-                                </li>
+                                        href="mailto:info@mywebmark.tech">info@mywebmark.tech</a></li>
                             </ul>
                         </div>
                     </div>
@@ -153,37 +150,37 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a>
+                                    href="index.php"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     </li>
-                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="s.e.o.html">S.E.O</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="webdesign.html">Web design</a></li>
-                                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                                    <li><a href="webdesign.php">Web design</a></li>
+                                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="project.php">Projects</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="header-button"> <a href="contact-us.html" class="th-btn style3 shadow-none">Make
+                            <div class="header-button"> <a href="contact-us.php" class="th-btn style3 shadow-none">Make
                                     Appointment<i class="fas fa-arrow-right ms-1"></i></a></div>
                         </div>
                     </div>
@@ -286,243 +283,183 @@
             </div>
         </div>
     </div>
-    <div class="space">
+    <section class="space">
         <div class="container">
-            <div class="row gy-4">
+            <div class="title-area text-center">
+                <span class="sub-title">
+                    <div class="icon-masking me-2">
+                        <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span>
+                        <img src="assets/img/theme-img/title_shape_2.svg" alt="shape">
+                    </div>
+                    OUR PRICING
+                </span>
+                <h2 class="sec-title">Choose Your Graphic Design <span class="text-theme fw-normal">Services</span></h2>
+            </div>
+            <style>
+                #bg {
+                    background-color: rgb(116, 175, 89);
+                }
+            </style>
+            <div class="row gy-4 justify-content-center">
+                <!-- Logo Design -->
                 <div class="col-xl-4 col-md-6">
-                    <div class="contact-info">
-                        <div class="contact-info_icon"><i class="fas fa-location-dot"></i></div>
-                        <div class="media-body">
-                            <h4 class="box-title">Our Office Address</h4><span
-                                class="contact-info_text">Kenya-fedha<br>Nairobi</span>
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name1" class="price-card_title">Logo Design</h3>
+                            <h4 id="order-price1" class="price-card_price">KSh. 2,000 <span class="duration"></span></h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Logo%20Design&price=KSh. 2,000" class="th-btn">Place Order<i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Flyer/Poster Design -->
                 <div class="col-xl-4 col-md-6">
-                    <div class="contact-info">
-                        <div class="contact-info_icon"><i class="fas fa-phone"></i></div>
-                        <div class="media-body">
-                            <h4 class="box-title">Call Us Anytime</h4><span class="contact-info_text"><a
-                                    href="tel:+65485965789">+254 792 966 620</a></span>
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name2" class="price-card_title">Flyer/Poster Design</h3>
+                            <h4 id="order-price2" class="price-card_price">KSh. 1,500 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Flyer/Poster%20Design&price=KSh. 1,500" class="th-btn">Place Order
+                                <i class="fa-regular fa-shopping-cart ms-2"></i></a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Brochure Design -->
                 <div class="col-xl-4 col-md-6">
-                    <div class="contact-info">
-                        <div class="contact-info_icon"><i class="fas fa-envelope"></i></div>
-                        <div class="media-body">
-                            <h4 class="box-title">Send An Email</h4><span class="contact-info_text"><a
-                                    href="mailto:mywebmarktechnologies@gmail.com"
-                                    style="font-size: 12px;">mywebmarktechnologies@gmail.com</a> </span>
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name3" class="price-card_title">Brochure Design</h3>
+                            <h4 id="order-price3" class="price-card_price">KSh. 1,500 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Brochure%20Design&price=KSh. 1,500" class="th-btn">Place Order <i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Social Media Designs -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name4" class="price-card_title">Social Media Designs</h3>
+                            <h4 id="order-price4" class="price-card_price">KSh. 500 <span class="duration"></span></h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Social%20Media%20Designs&price=KSh. 500" class="th-btn">Place Order
+                                <i class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banners And Signage -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name5" class="price-card_title">Banners And Signage</h3>
+                            <h4 id="order-price5" class="price-card_price">KSh. 2,000 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Banners%20And%20Signage&price=KSh. 2,000" class="th-btn">Place
+                                Order <i class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Cards -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name6" class="price-card_title">Business Cards</h3>
+                            <h4 id="order-price6" class="price-card_price">KSh. 1,200 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Business%20Cards&price=KSh. 1,200" class="th-btn">Place Order <i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Packaging Designs -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name7" class="price-card_title">Packaging Designs</h3>
+                            <h4 id="order-price7" class="price-card_price">KSh. 2,500 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Packaging%20Designs&price=KSh. 2,500" class="th-btn">Place Order <i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UX/UI -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name8" class="price-card_title">UX/UI</h3>
+                            <h4 id="order-price8" class="price-card_price">KSh. 8,000 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=UX/UI&price=KSh. 8,000" class="th-btn">Place Order <i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magazine Designs -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card" id="bg">
+                        <div class="price-card_top">
+                            <h3 id="order-name9" class="price-card_title">Magazine Designs</h3>
+                            <h4 id="order-price9" class="price-card_price">KSh. 5,000 <span class="duration"></span>
+                            </h4>
+                        </div>
+                        <div class="price-card_content">
+                            <a href="order.php?name=Magazine%20Designs&price=KSh. 5,000" class="th-btn">Place Order <i
+                                    class="fa-regular fa-shopping-cart ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <div class="shape-mockup" data-top="0" data-right="0"><img src="assets/img/shape/tech_shape_1.png" alt="shape">
+        </div>
+        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/square_1.png" alt="shape">
+        </div>
+    </section>
 
-
-    <div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8">
-                    <div class="title-area mb-35 text-xl-start text-center"><span class="sub-title">
+    <section class="position-relative space">
+        <div class="th-bg-img" data-bg-src="assets/img/bg/cta_bg_2.jpg"><img src="assets/img/bg/bg_overlay_1.png"
+                alt="overlay"></div>
+        <div class="container z-index-common">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-9 text-center">
+                    <div class="title-area mb-35"><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>contact with us!
+                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>CONTACT US
                         </span>
-                        <h2 class="sec-title">Have Any Questions?</h2>
-                        <p class="sec-text">
-                            We are here to help you with any questions you may have. Reach out to us and we will get
-                            back
-                            to you as soon as possible.
-                        </p>
-                    </div>
-                    <form id="contact-form">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input style="background-color: white!important;" type="text" class="form-control"
-                                    name="name" id="name" placeholder="Your Name" required> <i class="fal fa-user"></i>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input style="background-color: white!important;" type="email" class="form-control"
-                                    name="email" id="email" placeholder="Email Address" required> <i
-                                    class="fal fa-envelope"></i>
-                                <div id="email-feedback" style="color: red;"></div>
-                                <script>
-                                    var emailInput = document.querySelector("#email");
-                                    var emailFeedback = document.querySelector("#email-feedback");
-
-                                    emailInput.addEventListener("input", function () {
-                                        if (emailInput.validity.valid || emailInput.value === "") {
-                                            emailFeedback.textContent = ""; // Clear error message when input is valid or empty
-                                        } else {
-                                            emailFeedback.textContent = "Your email is invalid. Please enter a valid email.";
-                                        }
-                                    });
-                                </script>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <select style="background-color: white!important;" name="service" id="serviceSelect"
-                                    class="form-select" required>
-                                    <option value="" disabled selected hidden>Select Service</option>
-                                    <option value="Web Development">&#128187; Web Development</option>
-                                    <option value="Brand Marketing">&#128293; Brand Marketing</option>
-                                    <option value="UI/UX Designing">&#128640; UI/UX Designing</option>
-                                    <option value="Digital Marketing">&#128249; Digital Marketing</option>
-                                    <option value="SEO">&#128273; SEO</option>
-                                    <option value="Content Writing">&#9997; Content Writing</option>
-                                    <option value="App Development">&#128241; App Development</option>
-                                    <option value="E-commerce">&#128722; E-commerce</option>
-                                    <option value="Other">&#128712; Other Services</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-6">
-                                <select style="background-color: white!important;" class="form-select" name="how_heard"
-                                    id="howHeard" required>
-                                    <option value="" disabled selected>How did you hear about-us</option>
-                                    <option value="Google">&#128269; GoogleSearch</option>
-                                    <option value="Bing">&#128347; Bing</option>
-                                    <option value="Yahoo">&#128512; Yahoo</option>
-                                    <option value="Facebook">&#128247; Facebook</option>
-                                    <option value="Twitter">&#128640; Twitter</option>
-                                    <option value="Instagram">&#127988; Instagram</option>
-                                    <option value="LinkedIn">&#128100; LinkedIn</option>
-                                    <option value="TikTok">&#127916; TikTok</option>
-                                    <option value="Word of mouth">&#128101; Word of mouth</option>
-                                    <option value=" Online">&#127760; Online</option>
-                                    <option value=" TV">&#128250; TV</option>
-                                    <option value=" Radio">&#127911; Radio</option>
-                                    <option value=" Print">&#128240; Print</option>
-                                    <option value="Other">&#128712; Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-md-12">
-                                <input style="background-color: white !important; width: 100%;" type="tel"
-                                    class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
-                                <div id="phone-code" style="color: blue;display: none;"></div>
-                                <div id="phone-feedback" style="color: red;"></div>
-                            </div>
-
-                            <script>
-                                var input = document.querySelector("#phone");
-                                var phoneCodeDisplay = document.querySelector("#phone-code");
-                                var phoneFeedback = document.querySelector("#phone-feedback");
-                                var iti = window.intlTelInput(input, {
-                                    separateDialCode: true,
-                                    excludeCountries: ["in", "il"],
-                                    preferredCountries: ["ke"]
-                                });
-
-                                // Function to update the phone number with the country code and ensure the correct number of digits
-                                function updatePhoneNumber() {
-                                    var countryData = iti.getSelectedCountryData();
-                                    var dialCode = countryData.dialCode;
-                                    var phoneNumber = input.value.replace(/\D/g, ''); // Remove non-digit characters
-
-                                    // Display the phone code
-                                    phoneCodeDisplay.textContent = "+" + dialCode;
-
-                                    // Ensure the phone number conforms to the selected country's requirements
-                                    if (phoneNumber.startsWith(dialCode)) {
-                                        phoneNumber = phoneNumber.slice(dialCode.length); // Remove the dial code
-                                    }
-
-                                    // Update the phone number with the country code
-                                    input.value = phoneNumber;
-
-                                    // Provide live feedback on the phone number format
-                                    if (phoneNumber.length !== 9) {
-                                        phoneFeedback.textContent = "Your format is incorrect. Number should have 9 digits.";
-                                    } else {
-                                        phoneFeedback.textContent = "";
-                                    }
-                                }
-
-                                // Listen for changes in the selected country
-                                input.addEventListener("countrychange", updatePhoneNumber);
-
-                                // Listen for input events to provide live feedback
-                                input.addEventListener("input", updatePhoneNumber);
-                            </script>
-
-
-                            <div class="form-group col-12">
-                                <textarea style="background-color: white!important;" name="message" id="message"
-                                    cols="30" rows="3" class="form-control" placeholder="Your Message"
-                                    required></textarea> <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn text-xl-start text-center col-12">
-                                <button id="send-button" class="th-btn">Send Message<i
-                                        class="fa-regular fa-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                    </form>
-
-
+                        <h2 class="sec-title text-white">Need Any Kind Of IT Solution For <span
+                                class="text-theme fw-normal">Your Business?</span></h2>
+                    </div><a href="contact-us.php" class="th-btn style3">Get In Touch</a>
                 </div>
             </div>
         </div>
-    </div>
-    <script>
-        (function () {
-            emailjs.init('FhXIz0zUnDqf0loBW');
-        })();
-
-        document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('send-button').addEventListener('click', function (event) {
-                event.preventDefault(); // Prevent the form from submitting normally
-
-                // Change button text to "Sending..."
-                document.getElementById('send-button').innerHTML = 'Sending...';
-
-                // Get the form data
-                var formData = {
-                    name: document.getElementById('name').value,
-                    email: document.getElementById('email').value,
-                    service: document.getElementById('serviceSelect').value,
-                    how_heard: document.getElementById('howHeard').value,
-                    message: document.getElementById('message').value
-                };
-
-
-                // Modify the phone number format to include the country code and spaces
-                var selectedCountryData = iti.getSelectedCountryData();
-                var dialCode = selectedCountryData.dialCode;
-                var phoneNumber = document.getElementById('phone').value.replace(/\D/g, ''); // Remove non-digit characters
-                phoneNumber = phoneNumber.replace(/(\d{3})(\d{3})(\d{3})/, "$1 $2 $3"); // Add spaces
-                formData.phone = "+" + dialCode + " " + phoneNumber;
-
-                // Send the email
-                emailjs.send('service_yhpy2pa', 'template_a0kkw7j', formData)
-                    .then(function (response) {
-                        console.log('Email sent successfully', response);
-                        // Change button text back to original
-                        document.getElementById('send-button').innerHTML = 'Send Message<i class="fa-regular fa-arrow-right ms-2"></i>';
-                        // Sweet alert
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Message Sent!',
-                            text: 'Thank you for contacting us, we will get back to you soon!',
-                        });
-
-                    }, function (error) {
-                        console.error('Email sending failed', error);
-                        // Change button text back to original
-                        document.getElementById('send-button').innerHTML = 'Send Message<i class="fa-regular fa-arrow-right ms-2"></i>';
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong! Please try again later.',
-                        });
-                    });
-            });
-        });
-    </script>
+    </section>
 
     <footer class="footer-wrapper footer-layout1">
         <div class="footer-top">
@@ -530,7 +467,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><a class="icon-masking" href="index.html"><img style="width: 100px;"
+                        <div class="footer-logo"><a class="icon-masking" href="index.php"><img style="width: 100px;"
                                     src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                     </div>
                     <div class="col-xl-9">
@@ -543,8 +480,8 @@
                             <div class="footer-contact">
                                 <div class="footer-contact_icon"><i class="fas fa-envelope"></i></div>
                                 <div class="media-body"><span class="footer-contact_text">Mail Us On:</span> <a
-                                        href="mailto:mywebmarktechnologies@gmail.com"
-                                        class="footer-contact_link">mywebmarktechnologies@gmail.com</a>
+                                        href="mailto:info@mywebmark.tech"
+                                        class="footer-contact_link">info@mywebmark.tech</a>
                                 </div>
                             </div>
                             <div class="footer-contact">
@@ -584,10 +521,10 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact-us.html">Help & FAQs</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="project.php">Our Projects</a></li>
+                                    <li><a href="contact-us.php">Help & FAQs</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -597,11 +534,11 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="webdesign.html">Web Development</a></li>
-                                    <li><a href="webdesign.html">Business Development</a></li>
-                                    <li><a href="webdesign.html">Product Management</a></li>
-                                    <li><a href="webdesign.html">UI/UX Design</a></li>
-                                    <li><a href="webdesign.html">Cloud services</a></li>
+                                    <li><a href="webdesign.php">Web Development</a></li>
+                                    <li><a href="webdesign.php">Business Development</a></li>
+                                    <li><a href="webdesign.php">Product Management</a></li>
+                                    <li><a href="webdesign.php">UI/UX Design</a></li>
+                                    <li><a href="webdesign.php">Cloud services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -611,23 +548,23 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Organic
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Organic
                                                 keyword generation</a>
                                         </h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>15 Jan, 2024</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Sharing
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Sharing
                                                 webdesign process</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>16 Jan, 2024</a></div>
                                     </div>
                                 </div>
@@ -648,9 +585,9 @@
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="aboutus.html">Terms & Condition</a></li>
-                                <li><a href="aboutus.html">Careers</a></li>
-                                <li><a href="aboutus.html">Privacy Policy</a></li>
+                                <li><a href="aboutus.php">Terms & Condition</a></li>
+                                <li><a href="aboutus.php">Careers</a></li>
+                                <li><a href="aboutus.php">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

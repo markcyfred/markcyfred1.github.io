@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Services | MywebMark Technologies</title>
+    <title>Web Design | MywebMark Technologies</title>
     <meta name="author" content="MywebMark Technologies">
-    <meta name="description" content="MywebMark Technologies is a leading IT company in Nairobi, Kenya. We provide the best IT solutions for your business.">
-    <meta name="keywords" content="MywebMark Technologies, IT company in Nairobi, Kenya, IT solutions, Web development, Graphic design, S.E.O, Web design, Digital marketing, Business analysis, Software services, IT management, C.M.S">
+    <meta name="description" content="Discover professional web design services offered by MywebMark Technologies in Kenya. Our expert team creates stunning websites tailored to your business needs, enhancing your online presence and user experience.">
+    <meta name="keywords" content="Web design services, Professional web design, Kenya web design, Online presence, User experience, Software development in Nairobi Kenya">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo.png">
@@ -42,7 +42,7 @@
 
 <body>
     <div class="fixed-tag">
-        <img src="assets/img/Services.png" alt="Webdesign in kenya">
+        <img src="assets/img/WebDesign.png" alt="Webdesign in kenya">
     </div>
     <div class="cursor"></div>
     <div class="cursor2"></div>
@@ -54,15 +54,15 @@
             <i class="fas fa-check-circle me-2"></i>Recommended Products
         </h4>
         <div class="color-switch-btns">
-            <a href="graphicdesign.html" data-color="#684DF4"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#684DF4"><img style="width: 50px;"
                     src="assets/img/favicons/logo-design.png" alt="Flame"></a>
-            <a href="webdesign.html" data-color="#FF4C60"><img style="width: 50px;"
+            <a href="webdesign.php" data-color="#FF4C60"><img style="width: 50px;"
                     src="assets/img/favicons/ux-design.png" alt="Flame"></a>
-            <a href="service.html" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
+            <a href="service.php" data-color="#FF6D3D"><img style="width: 50px;" src="assets/img/favicons/cms.png"
                     alt="Flame"></a>
-            <a href="graphicdesign.html" data-color="#FFD54C"><img style="width: 50px;"
+            <a href="graphicdesign.php" data-color="#FFD54C"><img style="width: 50px;"
                     src="assets/img/favicons/poster-design.png" alt="Flame"></a>
-            <a href="s.e.o.html" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
+            <a href="s.e.o.php" data-color="#4CAF50"><img style="width: 50px;" src="assets/img/favicons/seo.png"
                     alt="Flame"></a>
         </div>
 
@@ -87,29 +87,29 @@
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img style="width: 50px;" src="assets/img/favicons/logo.png"
+            <div class="mobile-logo"><a href="index.php"><img style="width: 50px;" src="assets/img/favicons/logo.png"
                         alt=" MywebMark">MywebMark Technologies</a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     </li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="s.e.o.html">S.E.O</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="webdesign.html">Web design</a></li>
-                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                     <li class="menu-item-has-children"><a href="#">Projects</a>
                         <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="project.php">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -148,36 +148,36 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo"><a style="width: 100px;" class="icon-masking"
-                                    href="index.html"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
+                                    href="index.php"><img src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     </li>
-                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Solutions</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="s.e.o.html">S.E.O</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="s.e.o.php">S.E.O</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="webdesign.html">Web design</a></li>
-                                    <li><a href="graphicdesign.html">Graphic design</a></li>
+                                    <li><a href="webdesign.php">Web design</a></li>
+                                    <li><a href="graphicdesign.php">Graphic design</a></li>
 
                                     <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="project.php">Projects</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="header-button"> <a href="contact-us.html" class="th-btn style3 shadow-none">Make
+                            <div class="header-button"> <a href="contact-us.php" class="th-btn style3 shadow-none">Make
                                     Appointment<i class="fas fa-arrow-right ms-1"></i></a></div>
                         </div>
                     </div>
@@ -280,122 +280,190 @@
             </div>
         </div>
     </div>
-    <section class="space" id="service-sec">
+    <section class="space">
         <div class="container">
-            <div class="row gy-4">
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">01</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">Web Development</a></h3>
-                        <p class="service-card_text">
-                            We are providing the best Product Design. That help you
-                            very much.
-                        </p><i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">02</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">UI/UX Design</a></h3>
-                        <p class="service-card_text">We are providing the best UI/UX design. That help you
-                            be professional.</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">03</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">Digital Marketing</a></h3>
-                        <p class="service-card_text">We empower small and medium-sized businesses to
-                            overcome challenges</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">04</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">Business Analysis</a></h3>
-                        <p class="service-card_text">
-                            We provide the best business analysis services. That help you
-                            be professional.
-                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">05</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">Software Services</a></h3>
-                        <p class="service-card_text">
-                            We provide the best software services. That help you
-                            be professional.
-                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">06</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_6_3.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">Graphic design</a></h3>
-                        <p class="service-card_text">We create a unique logo that represents your brand,
-                            making your business stand out.</p><i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">07</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_7.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">IT Management</a></h3>
-                        <p class="service-card_text">
-                            We provide the best IT management services. That help you
-                            be professional.
-                        </p><i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">08</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_card_8.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">C.M.S</a></h3>
-                        <p class="service-card_text">
-                            We provide the best C.M.S services. That help you
-                            be professional.
-                        </p>More<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-card">
-                        <div class="service-card_number">09</div>
-                        <div class="shape-icon"><img src="assets/img/icon/service_6_2.svg" alt="Icon"> <span
-                                class="dots"></span></div>
-                        <h3 class="box-title"><a href="service-details.html">S.E.O</a></h3>
-                        <p class="service-card_text">
-                            With strategic SEO, we improve your online visibility
-                            and drive more organic traffic .
-                        </p><i
-                            class="fa-regular fa-arrow-right ms-2"></i></a>
-                        <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
-                    </div>
-                </div>
+            <div class="title-area text-center"><span class="sub-title">
+                    <div class="icon-masking me-2"><span class="mask-icon"
+                            data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
+                            src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>OUR PRICING
+                </span>
+                <h2 class="sec-title">Choose Your design <span class="text-theme fw-normal">Package</span></h2>
             </div>
+
+            <div class="row gy-4 justify-content-center">
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name1" class="price-card_title">Blogs Website</h3>
+                            <p class="price-card_text">Blogs Website Design Services in Kenya</p>
+                            <h4 id="order-price1" class="price-card_price">KSh 8,000 <span class="duration"></span></h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p3"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> User-friendly interface for easy navigation
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Multi-language support for global reach</li>
+                                    <li><i class="fas fa-circle-check"></i> Responsive design for mobile and desktop
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Blog management system </li>
+                                    <li><i class="fas fa-circle-check"></i> Payment gateways</li>
+                                </ul>
+                            </div>
+                            <a href="order.php?name=Blogs%20Website&price=Ksh 8,000" class="th-btn">Place Order<i
+                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name2" class="price-card_title">Landing Page</h3>
+                            <p class="price-card_text">Landing Page Design Services in Kenya</p>
+                            <h4 id="order-price2" class="price-card_price">KSh 10,000 <span class="duration"></span>
+                            </h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p1"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> Tailored to your audience and business</li>
+                                    <li><i class="fas fa-circle-check"></i> Effective well-timed call-to-actions</li>
+                                    <li><i class="fas fa-circle-check"></i> Streamlined, user-friendly layouts</li>
+                                    <li><i class="fas fa-circle-check"></i> Mobile responsive design</li>
+                                    <li><i class="fas fa-circle-check"></i> SEO optimized</li>
+                                </ul>
+                            </div>
+                            <a href="order.php?name=Landing Page%20Website&price=KSh 10,000" class="th-btn">Place
+                                Order<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name3" class="price-card_title">Personal Website</h3>
+                            <p class="price-card_text">Personal Website Design Services in Kenya</p>
+                            <h4 id="order-price3" class="price-card_price">KSh 20,000 <span class="duration"></span>
+                            </h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p2"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> Stand out from the competition.</li>
+                                    <li><i class="fas fa-circle-check"></i> Build and Control Your Personal Brand.</li>
+                                    <li><i class="fas fa-circle-check"></i> Multi-Language Content</li>
+                                    <li><i class="fas fa-circle-check"></i>Delivery: 7 – 10 days maximum</li>
+                                    <li><i class="fas fa-circle-check"></i> Format: WordPress CMS</li>
+                                </ul>
+                            </div>
+                            <a href="order.php?name=Personal%20Website&price=KSh 20,000" class="th-btn">Place Order<i
+                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name4" class="price-card_title">Business Website</h3>
+                            <p class="price-card_text">Business Website Design Services in Kenya</p>
+                            <h4 id="order-price4" class="price-card_price">KSh 25,000 <span class="duration"></span>
+                            </h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p3"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> Customized to your business needs</li>
+                                    <li><i class="fas fa-circle-check"></i> Responsive design for mobile and desktop
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Search Engine Optimization (SEO) friendly
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Integration with social media platforms</li>
+                                    <li><i class="fas fa-circle-check"></i> Easy-to-use Content Management System </li>
+                                </ul>
+                            </div>
+                            <a href="order.php?name=Business%20Website&price=KSh 25,000" class="th-btn">Place Order<i
+                                    class="fa-regular    fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name5" class="price-card_title">Travel booking website</h3>
+                            <p class="price-card_text">Travel booking website Design in Kenya</p>
+                            <h4 id="order-price5" class="price-card_price">KSh 30,500 <span class="duration"></span>
+                            </h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p3"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> User-friendly interface for easy navigation
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Multi-language support for global reach</li>
+                                    <li><i class="fas fa-circle-check"></i> Responsive design for mobile and desktop
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i> Booking management system </li>
+                                    <li><i class="fas fa-circle-check"></i> Payment gateways</li>
+                                </ul>
+                            </div>
+                            <a href="order.php?name=Travel%20booking%20website&price=KSh 30,500" class="th-btn">Place
+                                Order<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="price-card">
+                        <div class="price-card_top">
+                            <h3 id="order-name6" class="price-card_title">e-commerce</h3>
+                            <p class="price-card_text"> e-commerce Website Design Services in Kenya</p>
+                            <h4 id="order-price6" class="price-card_price">KSh 50,000 <span class="duration"></span>
+                            </h4>
+                            <div class="particle">
+                                <div class="price-particle" id="price-p3"></div>
+                            </div>
+                        </div>
+                        <div class="price-card_content">
+                            <div class="checklist">
+                                <ul>
+                                    <li><i class="fas fa-circle-check"></i> Free training on your online store
+                                    </li>
+                                    <li><i class="fas fa-circle-check"></i>Delivery: 3-4 weeks maximum</li>
+                                    <li><i class="fas fa-circle-check"></i> Payment Integration </li>
+                                    <li><i class="fas fa-circle-check"></i> Mobile responsive design</li>
+
+                                </ul>
+                            </div>
+                            <a href="order.php?name=e-commerce&price=KSh 50,000" class="th-btn">Place Order<i
+                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="shape-mockup" data-top="0" data-right="0"><img src="assets/img/shape/tech_shape_1.png" alt="shape">
+        </div>
+        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/square_1.png" alt="shape">
         </div>
     </section>
     <section class="position-relative space">
@@ -411,7 +479,7 @@
                         </span>
                         <h2 class="sec-title text-white">Need Any Kind Of IT Solution For <span
                                 class="text-theme fw-normal">Your Business?</span></h2>
-                    </div><a href="contact-us.html" class="th-btn style3">Get In Touch</a>
+                    </div><a href="contact-us.php" class="th-btn style3">Get In Touch</a>
                 </div>
             </div>
         </div>
@@ -423,7 +491,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3">
-                        <div class="footer-logo"><a class="icon-masking" href="index.html"><img style="width: 100px;"
+                        <div class="footer-logo"><a class="icon-masking" href="index.php"><img style="width: 100px;"
                                     src="assets/img/favicons/logo.png" alt=" MywebMark"></a></div>
                     </div>
                     <div class="col-xl-9">
@@ -477,10 +545,10 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="contact-us.html">Help & FAQs</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="project.php">Our Projects</a></li>
+                                    <li><a href="contact-us.php">Help & FAQs</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -490,11 +558,11 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="webdesign.html">Web Development</a></li>
-                                    <li><a href="webdesign.html">Business Development</a></li>
-                                    <li><a href="webdesign.html">Product Management</a></li>
-                                    <li><a href="webdesign.html">UI/UX Design</a></li>
-                                    <li><a href="webdesign.html">Cloud services</a></li>
+                                    <li><a href="webdesign.php">Web Development</a></li>
+                                    <li><a href="webdesign.php">Business Development</a></li>
+                                    <li><a href="webdesign.php">Product Management</a></li>
+                                    <li><a href="webdesign.php">UI/UX Design</a></li>
+                                    <li><a href="webdesign.php">Cloud services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -504,23 +572,23 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Organic
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Organic
                                                 keyword generation</a>
                                         </h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>15 Jan, 2024</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="blog-details.php"><img
                                                 src="assets/img/blog/blog2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Sharing
+                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Sharing
                                                 webdesign process</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="blog.php"><i
                                                     class="fal fa-calendar-days"></i>16 Jan, 2024</a></div>
                                     </div>
                                 </div>
@@ -541,9 +609,9 @@
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="aboutus.html">Terms & Condition</a></li>
-                                <li><a href="aboutus.html">Careers</a></li>
-                                <li><a href="aboutus.html">Privacy Policy</a></li>
+                                <li><a href="aboutus.php">Terms & Condition</a></li>
+                                <li><a href="aboutus.php">Careers</a></li>
+                                <li><a href="aboutus.php">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
